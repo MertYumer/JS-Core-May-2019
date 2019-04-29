@@ -9,5 +9,4 @@ function solve() {
         noSignalDivElement.style.marginTop = `${horizontalRange}%`;
         noSignalDivElement.style.marginLeft = `${verticalRange}vh`;
     }
-
 }
