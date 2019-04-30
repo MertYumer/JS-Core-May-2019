@@ -1,10 +1,4 @@
 function solve() {
-    let degrees = Number(document.getElementById('num1').value);
-    let temperatureType = document.getElementById('type').value;
-    let result = '';
-    let convertedTemperature = 0;
-    let correctType = false;
-
     function convert(degrees, temperatureType){
         if (temperatureType.toLowerCase() === 'fahrenheit'){
             convertedTemperature = (((degrees - 32) * 5) / 9);
@@ -22,6 +16,12 @@ function solve() {
             result = 'Error!';
         }
     }
+
+    let degrees = Number(document.getElementById('num1').value);
+    let temperatureType = document.getElementById('type').value;
+    let result = '';
+    let convertedTemperature = 0;
+    let correctType = false;
 
     convert(degrees, temperatureType);
     printResult(degrees, temperatureType);
