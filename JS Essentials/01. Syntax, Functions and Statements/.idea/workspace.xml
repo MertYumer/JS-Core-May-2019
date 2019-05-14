@@ -14,15 +14,55 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/01. JavaScript Syntax and Operators - Lab.iml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/P01-StringLength.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
               <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/P06-SquareOfStars.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/P07-DayOfWeek.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/P08-FunctionalCalculator.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/P09-AggregateElements.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="355">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/P10-WordsUppercase.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="4" column="34" lean-forward="true" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -84,6 +124,11 @@
         <option value="$PROJECT_DIR$/CircleArea.js" />
         <option value="$PROJECT_DIR$/P05-CircleArea.js" />
         <option value="$PROJECT_DIR$/P01-StringLength.js" />
+        <option value="$PROJECT_DIR$/P06-SquareOfStars.js" />
+        <option value="$PROJECT_DIR$/P07-DayOfWeek.js" />
+        <option value="$PROJECT_DIR$/P08-FunctionalCalculator.js" />
+        <option value="$PROJECT_DIR$/P09-AggregateElements.js" />
+        <option value="$PROJECT_DIR$/P10-WordsUppercase.js" />
       </list>
     </option>
   </component>
@@ -99,14 +144,24 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="01. Syntax, Functions and Statements" type="b2602c69:ProjectViewProjectNode" />
+              <item name="01. Syntax, Functions and Statements" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../01. JavaScript Syntax and Operators - Exercises" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../01. Syntax, Functions and Statements - Exercises" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -127,29 +182,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.P01-StringLength.js">
+  <component name="RunManager" selected="Node.js.P10-WordsUppercase.js">
     <configuration name="P01-StringLength.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="P01-StringLength.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="P02-MathOperations.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="P02-MathOperations.js" working-dir="$PROJECT_DIR$">
+    <configuration name="P06-SquareOfStars.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="P06-SquareOfStars.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="P03-SumOfNumbers.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="P03-SumOfNumbers.js" working-dir="$PROJECT_DIR$">
+    <configuration name="P07-DayOfWeek.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="P07-DayOfWeek.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="P04-LargestNumber.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="P04-LargestNumber.js" working-dir="$PROJECT_DIR$">
+    <configuration name="P09-AggregateElements.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="P09-AggregateElements.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="P05-CircleArea.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="P05-CircleArea.js" working-dir="$PROJECT_DIR$">
+    <configuration name="P10-WordsUppercase.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="P10-WordsUppercase.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.P10-WordsUppercase.js" />
+        <item itemvalue="Node.js.P09-AggregateElements.js" />
+        <item itemvalue="Node.js.P07-DayOfWeek.js" />
+        <item itemvalue="Node.js.P06-SquareOfStars.js" />
         <item itemvalue="Node.js.P01-StringLength.js" />
-        <item itemvalue="Node.js.P05-CircleArea.js" />
-        <item itemvalue="Node.js.P04-LargestNumber.js" />
-        <item itemvalue="Node.js.P03-SumOfNumbers.js" />
-        <item itemvalue="Node.js.P02-MathOperations.js" />
       </list>
     </recent_temporary>
   </component>
@@ -169,16 +224,17 @@
       <workItem from="1555529047386" duration="3523000" />
       <workItem from="1555683261582" duration="550000" />
       <workItem from="1555683891001" duration="52000" />
+      <workItem from="1557831564242" duration="4418000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6603000" />
+    <option name="totallyTimeSpent" value="11021000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17913593" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17913593" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -237,6 +293,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/P06-SquareOfStars.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/P07-DayOfWeek.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/P08-FunctionalCalculator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/P09-AggregateElements.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/P10-WordsUppercase.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="4" column="34" lean-forward="true" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
         </state>
       </provider>
     </entry>

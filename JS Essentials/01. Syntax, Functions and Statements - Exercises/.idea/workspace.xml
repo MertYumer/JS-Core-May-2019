@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/P07-CookingByNumbers.js" line="48" mnemonic="9" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="5284e5df-bae6-49a1-a013-5a02a9e78b3e" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -14,91 +17,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/P01-ILikeJavaScript.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/P02-EvenNumbers1ToN.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/P03-Fruit.js">
+        <entry file="file://$PROJECT_DIR$/P07-CookingByNumbers.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/P04-FitnessRates.js">
+        <entry file="file://$PROJECT_DIR$/P06-RoadRadar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2312">
-              <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/P05-GreatestCommonDivisor.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/P06-SameNumbers.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/P07-TimeToWalk.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/P08-FlightTimetable.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/P09-CalorieObject.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="413">
+              <caret line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/P10-CoffeeMachine.js">
+        <entry file="file://$PROJECT_DIR$/P08-ValidityChecker.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="6" column="38" lean-forward="true" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+            <state relative-caret-position="258">
+              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -130,6 +70,9 @@
         <option value="$PROJECT_DIR$/P08-FlightTimetable.js" />
         <option value="$PROJECT_DIR$/P09-CalorieObject.js" />
         <option value="$PROJECT_DIR$/P10-CoffeeMachine.js" />
+        <option value="$PROJECT_DIR$/P07-CookingByNumbers.js" />
+        <option value="$PROJECT_DIR$/P06-RoadRadar.js" />
+        <option value="$PROJECT_DIR$/P08-ValidityChecker.js" />
       </list>
     </option>
   </component>
@@ -150,8 +93,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="01. JavaScript Syntax and Operators - Exercises" type="b2602c69:ProjectViewProjectNode" />
-              <item name="01. JavaScript Syntax and Operators - Exercises" type="462c0819:PsiDirectoryNode" />
+              <item name="01. Syntax, Functions and Statements - Exercises" type="b2602c69:ProjectViewProjectNode" />
+              <item name="01. Syntax, Functions and Statements - Exercises" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -162,7 +105,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../01. JavaScript Syntax and Operators - More Exercises" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -185,17 +128,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.P10-CoffeeMachine.js">
+  <component name="RunManager" selected="Node.js.P08-ValidityChecker.js">
     <configuration name="Debug" type="JavascriptDebugType">
       <method v="2" />
     </configuration>
-    <configuration name="P06-SameNumbers.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="P06-SameNumbers.js" working-dir="$PROJECT_DIR$">
+    <configuration name="P06-RoadRadar.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="P06-RoadRadar.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="P07-TimeToWalk.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="P07-TimeToWalk.js" working-dir="$PROJECT_DIR$">
+    <configuration name="P07-CookingByNumbers.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="P07-CookingByNumbers.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="P08-FlightTimetable.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="P08-FlightTimetable.js" working-dir="$PROJECT_DIR$">
+    <configuration name="P08-ValidityChecker.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="P08-ValidityChecker.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="P09-CalorieObject.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="P09-CalorieObject.js" working-dir="$PROJECT_DIR$">
@@ -206,19 +149,19 @@
     </configuration>
     <list>
       <item itemvalue="JavaScript Debug.Debug" />
-      <item itemvalue="Node.js.P06-SameNumbers.js" />
-      <item itemvalue="Node.js.P07-TimeToWalk.js" />
-      <item itemvalue="Node.js.P08-FlightTimetable.js" />
       <item itemvalue="Node.js.P09-CalorieObject.js" />
       <item itemvalue="Node.js.P10-CoffeeMachine.js" />
+      <item itemvalue="Node.js.P07-CookingByNumbers.js" />
+      <item itemvalue="Node.js.P06-RoadRadar.js" />
+      <item itemvalue="Node.js.P08-ValidityChecker.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.P08-ValidityChecker.js" />
+        <item itemvalue="Node.js.P06-RoadRadar.js" />
+        <item itemvalue="Node.js.P07-CookingByNumbers.js" />
         <item itemvalue="Node.js.P10-CoffeeMachine.js" />
         <item itemvalue="Node.js.P09-CalorieObject.js" />
-        <item itemvalue="Node.js.P08-FlightTimetable.js" />
-        <item itemvalue="Node.js.P07-TimeToWalk.js" />
-        <item itemvalue="Node.js.P06-SameNumbers.js" />
       </list>
     </recent_temporary>
   </component>
@@ -235,14 +178,16 @@
       <workItem from="1555683944321" duration="3692000" />
       <workItem from="1555752203470" duration="8956000" />
       <workItem from="1555933461626" duration="31000" />
+      <workItem from="1557835988477" duration="2843000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12679000" />
+    <option name="totallyTimeSpent" value="15522000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -267,73 +212,34 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/P01-ILikeJavaScript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/P02-EvenNumbers1ToN.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/P03-Fruit.js">
+    <entry file="file://$PROJECT_DIR$/P01-ILikeJavaScript.js" />
+    <entry file="file://$PROJECT_DIR$/P02-EvenNumbers1ToN.js" />
+    <entry file="file://$PROJECT_DIR$/P03-Fruit.js" />
+    <entry file="file://$PROJECT_DIR$/P04-FitnessRates.js" />
+    <entry file="file://$PROJECT_DIR$/P05-GreatestCommonDivisor.js" />
+    <entry file="file://$PROJECT_DIR$/P06-SameNumbers.js" />
+    <entry file="file://$PROJECT_DIR$/P07-TimeToWalk.js" />
+    <entry file="file://$PROJECT_DIR$/P08-FlightTimetable.js" />
+    <entry file="file://$PROJECT_DIR$/P09-CalorieObject.js" />
+    <entry file="file://$PROJECT_DIR$/P10-CoffeeMachine.js" />
+    <entry file="file://$PROJECT_DIR$/P07-CookingByNumbers.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/P04-FitnessRates.js">
+    <entry file="file://$PROJECT_DIR$/P06-RoadRadar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2312">
-          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+        <state relative-caret-position="413">
+          <caret line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/P05-GreatestCommonDivisor.js">
+    <entry file="file://$PROJECT_DIR$/P08-ValidityChecker.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/P06-SameNumbers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/P07-TimeToWalk.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/P08-FlightTimetable.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/P09-CalorieObject.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/P10-CoffeeMachine.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="6" column="38" lean-forward="true" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+        <state relative-caret-position="258">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
         </state>
       </provider>
     </entry>
