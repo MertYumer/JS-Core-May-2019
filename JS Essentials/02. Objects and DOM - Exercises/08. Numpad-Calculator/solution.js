@@ -16,7 +16,10 @@ function solve() {
     }
 
     function showResult() {
-        try {
+        let pattern = /^(\d+(.\d+)?) (\+|-|\*|\/) (\d+(.\d+)?)$/;
+        let match = pattern.exec(expressionOutput.textContent);
+
+        if (match) {
             let result = eval(expressionOutput.textContent);
 
             if (isNaN(result)) {
@@ -24,8 +27,7 @@ function solve() {
             } else {
                 resultOutput.textContent = result;
             }
-
-        } catch (e) {
+        } else {
             resultOutput.textContent = 'NaN';
         }
     }
