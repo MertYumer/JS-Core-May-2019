@@ -21,12 +21,7 @@ function solve() {
 
         if (match) {
             let result = eval(expressionOutput.textContent);
-
-            if (isNaN(result)) {
-                resultOutput.textContent = 'NaN';
-            } else {
-                resultOutput.textContent = result;
-            }
+            resultOutput.textContent = result;
         } else {
             resultOutput.textContent = 'NaN';
         }
