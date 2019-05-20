@@ -5,11 +5,8 @@ function solve() {
     }
 
     function showValue() {
-        let lastCharacter = expressionOutput.textContent[expressionOutput.textContent.length - 1];
-
-        if ((this.value === '/' || this.value === '-' || this.value === '*' || this.value === '+') ||
-            (lastCharacter === '/' || lastCharacter === '-' || lastCharacter === '*' || lastCharacter === '+')) {
-            expressionOutput.textContent += ` ${this.value}`;
+        if (this.value === '/' || this.value === '-' || this.value === '*' || this.value === '+') {
+            expressionOutput.textContent += ` ${this.value} `;
         } else {
             expressionOutput.textContent += this.value;
         }
@@ -20,7 +17,29 @@ function solve() {
         let match = pattern.exec(expressionOutput.textContent);
 
         if (match) {
-            let result = eval(expressionOutput.textContent);
+            let leftOperand = +match[1];
+            let operator = match[3];
+            let rightOperand = +match[4];
+            let result;
+
+            switch (operator) {
+                case '+':
+                    result = leftOperand + rightOperand;
+                    break;
+
+                case '-':
+                    result = leftOperand - rightOperand;
+                    break;
+
+                case '*':
+                    result = leftOperand * rightOperand;
+                    break;
+
+                case '/':
+                    result = leftOperand / rightOperand;
+                    break;
+            }
+
             resultOutput.textContent = result;
         } else {
             resultOutput.textContent = 'NaN';
