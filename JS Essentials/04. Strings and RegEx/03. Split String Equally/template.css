@@ -1,110 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
 @import url('https://fonts.googleapis.com/css?family=Lato');
-@import url('https://fonts.googleapis.com/css?family=PT+Sans');
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html {
-    font-family: "PT sans", sans-serif;
-    font-size: 24px;
-    color: #234465;
-}
-
 body {
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    min-height: 100vh;
-    flex-wrap: wrap;
+    font-family: 'Lato', sans-serif;
 }
 
-#main {
-    background: url(./images/background.png) no-repeat center center;
-    background-size: cover;
-}
-
-#navigation {
-    background: #234465;
-    display: inline-block;
-    padding: 0.5rem;
-}
-
-#navigation-text {
-    display: inline-block;
-}
-
-#lecture-name,
-#problem-name {
-    font-family: "Lato", sans-serif;
-    color: white;
-    font-weight: bold;
-}
-
-#lecture-name {
-    font-size: 28px;
-    margin-bottom: 0.8rem;
-}
-
-#problem-name {
-    font-size: 22px;
-    color: white;
-}
-
-#logo-img {
-    width: 17%;
-    float: right;
-    padding: 0.5rem 0.5rem 0 0;
-}
-
-#softUni-person-img {
-    width: 30%;
-    padding: 0;
-    float: left;
-}
-
-#exercise {
-    width: 70%;
-    float: left;
-    padding: 1rem 0 1rem 1rem;
-}
-
-main:after {
-    display: block;
-    content: '';
-    clear: both;
-}
-
-input[type="button"] {
-    padding: 0.3rem 0.5rem;
-    font-size: 0.7em;
-    margin: 1rem 0 1rem 0;
+#text, #text::placeholder {
+    background: black;
+    font-family: 'Inconsolata', monospace;
+    background: black;
+    font-family: 'Inconsolata', monospace;
     border: none;
-    color: white;
-    background: #234465;
-    border-radius: 5px;
+    border-radius: 2px;
+    height: 250px;
+    width: 100%;
     outline: none;
+    color: #BADA55;
 }
 
-input[type="text"] {
+form {
     width: 40%;
-    padding: 0.1rem;
+    margin: 4% auto;
+}
+
+form input[type="text"] {
+    border-radius: 2px;
+    border: 1px solid lightgrey;
+    padding: 5px;
+    margin: 10px 5px;
+}
+
+form input[type="button"] {
+    border: 1px solid lightgrey;
+    border-radius: 2px;
+    padding: 11px 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    outline: none;
     background: transparent;
-    font-size: 22px;
+    cursor: pointer;
 }
 
-#exercise>form>div:nth-child(1)>label {
-    padding-right: 1.73rem;
-
+form input[type="button"]:hover {
+    text-decoration: underline;
 }
 
-#exercise>form>div:nth-child(2)>label {
-    padding-right: 0.5rem;
-
-}
-
-#exercise>form>div:nth-child(1) {
-    margin-bottom: 0.7rem;
+footer {
+    width: 40%;
+    margin: 4% auto;
+    font-size: 35px;
 }

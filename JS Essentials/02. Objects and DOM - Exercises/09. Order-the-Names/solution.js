@@ -1,27 +1,17 @@
 function solve() {
     function addToList() {
-        let inputElement = document.getElementsByTagName('input')[0];
-        let input = inputElement.value;
-        let charCode = input.charCodeAt(0);
+        let input = document.getElementsByTagName('input')[0].value.toLowerCase();
+        let name = input[0].toUpperCase() + input.slice(1);
+        let charCode = name.charCodeAt(0);
 
-        if ((charCode >= 65 && charCode <= 90)
-        || (charCode >= 97 && charCode <= 122)) {
-            let columnNumber = charCode <= 90
-                ? charCode - 65
-                : charCode - 97;
+        let row = document.getElementsByTagName('li')[charCode - 65];
+        let names = row.textContent.split(', ').filter(n => n !== '');
+        names.push(name);
+        row.textContent = names.join(', ');
 
-            if (columns[columnNumber].textContent) {
-                columns[columnNumber].textContent += `, ${input}`;
-            } else {
-                columns[columnNumber].textContent += input;
-            }
-        }
-
-        inputElement.value = '';
+        document.getElementsByTagName('input')[0].value = '';
     }
 
     let buttonElement = document.getElementsByTagName('button')[0];
-    let columns = document.getElementsByTagName('li');
-
     buttonElement.addEventListener('click', addToList);
 }
