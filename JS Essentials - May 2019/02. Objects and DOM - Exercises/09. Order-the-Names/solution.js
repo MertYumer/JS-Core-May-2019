@@ -5,7 +5,7 @@ function solve() {
         let charCode = name.charCodeAt(0);
 
         let row = document.getElementsByTagName('li')[charCode - 65];
-        let names = row.textContent.split(', ').filter(n => n !== '');
+        let names = row.textContent.split(', ').filter(n => n);
         names.push(name);
         row.textContent = names.join(', ');
 
