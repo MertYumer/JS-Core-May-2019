@@ -38,7 +38,7 @@
         <entry file="file://$PROJECT_DIR$/03-functional-sum.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="476">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -46,17 +46,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/04-personal-bmi.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
+            <state relative-caret-position="102">
               <caret line="3" column="20" selection-end-line="28" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/05-vector-math.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/06-breakfast-robot.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -81,6 +90,7 @@
         <option value="$PROJECT_DIR$/03-functional-sum.js" />
         <option value="$PROJECT_DIR$/04-personal-bmi.js" />
         <option value="$PROJECT_DIR$/05-vector-math.js" />
+        <option value="$PROJECT_DIR$/06-breakfast-robot.js" />
       </list>
     </option>
   </component>
@@ -135,7 +145,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.04-personal-bmi.js">
+  <component name="RunManager" selected="Node.js.06-breakfast-robot.js">
     <configuration name="01-sort-array.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="01-sort-array.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -148,8 +158,12 @@
     <configuration name="04-personal-bmi.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="04-personal-bmi.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+    <configuration name="06-breakfast-robot.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="06-breakfast-robot.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.06-breakfast-robot.js" />
         <item itemvalue="Node.js.04-personal-bmi.js" />
         <item itemvalue="Node.js.03-functional-sum.js" />
         <item itemvalue="Node.js.02-argument-info.js" />
@@ -169,23 +183,25 @@
       <updated>1558535272500</updated>
       <workItem from="1558535273641" duration="4172000" />
       <workItem from="1558606335897" duration="2528000" />
+      <workItem from="1558777347410" duration="1198000" />
+      <workItem from="1558792211674" duration="3167000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6700000" />
+    <option name="totallyTimeSpent" value="11065000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13540569" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32998884" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39910814" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -219,13 +235,13 @@
     <entry file="file://$PROJECT_DIR$/03-functional-sum.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/04-personal-bmi.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
+        <state relative-caret-position="102">
           <caret line="3" column="20" selection-end-line="28" />
         </state>
       </provider>
@@ -233,7 +249,14 @@
     <entry file="file://$PROJECT_DIR$/05-vector-math.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-breakfast-robot.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
         </state>
       </provider>
     </entry>
