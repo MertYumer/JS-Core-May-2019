@@ -1,4 +1,4 @@
-let sum = require('./04-sum-of-numbers');
+const sum = require('./04-sum-of-numbers');
 
 const assert = require('chai').assert;
 

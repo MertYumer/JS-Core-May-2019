@@ -14,24 +14,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01-sub-sum.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/02-playing-cards.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/03-deck-of-cards.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
@@ -49,11 +31,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/04. Sum of Numbers/04-sum-of-numbers-tests.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="6" column="43" lean-forward="true" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+            <state relative-caret-position="68">
+              <caret line="2" column="34" selection-start-line="2" selection-end-line="2" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05. Check for Symmetry/05-check-for-symmetry.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/05. Check for Symmetry/05-check-for-symmetry-tests.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -66,7 +66,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node_modules/assertion-error/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1632">
+            <state>
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -76,9 +76,7 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node_modules/chai/chai.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4896" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -113,6 +111,8 @@
         <option value="$PROJECT_DIR$/04. Sum of Numbers/04.-sum-of-numbers.tests.js" />
         <option value="$PROJECT_DIR$/04. Sum of Numbers/04-sum-of-numbers.js" />
         <option value="$PROJECT_DIR$/04. Sum of Numbers/04-sum-of-numbers-tests.js" />
+        <option value="$PROJECT_DIR$/05. Check for Symmetry/05-check-for-symmetry.js" />
+        <option value="$PROJECT_DIR$/05. Check for Symmetry/05-check-for-symmetry-tests.js" />
       </list>
     </option>
   </component>
@@ -141,6 +141,11 @@
               <item name="03. Unit Testing and Modules" type="462c0819:PsiDirectoryNode" />
               <item name="04. Sum of Numbers" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="03. Unit Testing and Modules" type="b2602c69:ProjectViewProjectNode" />
+              <item name="03. Unit Testing and Modules" type="462c0819:PsiDirectoryNode" />
+              <item name="05. Check for Symmetry" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -150,7 +155,13 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/04. Sum of Numbers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/05. Check for Symmetry/05-check-for-symmetry-tests.js" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs.mocha.mocha_node_package_dir" value="$USER_HOME$/AppData/Roaming/npm/node_modules/mocha" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -172,17 +183,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Mocha.Test">
-    <configuration name="01-sub-sum.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="01-sub-sum.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="02-playing-cards.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="02-playing-cards.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Mocha.Check for symmetry">
     <configuration name="03-deck-of-cards.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="03-deck-of-cards.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="04-sum-of-numbers.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="04-sum-of-numbers.js" working-dir="$PROJECT_DIR$/04. Sum of Numbers">
+      <method v="2" />
+    </configuration>
+    <configuration name="05-check-for-symmetry-tests.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="05-check-for-symmetry-tests.js" working-dir="$PROJECT_DIR$/05. Check for Symmetry">
+      <method v="2" />
+    </configuration>
+    <configuration name="05-check-for-symmetry.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="05-check-for-symmetry.js" working-dir="$PROJECT_DIR$/05. Check for Symmetry">
+      <method v="2" />
+    </configuration>
+    <configuration name="Check for symmetry" type="mocha-javascript-test-runner">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$USER_HOME$/AppData/Roaming/npm/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$/05. Check for Symmetry</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST_FILE</test-kind>
+      <test-file>$PROJECT_DIR$/05. Check for Symmetry/05-check-for-symmetry-tests.js</test-file>
       <method v="2" />
     </configuration>
     <configuration name="Sum.should sum all array numbers correctly" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
@@ -215,19 +238,20 @@
     </configuration>
     <list>
       <item itemvalue="Mocha.Test" />
+      <item itemvalue="Mocha.Check for symmetry" />
       <item itemvalue="Mocha.Sum.should sum all array numbers correctly" />
-      <item itemvalue="Node.js.01-sub-sum.js" />
-      <item itemvalue="Node.js.02-playing-cards.js" />
       <item itemvalue="Node.js.03-deck-of-cards.js" />
       <item itemvalue="Node.js.04-sum-of-numbers.js" />
+      <item itemvalue="Node.js.05-check-for-symmetry-tests.js" />
+      <item itemvalue="Node.js.05-check-for-symmetry.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.05-check-for-symmetry-tests.js" />
+        <item itemvalue="Node.js.05-check-for-symmetry.js" />
         <item itemvalue="Node.js.04-sum-of-numbers.js" />
         <item itemvalue="Mocha.Sum.should sum all array numbers correctly" />
         <item itemvalue="Node.js.03-deck-of-cards.js" />
-        <item itemvalue="Node.js.02-playing-cards.js" />
-        <item itemvalue="Node.js.01-sub-sum.js" />
       </list>
     </recent_temporary>
   </component>
@@ -244,22 +268,13 @@
       <workItem from="1559135194602" duration="7707000" />
       <workItem from="1559151004485" duration="1489000" />
       <workItem from="1559152516818" duration="258000" />
+      <workItem from="1559225246466" duration="512000" />
+      <workItem from="1559245483725" duration="3000" />
+      <workItem from="1559399321101" duration="1839000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Sum_should_sum_all_array_numbers_correctly - 2019.05.29 at 20h 32m 39s.xml">
-      <configuration name="Sum.should sum all array numbers correctly" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="Test - 2019.05.29 at 20h 33m 02s.xml">
-      <configuration name="Test" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="Test - 2019.05.29 at 20h 33m 41s.xml">
-      <configuration name="Test" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="Test - 2019.05.29 at 20h 33m 51s.xml">
-      <configuration name="Test" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
     <history-entry file="Test - 2019.05.29 at 20h 36m 05s.xml">
       <configuration name="Test" configurationId="mocha-javascript-test-runner" />
     </history-entry>
@@ -278,9 +293,21 @@
     <history-entry file="Test - 2019.05.29 at 20h 55m 22s.xml">
       <configuration name="Test" configurationId="mocha-javascript-test-runner" />
     </history-entry>
+    <history-entry file="Test - 2019.06.01 at 20h 02m 29s.xml">
+      <configuration name="Test" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Check_for_symmetry_tests - 2019.06.01 at 20h 06m 44s.xml">
+      <configuration name="Check for symmetry tests" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Check_for_symmetry - 2019.06.01 at 20h 11m 18s.xml">
+      <configuration name="Check for symmetry" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Check_for_symmetry - 2019.06.01 at 20h 17m 05s.xml">
+      <configuration name="Check for symmetry" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9454000" />
+    <option name="totallyTimeSpent" value="11808000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -295,13 +322,13 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22286618" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22286618" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32998884" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39910814" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32998884" />
@@ -346,19 +373,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04. Sum of Numbers/04-sum-of-numbers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/assertion-error/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1632">
+        <state>
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -366,9 +386,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/chai/chai.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4896" />
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/chai/index.js">
       <provider selected="true" editor-type-id="text-editor" />
@@ -376,10 +394,31 @@
     <entry file="file://$PROJECT_DIR$/node_modules/chai/karma.sauce.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/04. Sum of Numbers/04-sum-of-numbers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/04. Sum of Numbers/04-sum-of-numbers-tests.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="6" column="43" lean-forward="true" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+        <state relative-caret-position="68">
+          <caret line="2" column="34" selection-start-line="2" selection-end-line="2" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05. Check for Symmetry/05-check-for-symmetry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05. Check for Symmetry/05-check-for-symmetry-tests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
         </state>
       </provider>
     </entry>
