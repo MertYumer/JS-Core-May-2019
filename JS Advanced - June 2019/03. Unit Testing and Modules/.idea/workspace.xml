@@ -14,28 +14,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03-deck-of-cards.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04. Sum of Numbers/04-sum-of-numbers.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/04. Sum of Numbers/04-sum-of-numbers-tests.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="2" column="34" selection-start-line="2" selection-end-line="2" selection-end-column="38" />
+            <state relative-caret-position="136">
+              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -49,26 +31,74 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/05. Check for Symmetry/05-check-for-symmetry-tests.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+              <folding>
+                <element signature="e#214#428#0" />
+                <element signature="e#1140#1390#0" />
+                <element signature="e#1461#1656#0" />
+                <element signature="e#2050#2267#0" />
+                <element signature="e#3652#3854#0" />
+                <element signature="e#3919#4103#0" />
+                <element signature="e#4168#4353#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package-lock.json">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/06. RGB to Hex/06-rgb-to-hex.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/assertion-error/index.js">
+        <entry file="file://$PROJECT_DIR$/06. RGB to Hex/06-rgb-to-hex-tests.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="408">
+              <caret line="57" column="3" lean-forward="true" selection-start-line="57" selection-start-column="3" selection-end-line="57" selection-end-column="3" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#185#317#0" />
+                <element signature="e#770#909#0" />
+                <element signature="e#756#1056#0" />
+                <element signature="e#1125#1425#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/07. Add or Subtract/07-add-or-subtract.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/07. Add or Subtract/07-add-or-subtract-tests.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="4" column="1" selection-start-line="4" selection-end-line="88" selection-end-column="3" />
+              <folding>
+                <element signature="e#141#149#0" />
+                <element signature="e#330#474#0" />
+                <element signature="e#541#655#0" />
+                <element signature="e#728#873#0" />
+                <element signature="e#942#1059#0" />
+                <element signature="e#1119#1262#0" />
+                <element signature="e#1351#1459#0" />
+                <element signature="e#1533#1660#0" />
+                <element signature="e#1730#1879#0" />
+                <element signature="e#1973#2086#0" />
+                <element signature="e#3084#3323#0" />
               </folding>
             </state>
           </provider>
@@ -110,9 +140,13 @@
         <option value="$PROJECT_DIR$/04-sum-of-numbers.js" />
         <option value="$PROJECT_DIR$/04. Sum of Numbers/04.-sum-of-numbers.tests.js" />
         <option value="$PROJECT_DIR$/04. Sum of Numbers/04-sum-of-numbers.js" />
-        <option value="$PROJECT_DIR$/04. Sum of Numbers/04-sum-of-numbers-tests.js" />
         <option value="$PROJECT_DIR$/05. Check for Symmetry/05-check-for-symmetry.js" />
+        <option value="$PROJECT_DIR$/06. RGB to Hex/06-rgb-to-hex.js" />
+        <option value="$PROJECT_DIR$/06. RGB to Hex/06-rgb-to-hex-tests.js" />
+        <option value="$PROJECT_DIR$/07. Add or Subtract/07-add-or-subtract.js" />
         <option value="$PROJECT_DIR$/05. Check for Symmetry/05-check-for-symmetry-tests.js" />
+        <option value="$PROJECT_DIR$/04. Sum of Numbers/04-sum-of-numbers-tests.js" />
+        <option value="$PROJECT_DIR$/07. Add or Subtract/07-add-or-subtract-tests.js" />
       </list>
     </option>
   </component>
@@ -128,7 +162,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -139,23 +172,19 @@
             <path>
               <item name="03. Unit Testing and Modules" type="b2602c69:ProjectViewProjectNode" />
               <item name="03. Unit Testing and Modules" type="462c0819:PsiDirectoryNode" />
-              <item name="04. Sum of Numbers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="03. Unit Testing and Modules" type="b2602c69:ProjectViewProjectNode" />
-              <item name="03. Unit Testing and Modules" type="462c0819:PsiDirectoryNode" />
-              <item name="05. Check for Symmetry" type="462c0819:PsiDirectoryNode" />
+              <item name="07. Add or Subtract" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/05. Check for Symmetry/05-check-for-symmetry-tests.js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/07. Add or Subtract/07-add-or-subtract-tests.js" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -183,7 +212,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Mocha.Check for symmetry">
+  <component name="RunManager" selected="Mocha.Add or subtract">
     <configuration name="03-deck-of-cards.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="03-deck-of-cards.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -196,6 +225,18 @@
     <configuration name="05-check-for-symmetry.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="05-check-for-symmetry.js" working-dir="$PROJECT_DIR$/05. Check for Symmetry">
       <method v="2" />
     </configuration>
+    <configuration name="Add or subtract" type="mocha-javascript-test-runner">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$USER_HOME$/AppData/Roaming/npm/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$/07. Add or Subtract</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST_FILE</test-kind>
+      <test-file>$PROJECT_DIR$/07. Add or Subtract/07-add-or-subtract-tests.js</test-file>
+      <method v="2" />
+    </configuration>
     <configuration name="Check for symmetry" type="mocha-javascript-test-runner">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -206,6 +247,30 @@
       <extra-mocha-options />
       <test-kind>TEST_FILE</test-kind>
       <test-file>$PROJECT_DIR$/05. Check for Symmetry/05-check-for-symmetry-tests.js</test-file>
+      <method v="2" />
+    </configuration>
+    <configuration name="Convert from rgb to hex" type="mocha-javascript-test-runner">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$USER_HOME$/AppData/Roaming/npm/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$/06. RGB to Hex</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST_FILE</test-kind>
+      <test-file>$PROJECT_DIR$/06. RGB to Hex/06-rgb-to-hex-tests.js</test-file>
+      <method v="2" />
+    </configuration>
+    <configuration name="Sum numbers" type="mocha-javascript-test-runner">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$USER_HOME$/AppData/Roaming/npm/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$/04. Sum of Numbers</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST_FILE</test-kind>
+      <test-file>$PROJECT_DIR$/04. Sum of Numbers/04-sum-of-numbers-tests.js</test-file>
       <method v="2" />
     </configuration>
     <configuration name="Sum.should sum all array numbers correctly" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
@@ -224,21 +289,11 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="Test" type="mocha-javascript-test-runner">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <mocha-package>$USER_HOME$/AppData/Roaming/npm/node_modules/mocha</mocha-package>
-      <working-directory>$PROJECT_DIR$/04. Sum of Numbers</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <ui>bdd</ui>
-      <extra-mocha-options />
-      <test-kind>TEST_FILE</test-kind>
-      <test-file>$PROJECT_DIR$/04. Sum of Numbers/04-sum-of-numbers-tests.js</test-file>
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Mocha.Test" />
+      <item itemvalue="Mocha.Sum numbers" />
       <item itemvalue="Mocha.Check for symmetry" />
+      <item itemvalue="Mocha.Convert from rgb to hex" />
+      <item itemvalue="Mocha.Add or subtract" />
       <item itemvalue="Mocha.Sum.should sum all array numbers correctly" />
       <item itemvalue="Node.js.03-deck-of-cards.js" />
       <item itemvalue="Node.js.04-sum-of-numbers.js" />
@@ -271,43 +326,44 @@
       <workItem from="1559225246466" duration="512000" />
       <workItem from="1559245483725" duration="3000" />
       <workItem from="1559399321101" duration="1839000" />
+      <workItem from="1559481213272" duration="4734000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test - 2019.05.29 at 20h 36m 05s.xml">
-      <configuration name="Test" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="Test - 2019.05.29 at 20h 39m 29s.xml">
-      <configuration name="Test" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="Test - 2019.05.29 at 20h 42m 59s.xml">
-      <configuration name="Test" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="Test - 2019.05.29 at 20h 51m 09s.xml">
-      <configuration name="Test" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="Test - 2019.05.29 at 20h 54m 17s.xml">
-      <configuration name="Test" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="Test - 2019.05.29 at 20h 55m 22s.xml">
-      <configuration name="Test" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="Test - 2019.06.01 at 20h 02m 29s.xml">
-      <configuration name="Test" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="Check_for_symmetry_tests - 2019.06.01 at 20h 06m 44s.xml">
-      <configuration name="Check for symmetry tests" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="Check_for_symmetry - 2019.06.01 at 20h 11m 18s.xml">
+    <history-entry file="Check_for_symmetry - 2019.06.02 at 16h 20m 06s.xml">
       <configuration name="Check for symmetry" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Check_for_symmetry - 2019.06.01 at 20h 17m 05s.xml">
+    <history-entry file="Check_for_symmetry - 2019.06.02 at 16h 22m 47s.xml">
       <configuration name="Check for symmetry" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Convert_from_rgb_to_hex - 2019.06.02 at 16h 38m 26s.xml">
+      <configuration name="Convert from rgb to hex" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Convert_from_rgb_to_hex - 2019.06.02 at 16h 39m 50s.xml">
+      <configuration name="Convert from rgb to hex" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Convert_from_rgb_to_hex - 2019.06.02 at 16h 44m 49s.xml">
+      <configuration name="Convert from rgb to hex" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Convert_from_rgb_to_hex - 2019.06.02 at 16h 49m 20s.xml">
+      <configuration name="Convert from rgb to hex" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Convert_from_rgb_to_hex - 2019.06.02 at 16h 50m 16s.xml">
+      <configuration name="Convert from rgb to hex" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Add_or_subtract - 2019.06.02 at 17h 11m 18s.xml">
+      <configuration name="Add or subtract" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Add_or_subtract - 2019.06.02 at 17h 20m 47s.xml">
+      <configuration name="Add or subtract" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Add_or_subtract - 2019.06.02 at 17h 28m 13s.xml">
+      <configuration name="Add or subtract" configurationId="mocha-javascript-test-runner" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11808000" />
+    <option name="totallyTimeSpent" value="16542000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -373,6 +429,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/04. Sum of Numbers/04-sum-of-numbers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -394,20 +457,6 @@
     <entry file="file://$PROJECT_DIR$/node_modules/chai/karma.sauce.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/04. Sum of Numbers/04-sum-of-numbers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04. Sum of Numbers/04-sum-of-numbers-tests.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="2" column="34" selection-start-line="2" selection-end-line="2" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/05. Check for Symmetry/05-check-for-symmetry.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -415,10 +464,73 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/06. RGB to Hex/06-rgb-to-hex.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06. RGB to Hex/06-rgb-to-hex-tests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="57" column="3" lean-forward="true" selection-start-line="57" selection-start-column="3" selection-end-line="57" selection-end-column="3" />
+          <folding>
+            <element signature="e#185#317#0" />
+            <element signature="e#770#909#0" />
+            <element signature="e#756#1056#0" />
+            <element signature="e#1125#1425#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/05. Check for Symmetry/05-check-for-symmetry-tests.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <folding>
+            <element signature="e#214#428#0" />
+            <element signature="e#1140#1390#0" />
+            <element signature="e#1461#1656#0" />
+            <element signature="e#2050#2267#0" />
+            <element signature="e#3652#3854#0" />
+            <element signature="e#3919#4103#0" />
+            <element signature="e#4168#4353#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04. Sum of Numbers/04-sum-of-numbers-tests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07. Add or Subtract/07-add-or-subtract.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07. Add or Subtract/07-add-or-subtract-tests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="4" column="1" selection-start-line="4" selection-end-line="88" selection-end-column="3" />
+          <folding>
+            <element signature="e#141#149#0" />
+            <element signature="e#330#474#0" />
+            <element signature="e#541#655#0" />
+            <element signature="e#728#873#0" />
+            <element signature="e#942#1059#0" />
+            <element signature="e#1119#1262#0" />
+            <element signature="e#1351#1459#0" />
+            <element signature="e#1533#1660#0" />
+            <element signature="e#1730#1879#0" />
+            <element signature="e#1973#2086#0" />
+            <element signature="e#3084#3323#0" />
+          </folding>
         </state>
       </provider>
     </entry>

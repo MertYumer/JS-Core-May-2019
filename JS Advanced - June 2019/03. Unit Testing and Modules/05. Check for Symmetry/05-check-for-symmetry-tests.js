@@ -2,122 +2,59 @@ const isSymmetric = require('./05-check-for-symmetry');
 
 const assert = require('chai').assert;
 
-describe('Check for symmetry', function() {
+describe('Check for symmetry Tests', function() {
     it('should return true when input array is symmetrical', function () {
-        let inputArray = [1, 2, 3, 2, 1];
-        let expected = true;
+        const inputArray = ['a', 'b', 'c', 'b', 'a'];
 
-        let actual = isSymmetric(inputArray);
+        const expected = true;
+        const actual = isSymmetric(inputArray);
 
-        assert.equal(actual, expected, "Returns false but input array is symmetrical");
+        assert.equal(actual, expected, 'Returns false but input array is symmetrical');
     });
 
-    it('should return true when input array of strings is symmetrical', function () {
-        let inputArray = ['meow', 'bark', 'quack', 'bark', 'meow'];
-        let expected = true;
+    it('should return true when input array has elements of different types', function () {
+        const inputArray = [1, 'text', {name: 'John'}, false, {name: 'John'}, 'text', 1];
 
-        let actual = isSymmetric(inputArray);
+        const expected = true;
+        const actual = isSymmetric(inputArray);
 
-        assert.equal(actual, expected, "Returns false but input array is symmetrical");
-    });
-
-    it('should return true when input array elements are the same', function () {
-        let inputArray = [1, 1, 1, 1, 1];
-        let expected = true;
-
-        let actual = isSymmetric(inputArray);
-
-        assert.equal(actual, expected, "Returns false but input array is symmetrical");
-    });
-
-    it('should return true when input array has mixed element types', function () {
-        let inputArray = [1, 'string', {A:4}, new Date(), {A:4}, 'string', 1];
-        let expected = true;
-
-        let actual = isSymmetric(inputArray);
-
-        assert.equal(actual, expected, "Returns false but input array is symmetrical")
+        assert.equal(actual, expected, 'Returns false but input array is symmetrical')
     });
 
     it('should return true when empty array is given', function () {
-        let inputArray = [];
-        let expected = true;
+        const inputArray = [];
 
-        let actual = isSymmetric(inputArray);
+        const expected = true;
+        const actual = isSymmetric(inputArray);
 
-        assert.equal(actual, expected, "Returns false but input array is empty");
+        assert.equal(actual, expected, 'Returns false but input array is empty');
     });
 
-    it('should return true when array with one element is given', function () {
-        let inputArray = [1];
-        let expected = true;
+    it('should return false when input array is not symmetrical', function () {
+        const inputArray = [1, 2, 3, 4, 5];
 
-        let actual = isSymmetric(inputArray);
+        const expected = false;
+        const actual = isSymmetric(inputArray);
 
-        assert.equal(actual, expected, "Returns false but input array with one element is symmetrical");
-    });
-
-    it('should return false when input array of numbers is not symmetrical', function () {
-        let inputArray = [1, 2, 3, 4, 5];
-        let expected = false;
-
-        let actual = isSymmetric(inputArray);
-
-        assert.equal(actual, expected, "Returns true but input array isn't symmetrical");
-    });
-
-    it('should return false when input array of numbers has negative numbers and is not symmetrical', function () {
-        let inputArray = [-1, 2, 1];
-        let expected = false;
-
-        let actual = isSymmetric(inputArray);
-
-        assert.equal(actual, expected, "Returns true but input array isn't symmetrical");
-    });
-
-    it('should return false when array with two different elements is given', function () {
-        let inputArray = [1, 5];
-        let expected = false;
-
-        let actual = isSymmetric(inputArray);
-
-        assert.equal(actual, expected, "Returns true but input array with two different elements isn't symmetrical");
-    });
-
-    it('should return false when input array of strings is not symmetrical', function () {
-        let inputArray = ['meow', 'bark', 'quack'];
-        let expected = false;
-
-        let actual = isSymmetric(inputArray);
-
-        assert.equal(actual, expected, "Returns true but input array isn't symmetrical");
-    });
-
-    it('should return false when input array has mixed element types', function () {
-        let inputArray = [1, 'string', {A:4}, new Date(), {B:5}, 'string', 1];
-        let expected = false;
-
-        let actual = isSymmetric(inputArray);
-
-        assert.equal(actual, expected, "Returns true but input array isn't symmetrical")
+        assert.equal(actual, expected, 'Returns true but input array is not symmetrical');
     });
 
     it('should return false if input is string', function () {
-        let input = 'I am not an array';
-        let expected = false;
+        const input = 'abc';
 
-        let actual = isSymmetric(input);
+        const expected = false;
+        const actual = isSymmetric(input);
 
-        assert.equal(actual, expected, "Returns true but input isn't an array");
+        assert.equal(actual, expected, 'Returns true but input is not of correct type');
     });
 
     it('should return false if input is number', function () {
-        let input = 5;
-        let expected = false;
+        const input = 5;
 
-        let actual = isSymmetric(input);
+        const expected = false;
+        const actual = isSymmetric(input);
 
-        assert.equal(actual, expected, "Returns true but input isn't an array");
+        assert.equal(actual, expected, 'Returns true but input is not of correct type');
     });
 
     it('should return false if input is object', function () {
@@ -126,6 +63,6 @@ describe('Check for symmetry', function() {
 
         let actual = isSymmetric(input);
 
-        assert.equal(actual, expected, "Returns true but input isn't an array");
+        assert.equal(actual, expected, 'Returns true but input is not of correct type');
     });
 });

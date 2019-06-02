@@ -2,7 +2,7 @@ const sum = require('./04-sum-of-numbers');
 
 const assert = require('chai').assert;
 
-describe('Sum', function () {
+describe('Sum Tests', function () {
     it('should return the correct sum', function () {
         const inputArray = [1, 2, 3, 4, 5];
 
