@@ -1,15 +1,13 @@
 const isOddOrEven = require('./02-even-or-odd');
 
-const assert = require('assert');
+const assert = require('chai').assert;
 
 describe('isOddOrEven Tests', function () {
     it('should return undefined if input is not a string', function () {
-        const expected = undefined;
-
-        assert.equal(isOddOrEven(true), expected);
-        assert.equal(isOddOrEven(3), expected);
-        assert.equal(isOddOrEven(['a', 'b', 'c']), expected);
-        assert.equal(isOddOrEven({}), expected);
+        assert.isUndefined(isOddOrEven(true));
+        assert.isUndefined(isOddOrEven(3));
+        assert.isUndefined(isOddOrEven([]));
+        assert.isUndefined(isOddOrEven({}));
     });
 
     it('should return even if string length is even', function () {
