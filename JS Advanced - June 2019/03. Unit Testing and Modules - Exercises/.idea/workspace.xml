@@ -22,11 +22,61 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/02. Even or Odd/02-even-or-odd-tests.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-126">
-              <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+            <state relative-caret-position="204">
+              <caret line="6" column="42" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/03. Char Lookup/03-char-lookup.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-22">
+              <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/03. Char Lookup/03-char-lookup-tests.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="4" column="40" lean-forward="true" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/04. Math Enforcer/04-math-enforcer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/04. Math Enforcer/04-math-enforcer-tests.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="4" column="43" lean-forward="true" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+              <folding>
+                <element signature="e#136#144#0" />
+                <element signature="e#656#966#0" />
+                <element signature="e#1041#1221#0" />
+                <element signature="e#874#1058#0" />
+                <element signature="e#1571#1761#0" />
+                <element signature="e#1533#1779#0" />
+                <element signature="e#1860#2057#0" />
+                <element signature="e#2138#2337#0" />
+                <element signature="e#2417#2624#0" />
+                <element signature="e#3140#3331#0" />
+                <element signature="e#3423#3615#0" />
+                <element signature="e#3706#3906#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -34,7 +84,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node_modules/assertion-error/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-612">
+            <state>
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -69,6 +119,10 @@
         <option value="$PROJECT_DIR$/request-validator.js" />
         <option value="$PROJECT_DIR$/02. Even or Odd/02-even-or-odd.js" />
         <option value="$PROJECT_DIR$/02. Even or Odd/02-even-or-odd-tests.js" />
+        <option value="$PROJECT_DIR$/03. Char Lookup/03-char-lookup.js" />
+        <option value="$PROJECT_DIR$/03. Char Lookup/03-char-lookup-tests.js" />
+        <option value="$PROJECT_DIR$/04. Math Enforcer/04-math-enforcer.js" />
+        <option value="$PROJECT_DIR$/04. Math Enforcer/04-math-enforcer-tests.js" />
       </list>
     </option>
   </component>
@@ -92,11 +146,6 @@
               <item name="03. Unit Testing and Modules - Exercises" type="b2602c69:ProjectViewProjectNode" />
               <item name="03. Unit Testing and Modules - Exercises" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="03. Unit Testing and Modules - Exercises" type="b2602c69:ProjectViewProjectNode" />
-              <item name="03. Unit Testing and Modules - Exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="02. Even or Odd" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -106,7 +155,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/04. Math Enforcer/04-math-enforcer-tests.js" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -131,11 +180,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Mocha.Even Or Odd Tests">
+  <component name="RunManager" selected="Mocha.Math Enforcer Tests">
     <configuration name="request-validator.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="request-validator.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="Even Or Odd Tests" type="mocha-javascript-test-runner">
+    <configuration name="Char Lookup Tests" type="mocha-javascript-test-runner">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$USER_HOME$/AppData/Roaming/npm/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST_FILE</test-kind>
+      <test-file>$PROJECT_DIR$/03. Char Lookup/03-char-lookup-tests.js</test-file>
+      <method v="2" />
+    </configuration>
+    <configuration name="Even or Odd Tests" type="mocha-javascript-test-runner">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <mocha-package>$USER_HOME$/AppData/Roaming/npm/node_modules/mocha</mocha-package>
@@ -147,8 +208,22 @@
       <test-file>$PROJECT_DIR$/02. Even or Odd/02-even-or-odd-tests.js</test-file>
       <method v="2" />
     </configuration>
+    <configuration name="Math Enforcer Tests" type="mocha-javascript-test-runner">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$USER_HOME$/AppData/Roaming/npm/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST_FILE</test-kind>
+      <test-file>$PROJECT_DIR$/04. Math Enforcer/04-math-enforcer-tests.js</test-file>
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Mocha.Even Or Odd Tests" />
+      <item itemvalue="Mocha.Math Enforcer Tests" />
+      <item itemvalue="Mocha.Even or Odd Tests" />
+      <item itemvalue="Mocha.Char Lookup Tests" />
       <item itemvalue="Node.js.request-validator.js" />
     </list>
     <recent_temporary>
@@ -172,53 +247,53 @@
       <workItem from="1560285751820" duration="777000" />
       <workItem from="1560286727717" duration="2745000" />
       <workItem from="1560289947858" duration="167000" />
+      <workItem from="1560340437367" duration="4457000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Even_Or_Odd_Tests - 2019.06.12 at 00h 33m 23s.xml">
-      <configuration name="Even Or Odd Tests" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="Char_Lookup_Tests - 2019.06.12 at 15h 16m 42s.xml">
+      <configuration name="Char Lookup Tests" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Even_Or_Odd_Tests - 2019.06.12 at 00h 33m 47s.xml">
-      <configuration name="Even Or Odd Tests" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="Char_Lookup_Tests - 2019.06.12 at 15h 18m 15s.xml">
+      <configuration name="Char Lookup Tests" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Even_Or_Odd_Tests - 2019.06.12 at 00h 33m 56s.xml">
-      <configuration name="Even Or Odd Tests" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="Char_Lookup_Tests - 2019.06.12 at 15h 23m 29s.xml">
+      <configuration name="Char Lookup Tests" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Even_Or_Odd_Tests - 2019.06.12 at 00h 34m 27s.xml">
-      <configuration name="Even Or Odd Tests" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="Char_Lookup_Tests - 2019.06.12 at 15h 27m 26s.xml">
+      <configuration name="Char Lookup Tests" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Even_Or_Odd_Tests - 2019.06.12 at 00h 35m 33s.xml">
-      <configuration name="Even Or Odd Tests" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="Char_Lookup_Tests - 2019.06.12 at 15h 31m 36s.xml">
+      <configuration name="Char Lookup Tests" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Even_Or_Odd_Tests - 2019.06.12 at 00h 40m 48s.xml">
-      <configuration name="Even Or Odd Tests" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="Math_Enforcer_Tests - 2019.06.12 at 15h 44m 28s.xml">
+      <configuration name="Math Enforcer Tests" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Even_Or_Odd_Tests - 2019.06.12 at 00h 41m 04s.xml">
-      <configuration name="Even Or Odd Tests" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="Math_Enforcer_Tests - 2019.06.12 at 15h 57m 12s.xml">
+      <configuration name="Math Enforcer Tests" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Even_Or_Odd_Tests - 2019.06.12 at 00h 41m 19s.xml">
-      <configuration name="Even Or Odd Tests" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="Math_Enforcer_Tests - 2019.06.12 at 16h 00m 20s.xml">
+      <configuration name="Math Enforcer Tests" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Even_Or_Odd_Tests - 2019.06.12 at 00h 44m 00s.xml">
-      <configuration name="Even Or Odd Tests" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="Math_Enforcer_Tests - 2019.06.12 at 16h 04m 52s.xml">
+      <configuration name="Math Enforcer Tests" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Even_Or_Odd_Tests - 2019.06.12 at 00h 53m 48s.xml">
-      <configuration name="Even Or Odd Tests" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="Math_Enforcer_Tests - 2019.06.12 at 16h 07m 35s.xml">
+      <configuration name="Math Enforcer Tests" configurationId="mocha-javascript-test-runner" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9014000" />
+    <option name="totallyTimeSpent" value="13471000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24968314" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32914925" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32914925" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39888424" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -244,17 +319,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/request-validator.js">
+    <entry file="file://$PROJECT_DIR$/request-validator.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/assertion-error/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02. Even or Odd/02-even-or-odd.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -265,19 +336,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/assertion-error/index.js">
+    <entry file="file://$PROJECT_DIR$/02. Even or Odd/02-even-or-odd.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-612">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="374">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03. Char Lookup/03-char-lookup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22">
+          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03. Char Lookup/03-char-lookup-tests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="4" column="40" lean-forward="true" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/02. Even or Odd/02-even-or-odd-tests.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-126">
-          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        <state relative-caret-position="204">
+          <caret line="6" column="42" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04. Math Enforcer/04-math-enforcer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04. Math Enforcer/04-math-enforcer-tests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="4" column="43" lean-forward="true" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+          <folding>
+            <element signature="e#136#144#0" />
+            <element signature="e#656#966#0" />
+            <element signature="e#1041#1221#0" />
+            <element signature="e#874#1058#0" />
+            <element signature="e#1571#1761#0" />
+            <element signature="e#1533#1779#0" />
+            <element signature="e#1860#2057#0" />
+            <element signature="e#2138#2337#0" />
+            <element signature="e#2417#2624#0" />
+            <element signature="e#3140#3331#0" />
+            <element signature="e#3423#3615#0" />
+            <element signature="e#3706#3906#0" />
+          </folding>
         </state>
       </provider>
     </entry>
