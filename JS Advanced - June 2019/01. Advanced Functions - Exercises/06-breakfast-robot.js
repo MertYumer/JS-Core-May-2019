@@ -51,8 +51,10 @@ function solve() {
             switch (command) {
                 case "prepare":
                     return prepare(tokens[1], +tokens[2]);
+
                 case "restock":
                     return restock(tokens[1], +tokens[2]);
+
                 case "report":
                     return report();
             }

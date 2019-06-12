@@ -7,12 +7,14 @@ function solve(input) {
         case 'downvote':
             this.downvotes++;
             break;
+
         case 'score':
             return score(this);
     }
 
     function score(obj) {
         let modifier = 0;
+
         if (obj.upvotes + obj.downvotes > 50) {
             modifier = Math.ceil(Math.max(obj.upvotes, obj.downvotes) * 0.25);
         }
@@ -22,12 +24,16 @@ function solve(input) {
 
         if (obj.upvotes + obj.downvotes < 10) {
             rating = 'new';
+
         } else if (score < 0) {
             rating = 'unpopular';
+
         } else if (obj.upvotes / (obj.upvotes + obj.downvotes) > 0.66) {
             rating = 'hot';
+
         } else if (obj.upvotes > 100 || obj.downvotes > 100) {
             rating = 'controversial';
+
         } else {
             rating = 'new';
         }

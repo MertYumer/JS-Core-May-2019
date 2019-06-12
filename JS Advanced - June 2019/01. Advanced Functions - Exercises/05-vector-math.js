@@ -5,5 +5,11 @@
     let dot = (firstVector, secondVector) => (firstVector[0] * secondVector[0]) + (firstVector[1] * secondVector[1]);
     let cross = (firstVector, secondVector) => (firstVector[0] * secondVector[1]) - (firstVector[1] * secondVector[0]);
 
-    return {add, multiply, length, dot, cross};
+    return {
+        add,
+        multiply,
+        length,
+        dot,
+        cross
+    };
 })();

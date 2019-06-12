@@ -4,6 +4,7 @@ function solve(arr, sortOrder) {
         .sort((a, b) => {
             if(sortOrder === 'asc') {
                 return a - b;
+
             } else if (sortOrder === 'desc') {
                 return b - a;
             }
