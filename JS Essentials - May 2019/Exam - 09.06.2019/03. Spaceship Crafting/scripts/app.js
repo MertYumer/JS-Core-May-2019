@@ -1,8 +1,8 @@
 function spaceshipCrafting() {
-    let titaniumCores = Math.round(+document.getElementById('titaniumCoreFound').value);
-    let aluminumCores = Math.round(+document.getElementById('aluminiumCoreFound').value);
-    let magnesiumCores = Math.round(+document.getElementById('magnesiumCoreFound').value);
-    let carbonCores = Math.round(+document.getElementById('carbonCoreFound').value);
+    let titaniumCores = +document.getElementById('titaniumCoreFound').value;
+    let aluminumCores = +document.getElementById('aluminiumCoreFound').value;
+    let magnesiumCores = +document.getElementById('magnesiumCoreFound').value;
+    let carbonCores = +document.getElementById('carbonCoreFound').value;
     let lossPercent = +document.getElementById('lossesPercent').value / 4;
 
     titaniumCores -= (titaniumCores * lossPercent / 100);
@@ -14,11 +14,6 @@ function spaceshipCrafting() {
     let aluminumBars = Math.round(aluminumCores / 50);
     let magnesiumBars = Math.round(magnesiumCores / 75);
     let carbonBars = Math.round(carbonCores / 100);
-
-    console.log(titaniumBars);
-    console.log(aluminumBars);
-    console.log(magnesiumBars);
-    console.log(carbonBars);
 
     let availableBars = document.querySelector('#availableBars p');
     let builtSpaceships = document.querySelector('#builtSpaceships p');
@@ -67,8 +62,6 @@ function spaceshipCrafting() {
     result.push(nullMasters > 0 ? `${nullMasters} NULL-MASTER` : '');
     result.push(jsonCrews > 0 ? `${jsonCrews} JSON-CREW` : '');
     result.push(falseFleets > 0 ? `${falseFleets} FALSE-FLEET` : '');
-
-    console.log(undefinedShips);
 
     availableBars.textContent = `${titaniumBars} titanium bars, ${aluminumBars} aluminum bars, ${magnesiumBars} magnesium bars, ${carbonBars} carbon bars`;
     builtSpaceships.textContent = result.filter(r => r !== '').join(', ');

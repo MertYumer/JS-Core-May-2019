@@ -18,11 +18,9 @@ function solve(wagonCapacity, passengers) {
 
     console.log(train);
 
-    if (passengers.length === 0) {
+    if (leftPassengers === 0) {
         console.log('All passengers aboard');
     } else {
         console.log(`Could not fit ${leftPassengers} passengers`);
     }
 }
-
-solve(6, [5, 15, 2]);

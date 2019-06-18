@@ -13,11 +13,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Train Station/solution.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02. Train Station/solution.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="476">
+              <caret line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/03. Spaceship Crafting/scripts/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="2" column="3" lean-forward="true" selection-end-line="67" selection-end-column="1" />
+              <folding>
+                <element signature="e#1372#2403#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -31,12 +43,17 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pr1/solution.js" />
         <option value="$PROJECT_DIR$/pr2/solution.js" />
         <option value="$PROJECT_DIR$/Train Station/solution.js" />
+        <option value="$PROJECT_DIR$/02. Train Station/solution.js" />
+        <option value="$PROJECT_DIR$/03. Spaceship Crafting/scripts/app.js" />
       </list>
     </option>
   </component>
@@ -46,6 +63,7 @@
     <option name="width" value="1059" />
     <option name="height" value="908" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -56,13 +74,24 @@
         <subPane>
           <expand>
             <path>
-              <item name="exam" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exam" type="462c0819:PsiDirectoryNode" />
+              <item name="Exam - 09.06.2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Exam - 09.06.2019" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="exam" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exam" type="462c0819:PsiDirectoryNode" />
-              <item name="Train Station" type="462c0819:PsiDirectoryNode" />
+              <item name="Exam - 09.06.2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Exam - 09.06.2019" type="462c0819:PsiDirectoryNode" />
+              <item name="02. Train Station" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Exam - 09.06.2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Exam - 09.06.2019" type="462c0819:PsiDirectoryNode" />
+              <item name="03. Spaceship Crafting" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Exam - 09.06.2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Exam - 09.06.2019" type="462c0819:PsiDirectoryNode" />
+              <item name="03. Spaceship Crafting" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -71,8 +100,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Clash of Champions" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -116,17 +146,17 @@
       <workItem from="1560094134226" duration="318000" />
       <workItem from="1560094546113" duration="71000" />
       <workItem from="1560094701982" duration="65000" />
+      <workItem from="1560892091172" duration="284000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3609000" />
+    <option name="totallyTimeSpent" value="3893000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24968314" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -151,13 +181,22 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pr1/solution.js" />
     <entry file="file://$PROJECT_DIR$/pr2/solution.js" />
-    <entry file="file://$PROJECT_DIR$/pr3/scripts/app.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Train Station/solution.js">
+    <entry file="file://$PROJECT_DIR$/pr3/scripts/app.js" />
+    <entry file="file://$PROJECT_DIR$/Train Station/solution.js" />
+    <entry file="file://$PROJECT_DIR$/02. Train Station/solution.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="476">
+          <caret line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03. Spaceship Crafting/scripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="2" column="3" lean-forward="true" selection-end-line="67" selection-end-column="1" />
+          <folding>
+            <element signature="e#1372#2403#0" />
+          </folding>
         </state>
       </provider>
     </entry>
