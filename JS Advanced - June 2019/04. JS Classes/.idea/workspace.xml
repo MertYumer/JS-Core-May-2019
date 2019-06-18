@@ -70,42 +70,52 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/07. String Builder/07-string-builder.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
+            <state relative-caret-position="1156">
               <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/07. String Builder/07-string-builder-tests.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-end-line="185" selection-end-column="3" />
+            <state relative-caret-position="34">
+              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/08. Payment Package/08-payment-package.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="714">
+              <caret line="62" column="29" lean-forward="true" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="61" />
               <folding>
-                <element signature="e#133#6157#0" />
-                <element signature="e#304#746#0" />
-                <element signature="e#282#298#0" />
-                <element signature="e#367#542#0" />
-                <element signature="e#632#823#0" />
-                <element signature="e#927#1043#0" />
-                <element signature="e#1147#1336#0" />
-                <element signature="e#1768#2769#0" />
-                <element signature="e#1810#1898#0" />
-                <element signature="e#1943#2141#0" />
-                <element signature="e#2190#2580#0" />
-                <element signature="e#2632#3640#0" />
-                <element signature="e#2674#2763#0" />
-                <element signature="e#2808#3007#0" />
-                <element signature="e#3056#3450#0" />
-                <element signature="e#3547#6223#0" />
-                <element signature="e#3607#3763#0" />
-                <element signature="e#4007#4389#0" />
-                <element signature="e#4438#5013#0" />
-                <element signature="e#5062#5445#0" />
-                <element signature="e#5005#5974#0" />
-                <element signature="e#5053#5398#0" />
-                <element signature="e#5447#5833#0" />
-                <element signature="e#6845#7223#0" />
+                <element signature="n#!!block;n#constructor#0;n#PaymentPackage#0" />
+                <element signature="n#!!block;n#name#0;n#PaymentPackage#0" />
+                <element signature="n#!!block;n#name#1;n#PaymentPackage#0" />
+                <element signature="n#!!block;n#value#0;n#PaymentPackage#0" />
+                <element signature="n#!!block;n#value#1;n#PaymentPackage#0" />
+                <element signature="n#!!block;n#VAT#0;n#PaymentPackage#0" />
+                <element signature="n#!!block;n#VAT#1;n#PaymentPackage#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/08. Payment Package/08-payment-package-tests.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-228">
+              <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+              <folding>
+                <element signature="e#352#1139#0" />
+                <element signature="e#1176#2034#0" />
+                <element signature="e#2072#2911#0" />
+                <element signature="e#2593#2740#0" />
+                <element signature="e#2402#3116#0" />
+                <element signature="e#3155#3649#0" />
+                <element signature="e#3696#4429#0" />
               </folding>
             </state>
           </provider>
@@ -133,7 +143,9 @@
         <option value="$PROJECT_DIR$/05-point-distance.js" />
         <option value="$PROJECT_DIR$/06-cards.js" />
         <option value="$PROJECT_DIR$/07. String Builder/07-string-builder.js" />
+        <option value="$PROJECT_DIR$/08. Payment Package/08-payment-package.js" />
         <option value="$PROJECT_DIR$/07. String Builder/07-string-builder-tests.js" />
+        <option value="$PROJECT_DIR$/08. Payment Package/08-payment-package-tests.js" />
       </list>
     </option>
   </component>
@@ -149,6 +161,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -156,17 +169,26 @@
               <item name="04. JS Classes" type="b2602c69:ProjectViewProjectNode" />
               <item name="04. JS Classes" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="04. JS Classes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="04. JS Classes" type="462c0819:PsiDirectoryNode" />
+              <item name="07. String Builder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="04. JS Classes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="04. JS Classes" type="462c0819:PsiDirectoryNode" />
+              <item name="08. Payment Package" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/07. String Builder/07-string-builder-tests.js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/08. Payment Package/08-payment-package-tests.js" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -189,11 +211,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Mocha.String Builder Tests">
+  <component name="RunManager" selected="Mocha.Payment Package Tests">
     <configuration name="05-point-distance.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="05-point-distance.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="06-cards.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="06-cards.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="Payment Package Tests" type="mocha-javascript-test-runner">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$USER_HOME$/AppData/Roaming/npm/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST_FILE</test-kind>
+      <test-file>$PROJECT_DIR$/08. Payment Package/08-payment-package-tests.js</test-file>
       <method v="2" />
     </configuration>
     <configuration name="String Builder Tests" type="mocha-javascript-test-runner">
@@ -208,69 +242,14 @@
       <test-file>$PROJECT_DIR$/07. String Builder/07-string-builder-tests.js</test-file>
       <method v="2" />
     </configuration>
-    <configuration name="stringBuilder.append.should work correctly when the function is called multiple times" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <mocha-package>$USER_HOME$/AppData/Roaming/npm/node_modules/mocha</mocha-package>
-      <working-directory>$PROJECT_DIR$</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <ui>bdd</ui>
-      <extra-mocha-options />
-      <test-kind>TEST</test-kind>
-      <test-file>$PROJECT_DIR$/07. String Builder/07-string-builder-tests.js</test-file>
-      <test-names>
-        <name value="stringBuilder" />
-        <name value="append" />
-        <name value="should work correctly when the function is called multiple times" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="stringBuilder.constructor" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <mocha-package>$USER_HOME$/AppData/Roaming/npm/node_modules/mocha</mocha-package>
-      <working-directory>$PROJECT_DIR$</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <ui>bdd</ui>
-      <extra-mocha-options />
-      <test-kind>SUITE</test-kind>
-      <test-file>$PROJECT_DIR$/07. String Builder/07-string-builder-tests.js</test-file>
-      <test-names>
-        <name value="stringBuilder" />
-        <name value="constructor" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="stringBuilder.prepend.should work correctly when the function is called multiple times" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <mocha-package>$USER_HOME$/AppData/Roaming/npm/node_modules/mocha</mocha-package>
-      <working-directory>$PROJECT_DIR$</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <ui>bdd</ui>
-      <extra-mocha-options />
-      <test-kind>TEST</test-kind>
-      <test-file>$PROJECT_DIR$/07. String Builder/07-string-builder-tests.js</test-file>
-      <test-names>
-        <name value="stringBuilder" />
-        <name value="prepend" />
-        <name value="should work correctly when the function is called multiple times" />
-      </test-names>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Mocha.String Builder Tests" />
+      <item itemvalue="Mocha.Payment Package Tests" />
       <item itemvalue="Node.js.05-point-distance.js" />
       <item itemvalue="Node.js.06-cards.js" />
-      <item itemvalue="Mocha.stringBuilder.append.should work correctly when the function is called multiple times" />
-      <item itemvalue="Mocha.stringBuilder.constructor" />
-      <item itemvalue="Mocha.stringBuilder.prepend.should work correctly when the function is called multiple times" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Mocha.stringBuilder.prepend.should work correctly when the function is called multiple times" />
-        <item itemvalue="Mocha.stringBuilder.constructor" />
-        <item itemvalue="Mocha.stringBuilder.append.should work correctly when the function is called multiple times" />
         <item itemvalue="Node.js.06-cards.js" />
         <item itemvalue="Node.js.05-point-distance.js" />
       </list>
@@ -290,48 +269,50 @@
       <workItem from="1560595161280" duration="20000" />
       <workItem from="1560778790412" duration="4712000" />
       <workItem from="1560807692167" duration="5799000" />
+      <workItem from="1560851881254" duration="5707000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="String_Builder_Tests - 2019.06.18 at 01h 53m 12s.xml">
-      <configuration name="String Builder Tests" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="Payment_Package_Tests - 2019.06.18 at 13h 48m 37s.xml">
+      <configuration name="Payment Package Tests" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="String_Builder_Tests - 2019.06.18 at 01h 56m 12s.xml">
-      <configuration name="String Builder Tests" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="Payment_Package_Tests - 2019.06.18 at 14h 00m 40s.xml">
+      <configuration name="Payment Package Tests" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="String_Builder_Tests - 2019.06.18 at 02h 01m 20s.xml">
-      <configuration name="String Builder Tests" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="Payment_Package_Tests - 2019.06.18 at 14h 02m 48s.xml">
+      <configuration name="Payment Package Tests" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="String_Builder_Tests - 2019.06.18 at 02h 01m 40s.xml">
-      <configuration name="String Builder Tests" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="Payment_Package_Tests - 2019.06.18 at 14h 03m 07s.xml">
+      <configuration name="Payment Package Tests" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="String_Builder_Tests - 2019.06.18 at 02h 02m 11s.xml">
-      <configuration name="String Builder Tests" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="Payment_Package_Tests - 2019.06.18 at 14h 05m 58s.xml">
+      <configuration name="Payment Package Tests" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="String_Builder_Tests - 2019.06.18 at 02h 02m 36s.xml">
-      <configuration name="String Builder Tests" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="Payment_Package_Tests - 2019.06.18 at 14h 08m 06s.xml">
+      <configuration name="Payment Package Tests" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="String_Builder_Tests - 2019.06.18 at 02h 15m 29s.xml">
-      <configuration name="String Builder Tests" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="Payment_Package_Tests - 2019.06.18 at 14h 15m 37s.xml">
+      <configuration name="Payment Package Tests" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="String_Builder_Tests - 2019.06.18 at 02h 15m 55s.xml">
-      <configuration name="String Builder Tests" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="Payment_Package_Tests - 2019.06.18 at 14h 15m 47s.xml">
+      <configuration name="Payment Package Tests" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="String_Builder_Tests - 2019.06.18 at 02h 17m 54s.xml">
-      <configuration name="String Builder Tests" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="Payment_Package_Tests - 2019.06.18 at 14h 23m 56s.xml">
+      <configuration name="Payment Package Tests" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="String_Builder_Tests - 2019.06.18 at 02h 18m 44s.xml">
-      <configuration name="String Builder Tests" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="Payment_Package_Tests - 2019.06.18 at 14h 25m 00s.xml">
+      <configuration name="Payment Package Tests" configurationId="mocha-javascript-test-runner" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12331000" />
+    <option name="totallyTimeSpent" value="18038000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24968314" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24968314" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -398,40 +379,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/07. String Builder/07-string-builder.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="1156">
           <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08. Payment Package/08-payment-package.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="62" column="29" lean-forward="true" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="61" />
+          <folding>
+            <element signature="n#!!block;n#constructor#0;n#PaymentPackage#0" />
+            <element signature="n#!!block;n#name#0;n#PaymentPackage#0" />
+            <element signature="n#!!block;n#name#1;n#PaymentPackage#0" />
+            <element signature="n#!!block;n#value#0;n#PaymentPackage#0" />
+            <element signature="n#!!block;n#value#1;n#PaymentPackage#0" />
+            <element signature="n#!!block;n#VAT#0;n#PaymentPackage#0" />
+            <element signature="n#!!block;n#VAT#1;n#PaymentPackage#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/07. String Builder/07-string-builder-tests.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-end-line="185" selection-end-column="3" />
+        <state relative-caret-position="34">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08. Payment Package/08-payment-package-tests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-228">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
           <folding>
-            <element signature="e#133#6157#0" />
-            <element signature="e#304#746#0" />
-            <element signature="e#282#298#0" />
-            <element signature="e#367#542#0" />
-            <element signature="e#632#823#0" />
-            <element signature="e#927#1043#0" />
-            <element signature="e#1147#1336#0" />
-            <element signature="e#1768#2769#0" />
-            <element signature="e#1810#1898#0" />
-            <element signature="e#1943#2141#0" />
-            <element signature="e#2190#2580#0" />
-            <element signature="e#2632#3640#0" />
-            <element signature="e#2674#2763#0" />
-            <element signature="e#2808#3007#0" />
-            <element signature="e#3056#3450#0" />
-            <element signature="e#3547#6223#0" />
-            <element signature="e#3607#3763#0" />
-            <element signature="e#4007#4389#0" />
-            <element signature="e#4438#5013#0" />
-            <element signature="e#5062#5445#0" />
-            <element signature="e#5005#5974#0" />
-            <element signature="e#5053#5398#0" />
-            <element signature="e#5447#5833#0" />
-            <element signature="e#6845#7223#0" />
+            <element signature="e#352#1139#0" />
+            <element signature="e#1176#2034#0" />
+            <element signature="e#2072#2911#0" />
+            <element signature="e#2593#2740#0" />
+            <element signature="e#2402#3116#0" />
+            <element signature="e#3155#3649#0" />
+            <element signature="e#3696#4429#0" />
           </folding>
         </state>
       </provider>

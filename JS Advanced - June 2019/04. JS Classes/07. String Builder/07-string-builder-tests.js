@@ -2,7 +2,7 @@ const StringBuilder = require('./07-string-builder');
 
 const assert = require('chai').assert;
 
-describe('stringBuilder', function () {
+describe('StringBuilder', function () {
     let stringBuilder;
 
     beforeEach(function () {
