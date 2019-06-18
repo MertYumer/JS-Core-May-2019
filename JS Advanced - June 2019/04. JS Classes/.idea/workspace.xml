@@ -71,7 +71,7 @@
         <entry file="file://$PROJECT_DIR$/07. String Builder/07-string-builder.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1156">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
             </state>
           </provider>
         </entry>
@@ -79,8 +79,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/07. String Builder/07-string-builder-tests.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+            <state relative-caret-position="306">
+              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -89,7 +89,7 @@
         <entry file="file://$PROJECT_DIR$/08. Payment Package/08-payment-package.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="714">
-              <caret line="62" column="29" lean-forward="true" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="61" />
+              <caret line="62" column="29" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="61" />
               <folding>
                 <element signature="n#!!block;n#constructor#0;n#PaymentPackage#0" />
                 <element signature="n#!!block;n#name#0;n#PaymentPackage#0" />
@@ -106,17 +106,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/08. Payment Package/08-payment-package-tests.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-228">
+            <state relative-caret-position="34">
               <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
-              <folding>
-                <element signature="e#352#1139#0" />
-                <element signature="e#1176#2034#0" />
-                <element signature="e#2072#2911#0" />
-                <element signature="e#2593#2740#0" />
-                <element signature="e#2402#3116#0" />
-                <element signature="e#3155#3649#0" />
-                <element signature="e#3696#4429#0" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -161,7 +152,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -183,12 +173,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/08. Payment Package/08-payment-package-tests.js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../04. JS Classes - Exercises" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -270,6 +261,7 @@
       <workItem from="1560778790412" duration="4712000" />
       <workItem from="1560807692167" duration="5799000" />
       <workItem from="1560851881254" duration="5707000" />
+      <workItem from="1560857736180" duration="11000" />
     </task>
     <servers />
   </component>
@@ -306,11 +298,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18038000" />
+    <option name="totallyTimeSpent" value="18049000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24968314" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -380,14 +371,21 @@
     <entry file="file://$PROJECT_DIR$/07. String Builder/07-string-builder.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1156">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07. String Builder/07-string-builder-tests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/08. Payment Package/08-payment-package.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
-          <caret line="62" column="29" lean-forward="true" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="61" />
+          <caret line="62" column="29" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="61" />
           <folding>
             <element signature="n#!!block;n#constructor#0;n#PaymentPackage#0" />
             <element signature="n#!!block;n#name#0;n#PaymentPackage#0" />
@@ -400,26 +398,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/07. String Builder/07-string-builder-tests.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/08. Payment Package/08-payment-package-tests.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-228">
+        <state relative-caret-position="34">
           <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
-          <folding>
-            <element signature="e#352#1139#0" />
-            <element signature="e#1176#2034#0" />
-            <element signature="e#2072#2911#0" />
-            <element signature="e#2593#2740#0" />
-            <element signature="e#2402#3116#0" />
-            <element signature="e#3155#3649#0" />
-            <element signature="e#3696#4429#0" />
-          </folding>
         </state>
       </provider>
     </entry>
