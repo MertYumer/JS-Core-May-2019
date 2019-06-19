@@ -35,7 +35,7 @@
         <entry file="file://$PROJECT_DIR$/03-unity.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
-              <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+              <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -58,11 +58,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/06-sorted-list.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
+            <state relative-caret-position="850">
               <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/07-instance-validation.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2346">
+              <caret line="71" column="1" lean-forward="true" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
+              <folding>
+                <element signature="n#!!block;n#clientId#0;n#CheckingAccount#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/08-kitchen.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+              <folding>
+                <element signature="n#!!block;n#showTheMenu#0;n#Kitchen#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -88,6 +112,8 @@
         <option value="$PROJECT_DIR$/04-length-limit.js" />
         <option value="$PROJECT_DIR$/05-extensible-class.js" />
         <option value="$PROJECT_DIR$/06-sorted-list.js" />
+        <option value="$PROJECT_DIR$/07-instance-validation.js" />
+        <option value="$PROJECT_DIR$/08-kitchen.js" />
       </list>
     </option>
   </component>
@@ -103,7 +129,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -115,6 +140,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -136,10 +162,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.06-sorted-list.js">
-    <configuration name="02-tickets.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="02-tickets.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Node.js.08-kitchen.js">
     <configuration name="03-unity.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="03-unity.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -149,12 +172,19 @@
     <configuration name="06-sorted-list.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="06-sorted-list.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+    <configuration name="07-instance-validation.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="07-instance-validation.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="08-kitchen.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="08-kitchen.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.08-kitchen.js" />
+        <item itemvalue="Node.js.07-instance-validation.js" />
         <item itemvalue="Node.js.06-sorted-list.js" />
         <item itemvalue="Node.js.04-length-limit.js" />
         <item itemvalue="Node.js.03-unity.js" />
-        <item itemvalue="Node.js.02-tickets.js" />
       </list>
     </recent_temporary>
   </component>
@@ -170,16 +200,18 @@
       <updated>1560857747197</updated>
       <workItem from="1560857748626" duration="5810000" />
       <workItem from="1560867078661" duration="20000" />
+      <workItem from="1560938512252" duration="4457000" />
+      <workItem from="1560943001984" duration="6641000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5830000" />
+    <option name="totallyTimeSpent" value="16928000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24968314" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17110266" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -219,7 +251,7 @@
     <entry file="file://$PROJECT_DIR$/03-unity.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
-          <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -239,8 +271,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/06-sorted-list.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
+        <state relative-caret-position="850">
           <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-instance-validation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2346">
+          <caret line="71" column="1" lean-forward="true" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!block;n#clientId#0;n#CheckingAccount#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-kitchen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+          <folding>
+            <element signature="n#!!block;n#showTheMenu#0;n#Kitchen#0" />
+          </folding>
         </state>
       </provider>
     </entry>
