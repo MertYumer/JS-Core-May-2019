@@ -4,16 +4,56 @@
     <meta charset="UTF-8">
     <title>DOM Highlighter</title>
     <style>
-        #wrapper {width: 800px; overflow: hidden;}
-        #header {font-size: 300%; font-weight: bold;}
-        #menu {background-color: darkgrey; padding: 0.5em;}
-        #menu a {margin-left: 1em; margin-right: 1em;}
-        #content {width: 500px; float: left;}
-        .article {padding: 2em}
-        .article .title {font-size: 150%}
-        #sidebar {width: 250px; float: right; background-color: lightgray;}
-        #footer {text-align: center; clear: both; height: 5em; background-color: darkgrey;}
-        .highlight {border: 1px solid red; background-color: pink;}
+        #wrapper {
+            width: 800px;
+            overflow: hidden;
+        }
+
+        #header {
+            font-size: 300%;
+            font-weight: bold;
+        }
+
+        #menu {
+            background-color: darkgrey;
+            padding: 0.5em;
+        }
+
+        #menu a {
+            margin-left: 1em;
+            margin-right: 1em;
+        }
+
+        #content {
+            width: 500px;
+            float: left;
+        }
+
+        .article {
+            padding: 2em
+        }
+
+        .article .title {
+            font-size: 150%
+        }
+
+        #sidebar {
+            width: 250px;
+            float: right;
+            background-color: lightgray;
+        }
+
+        #footer {
+            text-align: center;
+            clear: both;
+            height: 5em;
+            background-color: darkgrey;
+        }
+
+        .highlight {
+            border: 1px solid red;
+            background-color: pink;
+        }
     </style>
 </head>
 <body>
@@ -59,7 +99,20 @@
     <div id="footer">Copyright</div>
 </div>
 <script>
-    // TODO
+    function solve(selector) {
+        const element = document.querySelector(selector);
+        element.classList.add('highlight');
+        highlightChildren(element);
+
+        function highlightChildren(element) {
+            const children = element.children;
+
+            for (let i = 0; i < children.length; i++) {
+                highlightChildren(children[i]);
+                children[i].classList.add('highlight');
+            }
+        }
+    }
 </script>
 </body>
 </html>
