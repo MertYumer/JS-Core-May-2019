@@ -1,16 +1,16 @@
 function solve() {
-    let stats = [];
-
+    let stats = {};
+    console.log(arguments);
     for (let i = 0; i < arguments.length; i++) {
         let argument = arguments[i];
         let type = typeof argument;
         console.log(`${type}: ${argument}`);
 
         if (!stats[type]) {
-            stats[type] = 1;
-        } else {
-            stats[type]++;
+            stats[type] = 0;
         }
+
+        stats[type]++;
     }
 
     let sortedTypes = [];
