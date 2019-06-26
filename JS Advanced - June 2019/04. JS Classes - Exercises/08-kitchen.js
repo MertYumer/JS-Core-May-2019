@@ -36,7 +36,7 @@ class Kitchen {
         }
 
         this.menu[mealName] = {
-            neededProducts,
+            products: neededProducts,
             price: +price
         };
 
@@ -64,7 +64,7 @@ class Kitchen {
 
         const meal = this.menu[mealName];
 
-        for (let neededProduct of meal.neededProducts) {
+        for (let neededProduct of meal.products) {
             const info = neededProduct.split(' ');
             const productName = info[0];
             const productQuantity = +info[1];
@@ -75,7 +75,7 @@ class Kitchen {
             }
         }
 
-        for (let neededProduct of meal.neededProducts) {
+        for (let neededProduct of meal.products) {
             const info = neededProduct.split(' ');
             const productName = info[0];
             const productQuantity = +info[1];

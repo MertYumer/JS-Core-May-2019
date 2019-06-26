@@ -82,10 +82,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/08-kitchen.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+            <state relative-caret-position="476">
+              <caret line="59" column="27" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
               <folding>
+                <element signature="n#!!block;n#loadProducts#0;n#Kitchen#0" />
+                <element signature="n#!!block;n#addToMenu#0;n#Kitchen#0" />
                 <element signature="n#!!block;n#showTheMenu#0;n#Kitchen#0" />
+                <element signature="n#!!block;n#makeTheOrder#0;n#Kitchen#0" />
               </folding>
             </state>
           </provider>
@@ -146,7 +149,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Clash of Champions" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Exam Preparation/Exam Preparation - 01.07.2019" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -202,16 +205,17 @@
       <workItem from="1560867078661" duration="20000" />
       <workItem from="1560938512252" duration="4457000" />
       <workItem from="1560943001984" duration="6641000" />
+      <workItem from="1561546374287" duration="1307000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16928000" />
+    <option name="totallyTimeSpent" value="18235000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17110266" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17110266" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -288,10 +292,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/08-kitchen.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+        <state relative-caret-position="476">
+          <caret line="59" column="27" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
           <folding>
+            <element signature="n#!!block;n#loadProducts#0;n#Kitchen#0" />
+            <element signature="n#!!block;n#addToMenu#0;n#Kitchen#0" />
             <element signature="n#!!block;n#showTheMenu#0;n#Kitchen#0" />
+            <element signature="n#!!block;n#makeTheOrder#0;n#Kitchen#0" />
           </folding>
         </state>
       </provider>
