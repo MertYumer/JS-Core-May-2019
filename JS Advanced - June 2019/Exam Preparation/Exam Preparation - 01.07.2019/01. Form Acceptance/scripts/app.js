@@ -1,27 +1,18 @@
 function acceptance() {
-	function removeProduct(e) {
-		const parentElement = e.target.parentNode;
-		warehouseElement.removeChild(parentElement);
-	}
-	
 	function addProduct() {
-		let shippingCompanyElement = document
-			.querySelector("#fields > td:nth-child(1) > input[type=text]");
+		const shippingCompanyElement = document.querySelector('input[name="shippingCompany"]');
 		const shippingCompany = shippingCompanyElement.value;
 
-		let productNameElement = document
-			.querySelector("#fields > td:nth-child(2) > input[type=text]");
+		const productNameElement = document.querySelector('input[name="productName"]');
 		const productName = productNameElement.value;
 
-		let productQuantityElement = document
-			.querySelector("#fields > td:nth-child(3) > input[type=text]");
+		const productQuantityElement = document.querySelector('input[name="productQuantity"]');
 		let productQuantity = +productQuantityElement.value;
 
-		let productScrapeElement = document
-			.querySelector("#fields > td:nth-child(4) > input[type=text]");
+		const productScrapeElement = document.querySelector('input[name="productScrape"]');
 		const productScrape = +productScrapeElement.value;
 
-		if (shippingCompany !== '' && productName !== '' &&
+		if (shippingCompany && productName &&
 			!isNaN(productQuantity) && !isNaN(productScrape)) {
 			productQuantity -= productScrape;
 
@@ -48,6 +39,11 @@ function acceptance() {
 		productNameElement.value = '';
 		productQuantityElement.value = '';
 		productScrapeElement.value = '';
+	}
+
+	function removeProduct(e) {
+		const parentElement = e.target.parentNode;
+		warehouseElement.removeChild(parentElement);
 	}
 
 	const warehouseElement = document.querySelector("#warehouse");
