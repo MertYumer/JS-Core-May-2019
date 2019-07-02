@@ -73,12 +73,6 @@ class Kitchen {
                 || this.productsInStock[productName] < productQuantity) {
                 return `For the time being, we cannot complete your order (${mealName}), we are very sorry...`;
             }
-        }
-
-        for (let neededProduct of meal.products) {
-            const info = neededProduct.split(' ');
-            const productName = info[0];
-            const productQuantity = +info[1];
 
             this.productsInStock[productName] -= productQuantity;
         }
