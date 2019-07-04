@@ -82,8 +82,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/08-kitchen.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
-              <caret line="82" column="1" lean-forward="true" selection-start-line="82" selection-start-column="1" selection-end-line="82" selection-end-column="1" />
+            <state relative-caret-position="32">
+              <caret line="1" column="25" lean-forward="true" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
               <folding>
                 <element signature="n#!!block;n#loadProducts#0;n#Kitchen#0" />
                 <element signature="n#!!block;n#addToMenu#0;n#Kitchen#0" />
@@ -207,11 +207,12 @@
       <workItem from="1560943001984" duration="6641000" />
       <workItem from="1561546374287" duration="1307000" />
       <workItem from="1562077178798" duration="126000" />
+      <workItem from="1562091567265" duration="612000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18361000" />
+    <option name="totallyTimeSpent" value="18973000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -294,8 +295,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/08-kitchen.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="82" column="1" lean-forward="true" selection-start-line="82" selection-start-column="1" selection-end-line="82" selection-end-column="1" />
+        <state relative-caret-position="32">
+          <caret line="1" column="25" lean-forward="true" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
           <folding>
             <element signature="n#!!block;n#loadProducts#0;n#Kitchen#0" />
             <element signature="n#!!block;n#addToMenu#0;n#Kitchen#0" />
