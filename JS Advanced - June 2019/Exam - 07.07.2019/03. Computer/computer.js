@@ -52,27 +52,25 @@ class Computer {
         }
 
         const program = this.installedPrograms[programIndexInInstalledPrograms];
-
         let totalRamUsage = 0;
+        let totalCpuUsage = 0;
 
-        /*for (const program of this.taskManager) {
+        for (const program of this.taskManager) {
             totalRamUsage += program.ramUsage;
         }
-
-        let totalCpuUsage = 0;
 
         for (const program of this.taskManager) {
             totalCpuUsage += program.cpuUsage;
         }
-*/
+
         const ramUsage = (program.requiredSpace / this.ramMemory) * 1.5;
         const cpuUsage = ((program.requiredSpace / this.cpuGHZ) / 500) * 1.5;
 
-        if (ramUsage >= 100) {
+        if (totalRamUsage + ramUsage >= 100) {
             throw new Error(`${name} caused out of memory exception`);
         }
 
-        if (cpuUsage >= 100) {
+        if (totalCpuUsage + cpuUsage >= 100) {
             throw new Error(`${name} caused out of cpu exception`);
         }
 
@@ -98,6 +96,6 @@ class Computer {
                 `${program.cpuUsage.toFixed(0)}%, RAM: ${program.ramUsage.toFixed(0)}%`)
         }
 
-        return  info.join('\n');
+        return info.join('\n');
     }
 }
