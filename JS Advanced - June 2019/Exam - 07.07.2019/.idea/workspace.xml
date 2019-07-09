@@ -31,8 +31,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/03. Computer/computer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="86" column="22" selection-start-line="86" selection-start-column="22" selection-end-line="86" selection-end-column="22" />
+            <state relative-caret-position="204">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
               <folding>
                 <element signature="n#!!block;n#constructor#0;n#Computer#0" />
                 <element signature="n#!!block;n#installAProgram#0;n#Computer#0" />
@@ -167,6 +167,9 @@
       <workItem from="1562480239420" duration="14437000" />
       <workItem from="1562528299166" duration="133000" />
       <workItem from="1562581537428" duration="1667000" />
+      <workItem from="1562583424788" duration="11000" />
+      <workItem from="1562591959563" duration="6000" />
+      <workItem from="1562676925260" duration="297000" />
     </task>
     <servers />
   </component>
@@ -203,7 +206,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16503000" />
+    <option name="totallyTimeSpent" value="16817000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -233,78 +236,11 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Problem 3/tests.js" />
-    <entry file="file://$PROJECT_DIR$/Problem 1/scripts/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2176">
-          <caret line="67" column="29" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="n#!!block;n#moveQuestion#0;n#!!block;n#mySolution#0" />
-            <element signature="n#!!block;n#reply#0;n#!!block;n#mySolution#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Problem 2/02. PizzUni_Ресурси.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="83" column="23" selection-start-line="83" selection-start-column="23" selection-end-line="83" selection-end-column="23" />
-          <folding>
-            <element signature="n#!!block;n#constructor#0;n#PizzUni#0" />
-            <element signature="n#!!block;n#registerUser#0;n#PizzUni#0" />
-            <element signature="n#!!block;n#makeAnOrder#0;n#PizzUni#0" />
-            <element signature="n#!!block;n#completeOrder#0;n#PizzUni#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Problem 3/03. Computer_Ресурси.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="37" lean-forward="true" selection-end-line="102" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!block;n#installAProgram#0;n#Computer#0" />
-            <element signature="n#!!block;n#uninstallAProgram#0;n#Computer#0" />
-            <element signature="n#!!block;n#openAProgram#0;n#Computer#0" />
-            <element signature="n#!!block;n#taskManagerView#0;n#Computer#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Problem 1/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2176">
-          <caret line="64" column="72" selection-start-line="64" selection-start-column="71" selection-end-line="64" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Problem 2/tests.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-          <folding>
-            <element signature="e#266#465#0" />
-            <element signature="e#539#1101#0" />
-            <element signature="e#1174#1383#0" />
-            <element signature="e#1470#1745#0" />
-            <element signature="e#1815#2122#0" />
-            <element signature="e#2202#2339#0" />
-            <element signature="e#2435#2627#0" />
-            <element signature="e#2697#3031#0" />
-            <element signature="e#3110#3476#0" />
-            <element signature="e#3558#3857#0" />
-            <element signature="e#3939#4127#0" />
-            <element signature="e#4218#4286#0" />
-            <element signature="e#4376#4634#0" />
-            <element signature="e#4721#4792#0" />
-            <element signature="e#4873#5102#0" />
-            <element signature="e#5182#5242#0" />
-            <element signature="e#5309#5643#0" />
-            <element signature="e#5719#6027#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Problem 1/scripts/index.js" />
+    <entry file="file://$PROJECT_DIR$/Problem 2/02. PizzUni_Ресурси.js" />
+    <entry file="file://$PROJECT_DIR$/Problem 3/03. Computer_Ресурси.js" />
+    <entry file="file://$PROJECT_DIR$/Problem 1/index.html" />
+    <entry file="file://$PROJECT_DIR$/Problem 2/tests.js" />
     <entry file="file://$PROJECT_DIR$/01. SoftDo/scripts/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -320,8 +256,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/03. Computer/computer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="86" column="22" selection-start-line="86" selection-start-column="22" selection-end-line="86" selection-end-column="22" />
+        <state relative-caret-position="204">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
           <folding>
             <element signature="n#!!block;n#constructor#0;n#Computer#0" />
             <element signature="n#!!block;n#installAProgram#0;n#Computer#0" />

@@ -5,6 +5,8 @@ class Computer {
         this.hddMemory = hddMemory;
         this.taskManager = [];
         this.installedPrograms = [];
+        this.totalRamUsage = 0;
+        this.totalCpuUsage = 0;
     }
 
     installAProgram(name, requiredSpace) {
@@ -52,27 +54,20 @@ class Computer {
         }
 
         const program = this.installedPrograms[programIndexInInstalledPrograms];
-        let totalRamUsage = 0;
-        let totalCpuUsage = 0;
-
-        for (const program of this.taskManager) {
-            totalRamUsage += program.ramUsage;
-        }
-
-        for (const program of this.taskManager) {
-            totalCpuUsage += program.cpuUsage;
-        }
 
         const ramUsage = (program.requiredSpace / this.ramMemory) * 1.5;
         const cpuUsage = ((program.requiredSpace / this.cpuGHZ) / 500) * 1.5;
 
-        if (totalRamUsage + ramUsage >= 100) {
+        if (this.totalRamUsage + ramUsage >= 100) {
             throw new Error(`${name} caused out of memory exception`);
         }
 
-        if (totalCpuUsage + cpuUsage >= 100) {
+        if (this.totalCpuUsage + cpuUsage >= 100) {
             throw new Error(`${name} caused out of cpu exception`);
         }
+
+        this.totalRamUsage += program.ramUsage;
+        this.totalCpuUsage += program.cpuUsage;
 
         const openedProgram = {
             name,
