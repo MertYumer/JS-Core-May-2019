@@ -32,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/03. Computer/computer.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
               <folding>
                 <element signature="n#!!block;n#constructor#0;n#Computer#0" />
                 <element signature="n#!!block;n#installAProgram#0;n#Computer#0" />
@@ -81,7 +81,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -98,12 +97,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Problem 2/tests.js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../JS Apps - July 2019" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -170,6 +170,7 @@
       <workItem from="1562583424788" duration="11000" />
       <workItem from="1562591959563" duration="6000" />
       <workItem from="1562676925260" duration="297000" />
+      <workItem from="1562750361499" duration="290000" />
     </task>
     <servers />
   </component>
@@ -206,11 +207,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16817000" />
+    <option name="totallyTimeSpent" value="17107000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24968314" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -257,7 +257,7 @@
     <entry file="file://$PROJECT_DIR$/03. Computer/computer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
           <folding>
             <element signature="n#!!block;n#constructor#0;n#Computer#0" />
             <element signature="n#!!block;n#installAProgram#0;n#Computer#0" />
