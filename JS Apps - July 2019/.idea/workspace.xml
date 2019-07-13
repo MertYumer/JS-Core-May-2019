@@ -43,14 +43,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/01. Rest Services and AJAX - Exercises/03. Phonebook/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="55" column="14" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
+            <state relative-caret-position="214">
+              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
               <folding>
+                <element signature="n#!!block;n#loadContacts#0;n#!!block;n#attachEvents#0" />
                 <element signature="e#1500#1668#0" />
+                <element signature="n#!!block;n#createContact#0;n#!!block;n#attachEvents#0" />
                 <element signature="n#!!block;n#f#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/01. Rest Services and AJAX - Exercises/04. Messenger/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+              <folding>
+                <element signature="n#!!block;n#sendFunc#0;n#!!block;n#attachEvents#0" />
+                <element signature="n#!!block;n#refreshFunc#0;n#!!block;n#attachEvents#0" />
               </folding>
             </state>
           </provider>
@@ -67,10 +82,11 @@
         <option value="$PROJECT_DIR$/01. Rest Services and AJAX - Exercises/01. Bus Stop/app.js" />
         <option value="$PROJECT_DIR$/01. Rest Services and AJAX - Exercises/02. Bus Schedule/app.js" />
         <option value="$PROJECT_DIR$/01. Rest Services and AJAX - Exercises/03. Phonebook/app.js" />
+        <option value="$PROJECT_DIR$/01. Rest Services and AJAX - Exercises/04. Messenger/app.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="15" />
     <option name="y" value="150" />
     <option name="width" value="1071" />
@@ -99,7 +115,7 @@
               <item name="JS Apps - July 2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="JS Apps - July 2019" type="462c0819:PsiDirectoryNode" />
               <item name="01. Rest Services and AJAX - Exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="03. Phonebook" type="462c0819:PsiDirectoryNode" />
+              <item name="04. Messenger" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -144,12 +160,12 @@
       <updated>1562750651390</updated>
       <workItem from="1562750653666" duration="4820000" />
       <workItem from="1562855892710" duration="2717000" />
-      <workItem from="1563013722207" duration="4687000" />
+      <workItem from="1563013722207" duration="5610000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12224000" />
+    <option name="totallyTimeSpent" value="13147000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -202,11 +218,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/01. Rest Services and AJAX - Exercises/03. Phonebook/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="55" column="14" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
+        <state relative-caret-position="214">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
           <folding>
+            <element signature="n#!!block;n#loadContacts#0;n#!!block;n#attachEvents#0" />
             <element signature="e#1500#1668#0" />
+            <element signature="n#!!block;n#createContact#0;n#!!block;n#attachEvents#0" />
             <element signature="n#!!block;n#f#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01. Rest Services and AJAX - Exercises/04. Messenger/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+          <folding>
+            <element signature="n#!!block;n#sendFunc#0;n#!!block;n#attachEvents#0" />
+            <element signature="n#!!block;n#refreshFunc#0;n#!!block;n#attachEvents#0" />
           </folding>
         </state>
       </provider>
