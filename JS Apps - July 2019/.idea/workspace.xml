@@ -17,7 +17,7 @@
         <entry file="file://$PROJECT_DIR$/01. Rest Services and AJAX - Exercises/01. Bus Stop/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -29,16 +29,14 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/01. Rest Services and AJAX - Exercises/01. Bus Stop/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-204" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/01. Rest Services and AJAX - Exercises/02. Bus Schedule/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="884">
-              <caret line="26" column="37" lean-forward="true" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+              <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -46,27 +44,39 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/01. Rest Services and AJAX - Exercises/03. Phonebook/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
+            <state relative-caret-position="374">
               <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
               <folding>
                 <element signature="n#!!block;n#loadContacts#0;n#!!block;n#attachEvents#0" />
-                <element signature="e#1500#1668#0" />
                 <element signature="n#!!block;n#createContact#0;n#!!block;n#attachEvents#0" />
-                <element signature="n#!!block;n#f#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/01. Rest Services and AJAX - Exercises/04. Messenger/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
+            <state relative-caret-position="1190">
               <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
-              <folding>
-                <element signature="n#!!block;n#sendFunc#0;n#!!block;n#attachEvents#0" />
-                <element signature="n#!!block;n#refreshFunc#0;n#!!block;n#attachEvents#0" />
-              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/01. Rest Services and AJAX/01. Darth Vader Response">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/01. Rest Services and AJAX/02. Github Labels Issue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="588">
+              <caret line="69" column="1" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -83,14 +93,17 @@
         <option value="$PROJECT_DIR$/01. Rest Services and AJAX - Exercises/02. Bus Schedule/app.js" />
         <option value="$PROJECT_DIR$/01. Rest Services and AJAX - Exercises/03. Phonebook/app.js" />
         <option value="$PROJECT_DIR$/01. Rest Services and AJAX - Exercises/04. Messenger/app.js" />
+        <option value="$PROJECT_DIR$/01. Rest Services and AJAX/01. Darth Vader Response" />
+        <option value="$PROJECT_DIR$/01. Rest Services and AJAX/02. Github Labels Issue" />
+        <option value="$PROJECT_DIR$/01. Rest Services and AJAX/05.Github-Repos/03. Github Create Issue" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="15" />
-    <option name="y" value="150" />
-    <option name="width" value="1071" />
-    <option name="height" value="761" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -109,13 +122,7 @@
             <path>
               <item name="JS Apps - July 2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="JS Apps - July 2019" type="462c0819:PsiDirectoryNode" />
-              <item name="01. Rest Services and AJAX - Exercises" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JS Apps - July 2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JS Apps - July 2019" type="462c0819:PsiDirectoryNode" />
-              <item name="01. Rest Services and AJAX - Exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="04. Messenger" type="462c0819:PsiDirectoryNode" />
+              <item name="01. Rest Services and AJAX" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -126,7 +133,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/01. Rest Services and AJAX" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -161,15 +168,16 @@
       <workItem from="1562750653666" duration="4820000" />
       <workItem from="1562855892710" duration="2717000" />
       <workItem from="1563013722207" duration="5610000" />
+      <workItem from="1563019839527" duration="334000" />
+      <workItem from="1563021463253" duration="48000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13147000" />
+    <option name="totallyTimeSpent" value="13529000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24968314" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -194,49 +202,62 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/01. Rest Services and AJAX - Exercises/01. Bus Stop/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/01. Rest Services and AJAX - Exercises/02. Bus Schedule/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/01. Rest Services and AJAX - Exercises/01. Bus Stop/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-204" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01. Rest Services and AJAX - Exercises/01. Bus Stop/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/01. Rest Services and AJAX - Exercises/02. Bus Schedule/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="884">
-          <caret line="26" column="37" lean-forward="true" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+          <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/01. Rest Services and AJAX - Exercises/03. Phonebook/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
+        <state relative-caret-position="374">
           <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
           <folding>
             <element signature="n#!!block;n#loadContacts#0;n#!!block;n#attachEvents#0" />
-            <element signature="e#1500#1668#0" />
             <element signature="n#!!block;n#createContact#0;n#!!block;n#attachEvents#0" />
-            <element signature="n#!!block;n#f#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/01. Rest Services and AJAX - Exercises/04. Messenger/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
+        <state relative-caret-position="1190">
           <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
-          <folding>
-            <element signature="n#!!block;n#sendFunc#0;n#!!block;n#attachEvents#0" />
-            <element signature="n#!!block;n#refreshFunc#0;n#!!block;n#attachEvents#0" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01. Rest Services and AJAX/01. Darth Vader Response">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01. Rest Services and AJAX/05.Github-Repos/03. Github Create Issue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01. Rest Services and AJAX/02. Github Labels Issue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="69" column="1" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
         </state>
       </provider>
     </entry>
