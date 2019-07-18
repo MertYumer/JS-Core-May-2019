@@ -22,6 +22,33 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/02. Asynchronous Programming - Exercises/01. Forecaster/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+              <folding>
+                <element signature="e#47#166#0" />
+                <element signature="e#193#281#0" />
+                <element signature="n#!!block;n#loadWeatherInfo#0;n#!!block;n#attachEvents#0" />
+                <element signature="n#!!block;n#loadLocationWeatherInfo#0;n#!!block;n#attachEvents#0" />
+                <element signature="n#!!block;n#f#0;n#!!block;n#attachEvents#0" />
+                <element signature="n#!!block;n#loadUpcomingLocationWeatherInfo#0;n#!!block;n#attachEvents#0" />
+                <element signature="n#!!block;n#showUpcomingLocationWeatherInfo#0;n#!!block;n#attachEvents#0" />
+                <element signature="n#!!block;n#createHTMLElement#0;n#!!block;n#attachEvents#0" />
+                <element signature="n#!!block;n#f#0;n#!!block;n#attachEvents#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02. Asynchronous Programming - Exercises/01. Forecaster/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-408" />
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/01. Rest Services and AJAX - Exercises/02. Bus Schedule/index.html">
           <provider selected="true" editor-type-id="text-editor" />
@@ -63,24 +90,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01. Rest Services and AJAX/01. Darth Vader Response">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/01. Rest Services and AJAX/02. Github Labels Issue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="69" column="1" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -96,14 +105,15 @@
         <option value="$PROJECT_DIR$/01. Rest Services and AJAX/01. Darth Vader Response" />
         <option value="$PROJECT_DIR$/01. Rest Services and AJAX/02. Github Labels Issue" />
         <option value="$PROJECT_DIR$/01. Rest Services and AJAX/05.Github-Repos/03. Github Create Issue" />
+        <option value="$PROJECT_DIR$/02. Asynchronous Programming - Exercises/01. Forecaster/app.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1616" />
-    <option name="height" value="876" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="650" />
+    <option name="y" value="38" />
+    <option name="width" value="927" />
+    <option name="height" value="805" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -111,7 +121,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -122,12 +131,19 @@
             <path>
               <item name="JS Apps - July 2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="JS Apps - July 2019" type="462c0819:PsiDirectoryNode" />
-              <item name="01. Rest Services and AJAX" type="462c0819:PsiDirectoryNode" />
+              <item name="02. Asynchronous Programming - Exercises" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JS Apps - July 2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JS Apps - July 2019" type="462c0819:PsiDirectoryNode" />
+              <item name="02. Asynchronous Programming - Exercises" type="462c0819:PsiDirectoryNode" />
+              <item name="01. Forecaster" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -155,6 +171,16 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="app.js" working-dir="$PROJECT_DIR$/02. Asynchronous Programming - Exercises/01. Forecaster">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.app.js" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -170,21 +196,23 @@
       <workItem from="1563013722207" duration="5610000" />
       <workItem from="1563019839527" duration="334000" />
       <workItem from="1563021463253" duration="48000" />
+      <workItem from="1563452485227" duration="5766000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13529000" />
+    <option name="totallyTimeSpent" value="19295000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="650" y="38" width="927" height="805" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24968314" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17547807" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32914925" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32868525" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -202,6 +230,9 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/01. Rest Services and AJAX/01. Darth Vader Response" />
+    <entry file="file://$PROJECT_DIR$/01. Rest Services and AJAX/05.Github-Repos/03. Github Create Issue" />
+    <entry file="file://$PROJECT_DIR$/01. Rest Services and AJAX/02. Github Labels Issue" />
     <entry file="file://$PROJECT_DIR$/01. Rest Services and AJAX - Exercises/01. Bus Stop/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -240,24 +271,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01. Rest Services and AJAX/01. Darth Vader Response">
+    <entry file="file://$PROJECT_DIR$/02. Asynchronous Programming - Exercises/01. Forecaster/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-        </state>
+        <state relative-caret-position="-408" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01. Rest Services and AJAX/05.Github-Repos/03. Github Create Issue">
+    <entry file="file://$PROJECT_DIR$/02. Asynchronous Programming - Exercises/01. Forecaster/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01. Rest Services and AJAX/02. Github Labels Issue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="69" column="1" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
+        <state relative-caret-position="306">
+          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+          <folding>
+            <element signature="e#47#166#0" />
+            <element signature="e#193#281#0" />
+            <element signature="n#!!block;n#loadWeatherInfo#0;n#!!block;n#attachEvents#0" />
+            <element signature="n#!!block;n#loadLocationWeatherInfo#0;n#!!block;n#attachEvents#0" />
+            <element signature="n#!!block;n#f#0;n#!!block;n#attachEvents#0" />
+            <element signature="n#!!block;n#loadUpcomingLocationWeatherInfo#0;n#!!block;n#attachEvents#0" />
+            <element signature="n#!!block;n#showUpcomingLocationWeatherInfo#0;n#!!block;n#attachEvents#0" />
+            <element signature="n#!!block;n#createHTMLElement#0;n#!!block;n#attachEvents#0" />
+            <element signature="n#!!block;n#f#0;n#!!block;n#attachEvents#0" />
+          </folding>
         </state>
       </provider>
     </entry>
