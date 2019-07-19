@@ -25,19 +25,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/02. Asynchronous Programming - Exercises/01. Forecaster/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+            <state relative-caret-position="541">
+              <caret line="90" column="64" selection-start-line="90" selection-start-column="4" selection-end-line="105" selection-end-column="5" />
               <folding>
-                <element signature="e#47#166#0" />
-                <element signature="e#193#281#0" />
+                <element signature="e#47#333#0" />
+                <element signature="e#356#472#0" />
                 <element signature="n#!!block;n#handler#0;n#!!block;n#attachEvents#0" />
                 <element signature="n#!!block;n#loadWeatherInfo#0;n#!!block;n#attachEvents#0" />
                 <element signature="n#!!block;n#loadLocationWeatherInfo#0;n#!!block;n#attachEvents#0" />
-                <element signature="n#!!block;n#f#0;n#!!block;n#attachEvents#0" />
+                <element signature="n#!!block;n#showLocationWeatherInfo#0;n#!!block;n#attachEvents#0" />
                 <element signature="n#!!block;n#loadUpcomingLocationWeatherInfo#0;n#!!block;n#attachEvents#0" />
                 <element signature="n#!!block;n#showUpcomingLocationWeatherInfo#0;n#!!block;n#attachEvents#0" />
                 <element signature="n#!!block;n#createHTMLElement#0;n#!!block;n#attachEvents#0" />
-                <element signature="n#!!block;n#f#0;n#!!block;n#attachEvents#0" />
+                <element signature="n#!!block;n#appendChildrenToParent#0;n#!!block;n#attachEvents#0" />
               </folding>
             </state>
           </provider>
@@ -46,10 +46,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/02. Asynchronous Programming - Exercises/02. Fisher-Game/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="442">
+              <caret line="83" column="27" selection-start-line="83" selection-start-column="27" selection-end-line="83" selection-end-column="27" />
               <folding>
-                <element signature="n#!!block;n#createCatch#0;n#!!block;n#attachEvents#0" />
+                <element signature="e#47#222#0" />
+                <element signature="n#!!block;n#handler#0;n#!!block;n#attachEvents#0" />
+                <element signature="n#!!block;n#loadAllCatches#0;n#!!block;n#attachEvents#0" />
+                <element signature="n#!!block;n#showAllCatches#0;n#!!block;n#attachEvents#0" />
+                <element signature="n#!!block;n#deleteCatch#0;n#!!block;n#showAllCatches#0;n#!!block;n#attachEvents#0" />
+                <element signature="n#!!block;n#f#0;n#!!block;n#showAllCatches#0;n#!!block;n#attachEvents#0" />
                 <element signature="n#!!block;n#f#0;n#!!block;n#attachEvents#0" />
               </folding>
             </state>
@@ -59,17 +64,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/02. Asynchronous Programming - Exercises/02. Fisher-Game/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1224">
-              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+            <state relative-caret-position="204">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/02. Asynchronous Programming - Exercises/01. Forecaster/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-408" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -162,6 +165,12 @@
               <item name="JS Apps - July 2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="JS Apps - July 2019" type="462c0819:PsiDirectoryNode" />
               <item name="02. Asynchronous Programming - Exercises" type="462c0819:PsiDirectoryNode" />
+              <item name="01. Forecaster" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JS Apps - July 2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JS Apps - July 2019" type="462c0819:PsiDirectoryNode" />
+              <item name="02. Asynchronous Programming - Exercises" type="462c0819:PsiDirectoryNode" />
               <item name="02. Fisher-Game" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -222,17 +231,18 @@
       <workItem from="1563019839527" duration="334000" />
       <workItem from="1563021463253" duration="48000" />
       <workItem from="1563452485227" duration="8676000" />
+      <workItem from="1563530633146" duration="6191000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22205000" />
+    <option name="totallyTimeSpent" value="28396000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09885932" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09885932" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -265,6 +275,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/02. Asynchronous Programming - Exercises/01. Forecaster/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/01. Rest Services and AJAX - Exercises/02. Bus Schedule/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -296,43 +309,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02. Asynchronous Programming - Exercises/01. Forecaster/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-408" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/02. Asynchronous Programming - Exercises/01. Forecaster/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        <state relative-caret-position="541">
+          <caret line="90" column="64" selection-start-line="90" selection-start-column="4" selection-end-line="105" selection-end-column="5" />
           <folding>
-            <element signature="e#47#166#0" />
-            <element signature="e#193#281#0" />
+            <element signature="e#47#333#0" />
+            <element signature="e#356#472#0" />
             <element signature="n#!!block;n#handler#0;n#!!block;n#attachEvents#0" />
             <element signature="n#!!block;n#loadWeatherInfo#0;n#!!block;n#attachEvents#0" />
             <element signature="n#!!block;n#loadLocationWeatherInfo#0;n#!!block;n#attachEvents#0" />
-            <element signature="n#!!block;n#f#0;n#!!block;n#attachEvents#0" />
+            <element signature="n#!!block;n#showLocationWeatherInfo#0;n#!!block;n#attachEvents#0" />
             <element signature="n#!!block;n#loadUpcomingLocationWeatherInfo#0;n#!!block;n#attachEvents#0" />
             <element signature="n#!!block;n#showUpcomingLocationWeatherInfo#0;n#!!block;n#attachEvents#0" />
             <element signature="n#!!block;n#createHTMLElement#0;n#!!block;n#attachEvents#0" />
-            <element signature="n#!!block;n#f#0;n#!!block;n#attachEvents#0" />
+            <element signature="n#!!block;n#appendChildrenToParent#0;n#!!block;n#attachEvents#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/02. Asynchronous Programming - Exercises/02. Fisher-Game/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1224">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        <state relative-caret-position="204">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/02. Asynchronous Programming - Exercises/02. Fisher-Game/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="442">
+          <caret line="83" column="27" selection-start-line="83" selection-start-column="27" selection-end-line="83" selection-end-column="27" />
           <folding>
-            <element signature="n#!!block;n#createCatch#0;n#!!block;n#attachEvents#0" />
+            <element signature="e#47#222#0" />
+            <element signature="n#!!block;n#handler#0;n#!!block;n#attachEvents#0" />
+            <element signature="n#!!block;n#loadAllCatches#0;n#!!block;n#attachEvents#0" />
+            <element signature="n#!!block;n#showAllCatches#0;n#!!block;n#attachEvents#0" />
+            <element signature="n#!!block;n#deleteCatch#0;n#!!block;n#showAllCatches#0;n#!!block;n#attachEvents#0" />
+            <element signature="n#!!block;n#f#0;n#!!block;n#showAllCatches#0;n#!!block;n#attachEvents#0" />
             <element signature="n#!!block;n#f#0;n#!!block;n#attachEvents#0" />
           </folding>
         </state>
