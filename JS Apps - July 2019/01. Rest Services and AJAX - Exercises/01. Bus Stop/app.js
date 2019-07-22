@@ -1,9 +1,9 @@
 function getInfo() {
-    const stopId = document.getElementById('stopId').value;
+    const stopId = document.getElementById('stopId');
     const stopName = document.getElementById('stopName');
     const busesList = document.getElementById('buses');
     busesList.innerHTML = '';
-    const url = `https://judgetests.firebaseio.com/businfo/${stopId}.json`;
+    const url = `https://judgetests.firebaseio.com/businfo/${stopId.value}.json`;
 
     request('GET', url, true);
 
@@ -31,6 +31,7 @@ function getInfo() {
 
         request.open(method, url, async);
         request.send();
+        stopId.value = '';
     }
 }
 

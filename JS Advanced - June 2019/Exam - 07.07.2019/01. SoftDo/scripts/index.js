@@ -10,10 +10,10 @@ function mySolution() {
 
         if (textArea.value) {
             const questionDiv = document.createElement('div');
-            questionDiv.className = 'pendingQuestion';
+            questionDiv.classList.add('pendingQuestion');
 
             const img = document.createElement('img');
-            img.src = "./images/user.png";
+            img.src = './images/user.png';
             img.width = 32;
             img.height = 32;
 
@@ -28,20 +28,21 @@ function mySolution() {
             const p = document.createElement('p');
             p.textContent = textArea.value;
 
+            const buttonsDiv = document.createElement('div');
+            buttonsDiv.classList.add('actions');
+
             const archiveButton = document.createElement('button');
-            archiveButton.className = 'archive';
+            archiveButton.classList.add('archive');
             archiveButton.textContent = 'Archive';
             archiveButton.addEventListener('click', function (e) {
-                questionDiv.remove();
+                e.target.parentNode.parentNode.remove();
             });
 
             const openButton = document.createElement('button');
-            openButton.className = 'open';
+            openButton.classList.add('open');
             openButton.textContent = 'Open';
             openButton.addEventListener('click', moveQuestion);
 
-            const buttonsDiv = document.createElement('div');
-            buttonsDiv.className = 'actions';
             buttonsDiv.appendChild(archiveButton);
             buttonsDiv.appendChild(openButton);
 
@@ -59,44 +60,42 @@ function mySolution() {
 
     function moveQuestion(e) {
         const questionDiv = e.target.parentNode.parentNode;
-        questionDiv.className = 'openQuestion';
+        openQuestions.appendChild(questionDiv);
+        questionDiv.classList.remove('pendingQuestion');
+        questionDiv.classList.add('openQuestion');
 
         const buttonsDiv = questionDiv.lastChild;
-        buttonsDiv.removeChild(buttonsDiv.firstChild);
-        buttonsDiv.removeChild(buttonsDiv.firstChild);
+        buttonsDiv.innerHTML = '';
 
         const replyButton = document.createElement('button');
-        replyButton.className = 'reply';
+        replyButton.classList.add('reply');
         replyButton.textContent = 'Reply';
         replyButton.addEventListener('click', reply);
 
         buttonsDiv.appendChild(replyButton);
 
+        const replySection = document.createElement('div');
+        replySection.classList.add('replySection');
+        replySection.style.display = 'none';
+
         const replyInput = document.createElement('input');
-        replyInput.className = 'replyInput';
+        replyInput.classList.add('replyInput');
         replyInput.type = 'text';
         replyInput.placeholder = 'Reply to this question here...';
 
         const sendReplyButton = document.createElement('button');
-        sendReplyButton.className = 'replyButton';
+        sendReplyButton.classList.add('replyButton');
         sendReplyButton.textContent = 'Send';
 
         const ol = document.createElement('ol');
-        ol.className = 'reply';
+        ol.classList.add('reply');
         ol.type = '1';
-
-        const replySection = document.createElement('div');
-        replySection.className = 'replySection';
-        replySection.style.display = 'none';
 
         replySection.appendChild(replyInput);
         replySection.appendChild(sendReplyButton);
         replySection.appendChild(ol);
 
         questionDiv.appendChild(replySection);
-
-        pendingQuestions.removeChild(questionDiv);
-        openQuestions.appendChild(questionDiv);
     }
 
     function reply(e) {
