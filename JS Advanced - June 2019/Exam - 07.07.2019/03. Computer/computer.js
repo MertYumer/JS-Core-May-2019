@@ -1,7 +1,7 @@
 class Computer {
     constructor(ramMemory, cpuGHz, hddMemory) {
         this.ramMemory = ramMemory;
-        this.cpuGHZ = cpuGHz;
+        this.cpuGHz = cpuGHz;
         this.hddMemory = hddMemory;
         this.taskManager = [];
         this.installedPrograms = [];
@@ -56,7 +56,7 @@ class Computer {
         const program = this.installedPrograms[programIndexInInstalledPrograms];
 
         const ramUsage = (program.requiredSpace / this.ramMemory) * 1.5;
-        const cpuUsage = ((program.requiredSpace / this.cpuGHZ) / 500) * 1.5;
+        const cpuUsage = ((program.requiredSpace / this.cpuGHz) / 500) * 1.5;
 
         if (this.totalRamUsage + ramUsage >= 100) {
             throw new Error(`${name} caused out of memory exception`);
@@ -66,14 +66,14 @@ class Computer {
             throw new Error(`${name} caused out of cpu exception`);
         }
 
-        this.totalRamUsage += program.ramUsage;
-        this.totalCpuUsage += program.cpuUsage;
-
         const openedProgram = {
             name,
             ramUsage,
             cpuUsage
         };
+
+        this.totalRamUsage += openedProgram.ramUsage;
+        this.totalCpuUsage += openedProgram.cpuUsage;
 
         this.taskManager.push(openedProgram);
         return openedProgram;
