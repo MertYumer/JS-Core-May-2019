@@ -25,6 +25,8 @@ const storage = function () {
         getData,
         saveData,
         saveUser,
-        deleteUser
+        deleteUser,
+        appKey,
+        appSecret
     };
 };
