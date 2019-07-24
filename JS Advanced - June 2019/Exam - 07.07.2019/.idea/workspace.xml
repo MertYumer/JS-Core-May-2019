@@ -92,11 +92,6 @@
               <item name="Exam - 07.07.2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="Exam - 07.07.2019" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Exam - 07.07.2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Exam - 07.07.2019" type="462c0819:PsiDirectoryNode" />
-              <item name="03. Computer" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -177,6 +172,7 @@
       <workItem from="1563543741810" duration="1902000" />
       <workItem from="1563805216742" duration="83000" />
       <workItem from="1563914751395" duration="1820000" />
+      <workItem from="1563963599305" duration="16000" />
     </task>
     <servers />
   </component>
@@ -213,11 +209,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20912000" />
+    <option name="totallyTimeSpent" value="20928000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24968314" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

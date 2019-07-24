@@ -14,101 +14,95 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03. Remote Databases - Exercises/03. Venuemaster/app.js">
+        <entry file="file://$PROJECT_DIR$/05. Templating - Exercises/02. HTTP Status Cats/cats.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="94" selection-start-line="94" selection-end-line="94" />
-              <folding>
-                <element signature="n#!!block;n#getVenues#0" />
-                <element signature="n#!!block;n#getInfoForVenue#0" />
-                <element signature="n#!!block;n#purchaseTickets#0" />
-                <element signature="n#!!block;n#confirmPurchase#0" />
-                <element signature="n#!!block;n#handler#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/package-lock.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2010" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/helpers/requester.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-              <folding>
-                <element signature="e#56#64#0" />
-                <element signature="e#102#110#0" />
-                <element signature="e#140#148#0" />
-                <element signature="e#178#186#0" />
-              </folding>
+            <state>
+              <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/helpers/storage.js">
+        <entry file="file://$PROJECT_DIR$/05. Templating - Exercises/03. Popular Monkeys/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="2" column="54" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
+            <state relative-caret-position="340">
+              <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/scripts/app.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/package.json">
+        <entry file="file://$PROJECT_DIR$/05. Templating - Exercises/02. HTTP Status Cats/template.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+            <state relative-caret-position="282">
+              <caret line="27" column="12" lean-forward="true" selection-start-line="19" selection-end-line="31" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01. Rest Services and AJAX - Exercises/02. Bus Schedule/app.js">
+        <entry file="file://$PROJECT_DIR$/05. Templating - Exercises/02. HTTP Status Cats/catSeeder.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
-              <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+            <state relative-caret-position="316">
+              <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01. Rest Services and AJAX - Exercises/03. Phonebook/app.js">
+        <entry file="file://$PROJECT_DIR$/05. Templating - Exercises/02. HTTP Status Cats/catsTemplate.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+            <state relative-caret-position="170">
+              <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
               <folding>
-                <element signature="n#!!block;n#createContact#0;n#!!block;n#attachEvents#0" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01. Rest Services and AJAX - Exercises/04. Messenger/app.js">
+        <entry file="file://$PROJECT_DIR$/05. Templating - Exercises/03. Popular Monkeys/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1190">
-              <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+            <state relative-caret-position="-58" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05. Templating - Exercises/03. Popular Monkeys/allMonkeys.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05. Templating - Exercises/03. Popular Monkeys/monkey.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+              <folding>
+                <element signature="n#style#0;n#p#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05. Templating - Exercises/03. Popular Monkeys/monkeysTemplate.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="748">
+              <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05. Templating - Exercises/03. Popular Monkeys/monkeys.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1258">
+              <caret line="37" column="2" selection-start-line="37" selection-start-column="2" selection-end-line="37" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -118,8 +112,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="package.json" />
         <option value="JavaScript File" />
+        <option value="package.json" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -148,6 +143,18 @@
         <option value="$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/index.html" />
         <option value="$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/helpers/requester.js" />
         <option value="$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/helpers/storage.js" />
+        <option value="$PROJECT_DIR$/05. Templating - Exercises/01. List Towns/package.json" />
+        <option value="$PROJECT_DIR$/05. Templating - Exercises/01. List Towns/towns.js" />
+        <option value="$PROJECT_DIR$/05. Templating - Exercises/01. List Towns/index.html" />
+        <option value="$PROJECT_DIR$/05. Templating - Exercises/02. HTTP Status Cats/catSeeder.js" />
+        <option value="$PROJECT_DIR$/05. Templating - Exercises/02. HTTP Status Cats/cats.html" />
+        <option value="$PROJECT_DIR$/05. Templating - Exercises/02. HTTP Status Cats/catsTemplate.html" />
+        <option value="$PROJECT_DIR$/05. Templating - Exercises/02. HTTP Status Cats/template.js" />
+        <option value="$PROJECT_DIR$/05. Templating - Exercises/03. Popular Monkeys/monkeys.js" />
+        <option value="$PROJECT_DIR$/05. Templating - Exercises/03. Popular Monkeys/index.html" />
+        <option value="$PROJECT_DIR$/05. Templating - Exercises/03. Popular Monkeys/monkeysTemplate.html" />
+        <option value="$PROJECT_DIR$/05. Templating - Exercises/03. Popular Monkeys/monkey.html" />
+        <option value="$PROJECT_DIR$/05. Templating - Exercises/03. Popular Monkeys/monkeysTemplate.js" />
       </list>
     </option>
   </component>
@@ -163,7 +170,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -174,28 +180,23 @@
             <path>
               <item name="JS Apps - July 2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="JS Apps - July 2019" type="462c0819:PsiDirectoryNode" />
-              <item name="04. Routing and Architecture" type="462c0819:PsiDirectoryNode" />
+              <item name="05. Templating - Exercises" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JS Apps - July 2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="JS Apps - July 2019" type="462c0819:PsiDirectoryNode" />
-              <item name="04. Routing and Architecture" type="462c0819:PsiDirectoryNode" />
-              <item name="Team-Manager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JS Apps - July 2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JS Apps - July 2019" type="462c0819:PsiDirectoryNode" />
-              <item name="04. Routing and Architecture" type="462c0819:PsiDirectoryNode" />
-              <item name="Team-Manager" type="462c0819:PsiDirectoryNode" />
-              <item name="helpers" type="462c0819:PsiDirectoryNode" />
+              <item name="05. Templating - Exercises" type="462c0819:PsiDirectoryNode" />
+              <item name="03. Popular Monkeys" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/04. Routing and Architecture/Team-Manager" />
@@ -207,9 +208,12 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\JS Core - May 2019\JS Apps - July 2019\05. Templating - Exercises\files" />
+      <recent name="D:\Projects\JS Core - May 2019\JS Apps - July 2019\05. Templating - Exercises" />
       <recent name="D:\Projects\JS Core - May 2019\JS Apps - July 2019\04. Routing and Architecture\Team-Manager-Skeleton" />
     </key>
   </component>
@@ -225,12 +229,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+    <configuration name="cats.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS Apps - July 2019/05. Templating - Exercises/02. HTTP Status Cats/cats.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS Apps - July 2019/05. Templating - Exercises/03. Popular Monkeys/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS Apps - July 2019/05. Templating - Exercises/01. List Towns/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="app.js" working-dir="$PROJECT_DIR$/02. Asynchronous Programming - Exercises/01. Forecaster">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html (1)" />
+        <item itemvalue="JavaScript Debug.cats.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="Node.js.app.js" />
       </list>
     </recent_temporary>
@@ -257,22 +273,25 @@
       <workItem from="1563805302407" duration="8969000" />
       <workItem from="1563820537669" duration="4115000" />
       <workItem from="1563881043711" duration="1906000" />
+      <workItem from="1563965584930" duration="1974000" />
+      <workItem from="1563967711563" duration="9896000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45275000" />
+    <option name="totallyTimeSpent" value="57145000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18884665" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32914925" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32817337" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.53277546" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39888424" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -384,6 +403,54 @@
     <entry file="file://$PROJECT_DIR$/01. Rest Services and AJAX - Exercises/01. Bus Stop/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/03. Remote Databases - Exercises/03. Venuemaster/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2074">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+          <folding>
+            <element signature="n#!!block;n#getVenues#0" />
+            <element signature="n#!!block;n#getInfoForVenue#0" />
+            <element signature="n#!!block;n#purchaseTickets#0" />
+            <element signature="n#!!block;n#confirmPurchase#0" />
+            <element signature="n#!!block;n#handler#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/helpers/requester.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/helpers/storage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="2" column="54" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/scripts/app.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/01. Rest Services and AJAX - Exercises/02. Bus Schedule/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="884">
@@ -408,59 +475,112 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03. Remote Databases - Exercises/03. Venuemaster/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="94" selection-start-line="94" selection-end-line="94" />
-          <folding>
-            <element signature="n#!!block;n#getVenues#0" />
-            <element signature="n#!!block;n#getInfoForVenue#0" />
-            <element signature="n#!!block;n#purchaseTickets#0" />
-            <element signature="n#!!block;n#confirmPurchase#0" />
-            <element signature="n#!!block;n#handler#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/scripts/app.js">
+    <entry file="file://$PROJECT_DIR$/05. Templating - Exercises/01. List Towns/style.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/package.json">
+    <entry file="file://$PROJECT_DIR$/05. Templating - Exercises/01. List Towns/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+        <state relative-caret-position="136">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/package-lock.json">
+    <entry file="file://$PROJECT_DIR$/05. Templating - Exercises/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2010" />
+        <state relative-caret-position="-102" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/index.html">
+    <entry file="file://$PROJECT_DIR$/05. Templating - Exercises/01. List Towns/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+        <state relative-caret-position="78">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/helpers/requester.js">
+    <entry file="file://$PROJECT_DIR$/05. Templating - Exercises/01. List Towns/node_modules/handlebars/dist/cjs/handlebars.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05. Templating - Exercises/files/handlebars.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05. Templating - Exercises/01. List Towns/towns.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+        <state relative-caret-position="510">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05. Templating - Exercises/02. HTTP Status Cats/catSeeder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05. Templating - Exercises/02. HTTP Status Cats/cats.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05. Templating - Exercises/02. HTTP Status Cats/catsTemplate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
           <folding>
-            <element signature="e#56#64#0" />
-            <element signature="e#102#110#0" />
-            <element signature="e#140#148#0" />
-            <element signature="e#178#186#0" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/helpers/storage.js">
+    <entry file="file://$PROJECT_DIR$/05. Templating - Exercises/03. Popular Monkeys/allMonkeys.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05. Templating - Exercises/02. HTTP Status Cats/template.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="27" column="12" lean-forward="true" selection-start-line="19" selection-end-line="31" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05. Templating - Exercises/03. Popular Monkeys/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-58" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05. Templating - Exercises/03. Popular Monkeys/monkeys.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="37" column="2" selection-start-line="37" selection-start-column="2" selection-end-line="37" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05. Templating - Exercises/03. Popular Monkeys/monkey.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="2" column="54" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
+          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05. Templating - Exercises/03. Popular Monkeys/monkeysTemplate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05. Templating - Exercises/03. Popular Monkeys/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
         </state>
       </provider>
     </entry>

@@ -3,7 +3,7 @@ const storage = function () {
     const appSecret = 'f3ad3db42e9646f5a16e153e58d70119';
 
     const getData = function (key) {
-        localStorage.getItem(key + appKey);
+        return localStorage.getItem(key + appKey);
     };
 
     const saveData = function (key, value) {
