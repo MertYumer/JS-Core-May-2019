@@ -29,4 +29,4 @@ const storage = function () {
         appKey,
         appSecret
     };
-};
+}();

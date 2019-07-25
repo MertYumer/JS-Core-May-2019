@@ -1,26 +1,28 @@
 const requester = function () {
+    const baseUrl = 'https://baas.kinvey.com';
+
     const get = function (url, headers) {
         headers.method = 'GET';
-        makeRequest(url, headers);
+        return makeRequest(url, headers);
     };
 
     const post = function (url, headers) {
         headers.method = 'POST';
-        makeRequest(url, headers);
+        return makeRequest(baseUrl + url, headers);
     };
 
     const put = function (url, headers) {
         headers.method = 'PUT';
-        makeRequest(url, headers);
+        return makeRequest(url, headers);
     };
 
     const del = function (url, headers) {
         headers.method = 'DELETE';
-        makeRequest(url, headers);
+        return makeRequest(url, headers);
     };
 
     const makeRequest = function (url, headers) {
-        //headers.headers['Content-Type'] = 'application/json';
+        headers.headers['Content-Type'] = 'application/json';
         //TODO Authorization Kinvey
         return fetch(url, headers);
     };
