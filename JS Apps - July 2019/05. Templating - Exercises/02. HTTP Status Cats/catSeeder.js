@@ -8,7 +8,7 @@
         }
     }
 
-    const cats = [
+    let cats = [
         new Cat('100', 100, 'Continue', 'cat100'),
         new Cat('200', 200, 'Ok', 'cat200'),
         new Cat('204', 204, 'No content', 'cat204'),
@@ -19,8 +19,8 @@
         new Cat('406', 406, 'Not Acceptable', 'cat406'),
         new Cat('410', 410, 'Gone', 'cat410'),
         new Cat('500', 500, 'Internal Server Error', 'cat500'),
-        new Cat('511', 511, 'Network Authentication Required', 'cat511')
+        new Cat('511', 500, 'Network Authentication Required', 'cat511')
     ];
 
     window.cats = cats;
-})();
+})()
