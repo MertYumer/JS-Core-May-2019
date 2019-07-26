@@ -79,7 +79,7 @@ function loadBooks() {
     })
         .then(handler)
         .then(data => data.forEach(element => {
-            const [id, isbn, author, title] = Object.values(element);
+            const [id, title, author, isbn] = Object.values(element);
             const currentTr = createTableRow(title, author, isbn, id);
             elements.tableBody.appendChild(currentTr);
         }));

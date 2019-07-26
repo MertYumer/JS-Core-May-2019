@@ -13,20 +13,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/index.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/03. Remote Databases - Exercises/01. Books/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="28" column="59" lean-forward="true" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
+            <state relative-caret-position="449">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
+              <folding>
+                <element signature="n#!!block;n#createTableRow#0" />
+                <element signature="n#!!block;n#editOrDeleteBook#0" />
+                <element signature="n#!!block;n#deleteBook#0" />
+                <element signature="n#!!block;n#editBook#0" />
+                <element signature="n#!!block;n#handler#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/controllers/userController.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/03. Remote Databases - Exercises/02. Students/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="476">
+              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+              <folding>
+                <element signature="n#!!block;n#createTableRow#0" />
+                <element signature="n#!!block;n#handler#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -34,7 +45,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/helpers/storage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
+            <state relative-caret-position="646">
               <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
             </state>
           </provider>
@@ -131,7 +142,6 @@
         <option value="$PROJECT_DIR$/02. Asynchronous Programming - Exercises/02. Fisher-Game/index.html" />
         <option value="$PROJECT_DIR$/01. Rest Services and AJAX - Exercises/01. Bus Stop/app.js" />
         <option value="$PROJECT_DIR$/03. Remote Databases - Exercises/01. Books/index.html" />
-        <option value="$PROJECT_DIR$/03. Remote Databases - Exercises/01. Books/app.js" />
         <option value="$PROJECT_DIR$/03. Remote Databases - Exercises/02. Students/app.js" />
         <option value="$PROJECT_DIR$/03. Remote Databases - Exercises/03. Venuemaster/app.js" />
         <option value="$PROJECT_DIR$/04. Routing and Architecture/Team-Manager-Skeleton/package.json" />
@@ -160,10 +170,11 @@
         <option value="$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/models/userModel.js" />
         <option value="$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/controllers/userController.js" />
         <option value="$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/helpers/helper.js" />
+        <option value="$PROJECT_DIR$/03. Remote Databases - Exercises/01. Books/app.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="650" />
     <option name="y" value="38" />
     <option name="width" value="927" />
@@ -186,20 +197,13 @@
             <path>
               <item name="JS Apps - July 2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="JS Apps - July 2019" type="462c0819:PsiDirectoryNode" />
-              <item name="04. Routing and Architecture" type="462c0819:PsiDirectoryNode" />
+              <item name="03. Remote Databases - Exercises" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JS Apps - July 2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="JS Apps - July 2019" type="462c0819:PsiDirectoryNode" />
-              <item name="04. Routing and Architecture" type="462c0819:PsiDirectoryNode" />
-              <item name="Team-Manager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JS Apps - July 2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JS Apps - July 2019" type="462c0819:PsiDirectoryNode" />
-              <item name="04. Routing and Architecture" type="462c0819:PsiDirectoryNode" />
-              <item name="Team-Manager" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="03. Remote Databases - Exercises" type="462c0819:PsiDirectoryNode" />
+              <item name="02. Students" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -298,11 +302,12 @@
       <workItem from="1564055750349" duration="6019000" />
       <workItem from="1564140550669" duration="4394000" />
       <workItem from="1564145710118" duration="797000" />
+      <workItem from="1564147413662" duration="823000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69584000" />
+    <option name="totallyTimeSpent" value="70407000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -324,7 +329,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="3" visible="true" weight="0.16388175" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="3" visible="true" weight="0.16580977" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -350,32 +355,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/03. Remote Databases - Exercises/02. Students/index.html">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03. Remote Databases - Exercises/01. Books/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1938">
-          <caret line="164" column="27" selection-start-line="164" selection-end-line="170" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!block;n#createBook#0" />
-            <element signature="n#!!block;n#createTableRow#0" />
-            <element signature="n#!!block;n#editOrDeleteBook#0" />
-            <element signature="n#!!block;n#deleteBook#0" />
-            <element signature="n#!!block;n#editBook#0" />
-            <element signature="n#!!block;n#handler#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03. Remote Databases - Exercises/02. Students/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding>
-            <element signature="n#!!block;n#createTableRow#0" />
-            <element signature="n#!!block;n#handler#0" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/03. Remote Databases - Exercises/01. Books/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -569,6 +548,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="28" column="59" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/controllers/userController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/helpers/storage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/helpers/helper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/views/home/home.hbs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -585,6 +592,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/scripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/helpers/requester.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -598,27 +612,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/helpers/storage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/controllers/userController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/helpers/helper.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/controllers/homeController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -626,17 +619,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/scripts/app.js">
+    <entry file="file://$PROJECT_DIR$/03. Remote Databases - Exercises/01. Books/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+        <state relative-caret-position="449">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="n#!!block;n#createTableRow#0" />
+            <element signature="n#!!block;n#editOrDeleteBook#0" />
+            <element signature="n#!!block;n#deleteBook#0" />
+            <element signature="n#!!block;n#editBook#0" />
+            <element signature="n#!!block;n#handler#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/index.html">
+    <entry file="file://$PROJECT_DIR$/03. Remote Databases - Exercises/02. Students/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="28" column="59" lean-forward="true" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
+        <state relative-caret-position="476">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <element signature="n#!!block;n#createTableRow#0" />
+            <element signature="n#!!block;n#handler#0" />
+          </folding>
         </state>
       </provider>
     </entry>
