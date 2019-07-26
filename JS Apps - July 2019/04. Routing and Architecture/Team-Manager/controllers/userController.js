@@ -4,7 +4,7 @@ const userController = function () {
             header: "./views/common/header.hbs",
             footer: "./views/common/footer.hbs"
 
-        }).then(function(){
+        }).then(function () {
             this.partial('./views/register/registerPage.hbs')
         });
     };
@@ -14,7 +14,7 @@ const userController = function () {
             header: "./views/common/header.hbs",
             footer: "./views/common/footer.hbs"
 
-        }).then(function(){
+        }).then(function () {
             this.partial('./views/login/loginPage.hbs')
         });
     };
@@ -23,17 +23,38 @@ const userController = function () {
         userModel
             .register(context.params)
             .then(helper.handler)
-            .then(data => console.log(data));
+            .then(data => {
+                storage.saveUser(data);
+                homeController.getHome(context);
+            });
     };
 
-    const postLogin = function () {
+    const postLogin = function (context) {
+        userModel
+            .login(context.params)
+            .then(helper.handler)
+            .then(data => {
+                storage.saveUser(data);
+                homeController.getHome(context);
 
+            });
+    };
+
+    const logout = function (context) {
+        userModel
+            .logout()
+            .then(helper.handler)
+            .then(data => {
+                storage.deleteUser();
+                homeController.getHome(context);
+            });
     };
 
     return {
         getRegister,
         getLogin,
         postRegister,
-        postLogin
+        postLogin,
+        logout
     }
 }();

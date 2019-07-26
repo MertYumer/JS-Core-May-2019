@@ -20,7 +20,35 @@ const userModel = function () {
         return requester.post(url, headers);
     };
 
+    const login = function (params) {
+        const url = `/user/${storage.appKey}/login`;
+        const auth = btoa(`${params.username}:${params.password}`);
+        const authString = `Basic ${auth}`;
+
+        const headers = {
+            headers: {
+                Authorization: authString
+            },
+
+            body: JSON.stringify({...params})
+        };
+
+        return requester.post(url, headers);
+    };
+
+    const logout = function () {
+        const url = `/user/${storage.appKey}/_logout`;
+        const headers = {
+            headers: {
+            }
+        };
+
+        return requester.post(url, headers);
+    };
+
     return {
-        register
+        register,
+        login,
+        logout
     };
 }();

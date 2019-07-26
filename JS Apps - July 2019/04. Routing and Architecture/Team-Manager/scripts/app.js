@@ -10,6 +10,7 @@ const app = Sammy('#main', function () {
 
     this.post('#/register', userController.postRegister);
     this.post('#/login', userController.postLogin);
+    this.get('#/logout', userController.logout);
 });
 
 (() => {

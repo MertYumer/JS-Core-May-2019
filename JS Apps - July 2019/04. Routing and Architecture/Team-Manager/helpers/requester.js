@@ -23,7 +23,12 @@ const requester = function () {
 
     const makeRequest = function (url, headers) {
         headers.headers['Content-Type'] = 'application/json';
-        //TODO Authorization Kinvey
+
+        if (storage.getData('userInfo') !== null) {
+            const token = JSON.parse(storage.getData('authToken'));
+            headers.headers['Authorization'] = `Kinvey ${token}`;
+        }
+
         return fetch(url, headers);
     };
 

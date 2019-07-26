@@ -13,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="962">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="418">
+              <caret line="28" column="59" lean-forward="true" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -26,7 +26,7 @@
         <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/controllers/userController.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="21" column="45" lean-forward="true" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
@@ -34,8 +34,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/helpers/storage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="31" column="3" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+            <state relative-caret-position="442">
+              <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -44,25 +44,29 @@
         <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/helpers/helper.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+              <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/models/userModel.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/views/home/home.hbs">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/helpers/requester.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/views/common/header.hbs">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/models/userModel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+            <state relative-caret-position="136">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="e#71#554#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -70,26 +74,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/scripts/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="8" column="49" lean-forward="true" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+            <state relative-caret-position="408">
+              <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/views/login/loginPage.hbs">
+        <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/helpers/requester.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/views/register/registerPage.hbs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="306">
+              <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+              <folding>
+                <element signature="e#120#201#0" />
+                <element signature="e#245#337#0" />
+                <element signature="e#380#461#0" />
+                <element signature="e#504#588#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -97,8 +98,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/controllers/homeController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+            <state relative-caret-position="272">
+              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -148,17 +149,17 @@
         <option value="$PROJECT_DIR$/05. Templating - Exercises/03. Popular Monkeys/monkey.html" />
         <option value="$PROJECT_DIR$/05. Templating - Exercises/03. Popular Monkeys/monkeysTemplate.js" />
         <option value="$PROJECT_DIR$/02. Asynchronous Programming - Exercises/02. Fisher-Game/app.js" />
-        <option value="$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/controllers/homeController.js" />
         <option value="$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/views/register/registerPage.hbs" />
         <option value="$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/views/login/loginPage.hbs" />
-        <option value="$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/scripts/app.js" />
         <option value="$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/scripts/models/userModel.js" />
-        <option value="$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/helpers/helper.js" />
         <option value="$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/index.html" />
-        <option value="$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/controllers/userController.js" />
+        <option value="$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/scripts/app.js" />
+        <option value="$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/helpers/requester.js" />
+        <option value="$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/controllers/homeController.js" />
         <option value="$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/helpers/storage.js" />
         <option value="$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/models/userModel.js" />
-        <option value="$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/helpers/requester.js" />
+        <option value="$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/controllers/userController.js" />
+        <option value="$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/helpers/helper.js" />
       </list>
     </option>
   </component>
@@ -192,27 +193,6 @@
               <item name="JS Apps - July 2019" type="462c0819:PsiDirectoryNode" />
               <item name="04. Routing and Architecture" type="462c0819:PsiDirectoryNode" />
               <item name="Team-Manager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JS Apps - July 2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JS Apps - July 2019" type="462c0819:PsiDirectoryNode" />
-              <item name="04. Routing and Architecture" type="462c0819:PsiDirectoryNode" />
-              <item name="Team-Manager" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JS Apps - July 2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JS Apps - July 2019" type="462c0819:PsiDirectoryNode" />
-              <item name="04. Routing and Architecture" type="462c0819:PsiDirectoryNode" />
-              <item name="Team-Manager" type="462c0819:PsiDirectoryNode" />
-              <item name="helpers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JS Apps - July 2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JS Apps - July 2019" type="462c0819:PsiDirectoryNode" />
-              <item name="04. Routing and Architecture" type="462c0819:PsiDirectoryNode" />
-              <item name="Team-Manager" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JS Apps - July 2019" type="b2602c69:ProjectViewProjectNode" />
@@ -316,11 +296,13 @@
       <workItem from="1564052542035" duration="91000" />
       <workItem from="1564053323441" duration="1012000" />
       <workItem from="1564055750349" duration="6019000" />
+      <workItem from="1564140550669" duration="4394000" />
+      <workItem from="1564145710118" duration="797000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64393000" />
+    <option name="totallyTimeSpent" value="69584000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -342,15 +324,13 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="3" visible="true" weight="0.1600257" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="3" visible="true" weight="0.16388175" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/01. Rest Services and AJAX/05.Github-Repos/03. Github Create Issue" />
-    <entry file="file://$PROJECT_DIR$/01. Rest Services and AJAX/02. Github Labels Issue" />
     <entry file="file://$PROJECT_DIR$/01. Rest Services and AJAX - Exercises/01. Bus Stop/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -571,17 +551,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/views/register/registerForm.hbs">
+    <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/views/register/registerForm.hbs" />
+    <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/views/login/loginForm.hbs" />
+    <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/scripts/models/requester.js" />
+    <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/scripts/models/auth.js" />
+    <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/views/login/loginPage.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="12" column="10" lean-forward="true" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/controllers/homeController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        <state relative-caret-position="442">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -592,72 +569,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/views/login/loginForm.hbs">
+    <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/views/home/home.hbs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/views/common/header.hbs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/models/userModel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="3" column="11" lean-forward="true" selection-end-line="10" selection-end-column="7" />
+        <state relative-caret-position="136">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#71#554#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/views/login/loginPage.hbs">
+    <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/helpers/requester.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+          <folding>
+            <element signature="e#120#201#0" />
+            <element signature="e#245#337#0" />
+            <element signature="e#380#461#0" />
+            <element signature="e#504#588#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/helpers/storage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/scripts/models/requester.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/scripts/models/auth.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/helpers/helper.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/scripts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="8" column="49" lean-forward="true" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+          <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/controllers/userController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="21" column="45" lean-forward="true" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/models/userModel.js">
+    <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/helpers/helper.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="204">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/controllers/homeController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/scripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="962">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/helpers/storage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="31" column="3" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/helpers/requester.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+        <state relative-caret-position="418">
+          <caret line="28" column="59" lean-forward="true" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
         </state>
       </provider>
     </entry>
