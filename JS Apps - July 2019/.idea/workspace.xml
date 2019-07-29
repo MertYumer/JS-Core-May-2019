@@ -14,15 +14,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03. Remote Databases - Exercises/01. Books/app.js">
+        <entry file="file://$PROJECT_DIR$/03. Remote Databases - Exercises/02. Students/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="238">
+              <caret line="7" column="64" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
               <folding>
                 <element signature="n#!!block;n#createTableRow#0" />
-                <element signature="n#!!block;n#editOrDeleteBook#0" />
-                <element signature="n#!!block;n#deleteBook#0" />
-                <element signature="n#!!block;n#editBook#0" />
                 <element signature="n#!!block;n#handler#0" />
               </folding>
             </state>
@@ -30,23 +27,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/03. Remote Databases - Exercises/02. Students/app.js">
+        <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-              <folding>
-                <element signature="n#!!block;n#createTableRow#0" />
-                <element signature="n#!!block;n#handler#0" />
-              </folding>
+            <state relative-caret-position="370">
+              <caret line="293" column="83" selection-start-line="293" selection-start-column="83" selection-end-line="293" selection-end-column="83" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/helpers/storage.js">
+        <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+            <state relative-caret-position="170">
+              <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -95,7 +88,7 @@
         <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/helpers/requester.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+              <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
               <folding>
                 <element signature="e#120#201#0" />
                 <element signature="e#245#337#0" />
@@ -171,10 +164,11 @@
         <option value="$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/controllers/userController.js" />
         <option value="$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/helpers/helper.js" />
         <option value="$PROJECT_DIR$/03. Remote Databases - Exercises/01. Books/app.js" />
+        <option value="$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/index.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="650" />
     <option name="y" value="38" />
     <option name="width" value="927" />
@@ -197,13 +191,20 @@
             <path>
               <item name="JS Apps - July 2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="JS Apps - July 2019" type="462c0819:PsiDirectoryNode" />
-              <item name="03. Remote Databases - Exercises" type="462c0819:PsiDirectoryNode" />
+              <item name="06. Exam Preparation - 29.07.2019" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JS Apps - July 2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="JS Apps - July 2019" type="462c0819:PsiDirectoryNode" />
-              <item name="03. Remote Databases - Exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="02. Students" type="462c0819:PsiDirectoryNode" />
+              <item name="06. Exam Preparation - 29.07.2019" type="462c0819:PsiDirectoryNode" />
+              <item name="UniEnt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JS Apps - July 2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JS Apps - July 2019" type="462c0819:PsiDirectoryNode" />
+              <item name="06. Exam Preparation - 29.07.2019" type="462c0819:PsiDirectoryNode" />
+              <item name="UniEnt" type="462c0819:PsiDirectoryNode" />
+              <item name="screenshots" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -246,7 +247,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (2)">
+  <component name="RunManager" selected="JavaScript Debug.index.html (3)">
     <configuration name="cats.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS Apps - July 2019/05. Templating - Exercises/02. HTTP Status Cats/cats.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -256,19 +257,19 @@
     <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS Apps - July 2019/04. Routing and Architecture/Team-Manager/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS Apps - July 2019/05. Templating - Exercises/01. List Towns/index.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html (3)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS Apps - July 2019/06. Exam Preparation - 29.07.2019/UniEnt/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="app.js" working-dir="$PROJECT_DIR$/02. Asynchronous Programming - Exercises/01. Forecaster">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS Apps - July 2019/05. Templating - Exercises/01. List Towns/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html (3)" />
         <item itemvalue="JavaScript Debug.index.html (2)" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.cats.html" />
         <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="Node.js.app.js" />
       </list>
     </recent_temporary>
   </component>
@@ -302,12 +303,14 @@
       <workItem from="1564055750349" duration="6019000" />
       <workItem from="1564140550669" duration="4394000" />
       <workItem from="1564145710118" duration="797000" />
-      <workItem from="1564147413662" duration="823000" />
+      <workItem from="1564147413662" duration="978000" />
+      <workItem from="1564412281876" duration="31000" />
+      <workItem from="1564415136666" duration="1564000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70407000" />
+    <option name="totallyTimeSpent" value="72157000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -329,27 +332,13 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="3" visible="true" weight="0.16580977" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="3" visible="true" weight="0.16966581" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/01. Rest Services and AJAX - Exercises/01. Bus Stop/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02. Asynchronous Programming - Exercises/02. Fisher-Game/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/02. Asynchronous Programming - Exercises/01. Forecaster/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -562,6 +551,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/03. Remote Databases - Exercises/01. Books/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1326">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="n#!!block;n#createTableRow#0" />
+            <element signature="n#!!block;n#editOrDeleteBook#0" />
+            <element signature="n#!!block;n#deleteBook#0" />
+            <element signature="n#!!block;n#editBook#0" />
+            <element signature="n#!!block;n#handler#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/helpers/storage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
@@ -602,7 +605,7 @@
     <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/helpers/requester.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
           <folding>
             <element signature="e#120#201#0" />
             <element signature="e#245#337#0" />
@@ -619,28 +622,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03. Remote Databases - Exercises/01. Books/app.js">
+    <entry file="file://$PROJECT_DIR$/03. Remote Databases - Exercises/02. Students/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="238">
+          <caret line="7" column="64" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
           <folding>
             <element signature="n#!!block;n#createTableRow#0" />
-            <element signature="n#!!block;n#editOrDeleteBook#0" />
-            <element signature="n#!!block;n#deleteBook#0" />
-            <element signature="n#!!block;n#editBook#0" />
             <element signature="n#!!block;n#handler#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03. Remote Databases - Exercises/02. Students/app.js">
+    <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding>
-            <element signature="n#!!block;n#createTableRow#0" />
-            <element signature="n#!!block;n#handler#0" />
-          </folding>
+        <state relative-caret-position="170">
+          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="293" column="83" selection-start-line="293" selection-start-column="83" selection-end-line="293" selection-end-column="83" />
         </state>
       </provider>
     </entry>
