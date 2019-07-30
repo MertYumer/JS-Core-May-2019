@@ -13,97 +13,101 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03. Remote Databases - Exercises/02. Students/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="7" column="64" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
-              <folding>
-                <element signature="n#!!block;n#createTableRow#0" />
-                <element signature="n#!!block;n#handler#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="293" column="83" selection-start-line="293" selection-start-column="83" selection-end-line="293" selection-end-column="83" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/helpers/helper.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/views/home/home.hbs">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/views/common/header.hbs">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/models/userModel.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-              <folding>
-                <element signature="e#71#554#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/scripts/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/helpers/requester.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-              <folding>
-                <element signature="e#120#201#0" />
-                <element signature="e#245#337#0" />
-                <element signature="e#380#461#0" />
-                <element signature="e#504#588#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/controllers/homeController.js">
+        <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/controllers/homeController.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+              <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/models/userModel.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="15" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="17" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/controllers/eventController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+              <folding>
+                <element signature="e#81#317#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/views/home/homePage.hbs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+              <folding>
+                <element signature="n#div#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/views/events/noEvents.hbs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="4" lean-forward="true" selection-end-line="20" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/views/events/editEvent.hbs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="9" selection-start-column="9" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/views/events/eventView.hbs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/models/eventModel.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+              <folding>
+                <element signature="e#68#84#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/controllers/userController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="77">
+              <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/helpers/requester.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-272">
+              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -125,17 +129,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/01. Rest Services and AJAX - Exercises/02. Bus Schedule/app.js" />
-        <option value="$PROJECT_DIR$/01. Rest Services and AJAX - Exercises/03. Phonebook/app.js" />
-        <option value="$PROJECT_DIR$/01. Rest Services and AJAX - Exercises/04. Messenger/app.js" />
-        <option value="$PROJECT_DIR$/01. Rest Services and AJAX/01. Darth Vader Response" />
-        <option value="$PROJECT_DIR$/01. Rest Services and AJAX/02. Github Labels Issue" />
-        <option value="$PROJECT_DIR$/01. Rest Services and AJAX/05.Github-Repos/03. Github Create Issue" />
-        <option value="$PROJECT_DIR$/02. Asynchronous Programming - Exercises/01. Forecaster/app.js" />
-        <option value="$PROJECT_DIR$/02. Asynchronous Programming - Exercises/02. Fisher-Game/index.html" />
-        <option value="$PROJECT_DIR$/01. Rest Services and AJAX - Exercises/01. Bus Stop/app.js" />
-        <option value="$PROJECT_DIR$/03. Remote Databases - Exercises/01. Books/index.html" />
-        <option value="$PROJECT_DIR$/03. Remote Databases - Exercises/02. Students/app.js" />
         <option value="$PROJECT_DIR$/03. Remote Databases - Exercises/03. Venuemaster/app.js" />
         <option value="$PROJECT_DIR$/04. Routing and Architecture/Team-Manager-Skeleton/package.json" />
         <option value="$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/package.json" />
@@ -157,14 +150,36 @@
         <option value="$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/scripts/models/userModel.js" />
         <option value="$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/index.html" />
         <option value="$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/scripts/app.js" />
-        <option value="$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/helpers/requester.js" />
         <option value="$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/controllers/homeController.js" />
         <option value="$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/helpers/storage.js" />
         <option value="$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/models/userModel.js" />
         <option value="$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/controllers/userController.js" />
         <option value="$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/helpers/helper.js" />
         <option value="$PROJECT_DIR$/03. Remote Databases - Exercises/01. Books/app.js" />
+        <option value="$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/views/common/footer.hbs" />
+        <option value="$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/views/user/login.hbs" />
+        <option value="$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/views/user/register.hbs" />
+        <option value="$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/views/events/detailsEvent.hbs" />
+        <option value="$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/helpers/storage.js" />
+        <option value="$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/helpers/requester.js" />
+        <option value="$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/helpers/requester.js" />
+        <option value="$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/views/user/registerPage.hbs" />
+        <option value="$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/views/user/loginPage.hbs" />
+        <option value="$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/models/userModel.js" />
+        <option value="$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/views/common/header.hbs" />
+        <option value="$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/views/events/createEvent.hbs" />
+        <option value="$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/views/events/editEvent.hbs" />
+        <option value="$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/views/user/userPage.hbs" />
+        <option value="$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/scripts/app.js" />
+        <option value="$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/controllers/userController.js" />
         <option value="$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/index.html" />
+        <option value="$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/controllers/eventController.js" />
+        <option value="$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/views/events/eventsViewPage.hbs" />
+        <option value="$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/views/events/eventView.hbs" />
+        <option value="$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/views/events/noEvents.hbs" />
+        <option value="$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/models/eventModel.js" />
+        <option value="$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/views/home/homePage.hbs" />
+        <option value="$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/controllers/homeController.js" />
       </list>
     </option>
   </component>
@@ -180,7 +195,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -193,30 +207,18 @@
               <item name="JS Apps - July 2019" type="462c0819:PsiDirectoryNode" />
               <item name="06. Exam Preparation - 29.07.2019" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="JS Apps - July 2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JS Apps - July 2019" type="462c0819:PsiDirectoryNode" />
-              <item name="06. Exam Preparation - 29.07.2019" type="462c0819:PsiDirectoryNode" />
-              <item name="UniEnt" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JS Apps - July 2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JS Apps - July 2019" type="462c0819:PsiDirectoryNode" />
-              <item name="06. Exam Preparation - 29.07.2019" type="462c0819:PsiDirectoryNode" />
-              <item name="UniEnt" type="462c0819:PsiDirectoryNode" />
-              <item name="screenshots" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/04. Routing and Architecture/Team-Manager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/files" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -228,6 +230,9 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\JS Core - May 2019\JS Apps - July 2019\06. Exam Preparation - 29.07.2019\UniEnt\files" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projects\JS Core - May 2019\JS Apps - July 2019\04. Routing and Architecture\Team-Manager\models" />
       <recent name="D:\Projects\JS Core - May 2019\JS Apps - July 2019\05. Templating - Exercises\files" />
@@ -306,15 +311,15 @@
       <workItem from="1564147413662" duration="978000" />
       <workItem from="1564412281876" duration="31000" />
       <workItem from="1564415136666" duration="1564000" />
+      <workItem from="1564479853098" duration="13296000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72157000" />
+    <option name="totallyTimeSpent" value="85453000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
@@ -332,153 +337,13 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="3" visible="true" weight="0.16966581" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="3" visible="true" weight="0.18251929" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/02. Asynchronous Programming - Exercises/01. Forecaster/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03. Remote Databases - Exercises/02. Students/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03. Remote Databases - Exercises/01. Books/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1666">
-          <caret line="49" column="55" selection-start-line="49" selection-start-column="55" selection-end-line="49" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01. Rest Services and AJAX - Exercises/02. Bus Schedule/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01. Rest Services and AJAX - Exercises/01. Bus Stop/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03. Remote Databases - Exercises/03. Venuemaster/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2074">
-          <caret line="94" selection-start-line="94" selection-end-line="94" />
-          <folding>
-            <element signature="n#!!block;n#getVenues#0" />
-            <element signature="n#!!block;n#getInfoForVenue#0" />
-            <element signature="n#!!block;n#purchaseTickets#0" />
-            <element signature="n#!!block;n#confirmPurchase#0" />
-            <element signature="n#!!block;n#handler#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01. Rest Services and AJAX - Exercises/02. Bus Schedule/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01. Rest Services and AJAX - Exercises/03. Phonebook/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding>
-            <element signature="n#!!block;n#createContact#0;n#!!block;n#attachEvents#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01. Rest Services and AJAX - Exercises/04. Messenger/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
-          <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05. Templating - Exercises/01. List Towns/style.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05. Templating - Exercises/01. List Towns/package.json" />
-    <entry file="file://$PROJECT_DIR$/05. Templating - Exercises/package-lock.json" />
-    <entry file="file://$PROJECT_DIR$/05. Templating - Exercises/01. List Towns/index.html" />
-    <entry file="file://$PROJECT_DIR$/05. Templating - Exercises/01. List Towns/node_modules/handlebars/dist/cjs/handlebars.js" />
-    <entry file="file://$PROJECT_DIR$/05. Templating - Exercises/files/handlebars.js" />
-    <entry file="file://$PROJECT_DIR$/05. Templating - Exercises/01. List Towns/towns.js" />
-    <entry file="file://$PROJECT_DIR$/05. Templating - Exercises/02. HTTP Status Cats/cats.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05. Templating - Exercises/02. HTTP Status Cats/template.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05. Templating - Exercises/03. Popular Monkeys/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02. Asynchronous Programming - Exercises/01. Forecaster/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="90" column="64" selection-start-line="90" selection-start-column="4" selection-end-line="105" selection-end-column="5" />
-          <folding>
-            <element signature="e#47#333#0" />
-            <element signature="e#356#472#0" />
-            <element signature="n#!!block;n#handler#0;n#!!block;n#attachEvents#0" />
-            <element signature="n#!!block;n#loadWeatherInfo#0;n#!!block;n#attachEvents#0" />
-            <element signature="n#!!block;n#loadLocationWeatherInfo#0;n#!!block;n#attachEvents#0" />
-            <element signature="n#!!block;n#showLocationWeatherInfo#0;n#!!block;n#attachEvents#0" />
-            <element signature="n#!!block;n#loadUpcomingLocationWeatherInfo#0;n#!!block;n#attachEvents#0" />
-            <element signature="n#!!block;n#showUpcomingLocationWeatherInfo#0;n#!!block;n#attachEvents#0" />
-            <element signature="n#!!block;n#createHTMLElement#0;n#!!block;n#attachEvents#0" />
-            <element signature="n#!!block;n#appendChildrenToParent#0;n#!!block;n#attachEvents#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05. Templating - Exercises/02. HTTP Status Cats/catSeeder.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05. Templating - Exercises/02. HTTP Status Cats/catsTemplate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05. Templating - Exercises/03. Popular Monkeys/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05. Templating - Exercises/03. Popular Monkeys/allMonkeys.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/05. Templating - Exercises/03. Popular Monkeys/monkey.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -544,13 +409,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/controllers/userController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/03. Remote Databases - Exercises/01. Books/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1326">
@@ -565,10 +423,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/helpers/storage.js">
+    <entry file="file://$PROJECT_DIR$/03. Remote Databases - Exercises/02. Students/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+        <state relative-caret-position="238">
+          <caret line="7" column="64" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
+          <folding>
+            <element signature="n#!!block;n#createTableRow#0" />
+            <element signature="n#!!block;n#handler#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -602,16 +464,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/helpers/requester.js">
+    <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/files/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/files/sammy-0.7.6.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/files/sammy.handlebars.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/views/common/footer.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        <state relative-caret-position="408">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/views/events/detailsEvent.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-160">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/files/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/files/handlebars.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/files/sammy.handlebars-0.7.6.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-344">
           <folding>
-            <element signature="e#120#201#0" />
-            <element signature="e#245#337#0" />
-            <element signature="e#380#461#0" />
-            <element signature="e#504#588#0" />
+            <element signature="n#!!block;n#npm#0;n#!!block;n#dependencies#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/helpers/storage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -622,28 +526,158 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03. Remote Databases - Exercises/02. Students/app.js">
+    <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/controllers/userController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="7" column="64" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
+        <state relative-caret-position="305">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/helpers/requester.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
           <folding>
-            <element signature="n#!!block;n#createTableRow#0" />
-            <element signature="n#!!block;n#handler#0" />
+            <element signature="e#120#201#0" />
+            <element signature="e#245#337#0" />
+            <element signature="e#380#461#0" />
+            <element signature="e#504#588#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/package.json">
+    <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/views/user/loginPage.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        <state relative-caret-position="34">
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/views/common/header.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="14" column="67" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/views/events/createEvent.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="34" selection-start-line="34" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/views/user/registerPage.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/views/user/userPage.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/scripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="18" column="48" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="370">
-          <caret line="293" column="83" selection-start-line="293" selection-start-column="83" selection-end-line="293" selection-end-column="83" />
+          <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/helpers/storage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="2" column="55" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/views/events/editEvent.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/helpers/requester.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-272">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/views/events/eventView.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/models/userModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="15" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="17" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/views/events/noEvents.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" lean-forward="true" selection-end-line="20" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/models/eventModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+          <folding>
+            <element signature="e#68#84#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/controllers/userController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/views/home/homePage.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <folding>
+            <element signature="n#div#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/controllers/eventController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+          <folding>
+            <element signature="e#81#317#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/controllers/homeController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
         </state>
       </provider>
     </entry>

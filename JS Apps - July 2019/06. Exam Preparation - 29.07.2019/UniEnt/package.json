@@ -6,6 +6,9 @@
     "main": "pathToMain",
     "dependencies": {
         "bootstrap": "^4.3.1",
-        "jquery": "^3.3.1"
+        "handlebars": "^4.1.2",
+        "jquery": "^3.4.1",
+        "npm": "^6.10.2",
+        "sammy": "^0.7.6"
     }
 }
