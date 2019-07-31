@@ -15,9 +15,12 @@ const app = Sammy('#rootElement', function () {
 
     //Event
     this.get('#/create', eventController.getCreateEvent);
+    this.get('#/eventDetails/:eventId', eventController.getEventDetails);
+    this.get('#/edit/:eventId', eventController.getEditEvent);
+    this.get('#/delete/:eventId', eventController.postDeleteEvent);
 
     this.post('#/create', eventController.postCreateEvent);
-
+    this.post('#/edit/:eventId', eventController.postEditEvent);
 });
 
 (() => {

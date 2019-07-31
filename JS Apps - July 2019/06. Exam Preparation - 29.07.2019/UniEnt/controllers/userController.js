@@ -20,9 +20,17 @@ const userController = function () {
     };
 
     const getProfile= function (context) {
+        const loggedIn = storage.getData('userInfo') !== null;
+        context.loggedIn = loggedIn;
+
+        if (loggedIn) {
+            const username = JSON.parse(storage.getData('userInfo')).username;
+            context.username = username;
+        }
+
         context.loadPartials({
-            header: "./views/common/header.hbs",
-            footer: "./views/common/footer.hbs"
+            header: './views/common/header.hbs',
+            footer: './views/common/footer.hbs'
 
         }).then(function () {
             this.partial('./views/user/userPage.hbs')
@@ -35,7 +43,7 @@ const userController = function () {
             .then(helper.handler)
             .then(data => {
                 storage.saveUser(data);
-                homeController.getHome(context);
+                context.redirect('#/home');
             });
     };
 
@@ -45,8 +53,7 @@ const userController = function () {
             .then(helper.handler)
             .then(data => {
                 storage.saveUser(data);
-                homeController.getHome(context);
-
+                context.redirect('#/home');
             });
     };
 
@@ -54,9 +61,9 @@ const userController = function () {
         userModel
             .logout()
             .then(helper.handler)
-            .then(data => {
+            .then(() => {
                 storage.deleteUser();
-                homeController.getHome(context);
+                context.redirect('#/home');
             });
     };
 

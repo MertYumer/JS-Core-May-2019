@@ -38,9 +38,9 @@ const userModel = function () {
 
     const logout = function () {
         const url = `/user/${storage.appKey}/_logout`;
+
         const headers = {
-            headers: {
-            }
+            headers: {}
         };
 
         return requester.post(url, headers);

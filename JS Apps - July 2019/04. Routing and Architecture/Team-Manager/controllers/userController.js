@@ -1,8 +1,8 @@
 const userController = function () {
     const getRegister = function (context) {
         context.loadPartials({
-            header: "./views/common/header.hbs",
-            footer: "./views/common/footer.hbs"
+            header: './views/common/header.hbs',
+            footer: './views/common/footer.hbs'
 
         }).then(function () {
             this.partial('./views/register/registerPage.hbs')
@@ -11,8 +11,8 @@ const userController = function () {
 
     const getLogin = function (context) {
         context.loadPartials({
-            header: "./views/common/header.hbs",
-            footer: "./views/common/footer.hbs"
+            header: './views/common/header.hbs',
+            footer: './views/common/footer.hbs'
 
         }).then(function () {
             this.partial('./views/login/loginPage.hbs')
@@ -36,7 +36,6 @@ const userController = function () {
             .then(data => {
                 storage.saveUser(data);
                 homeController.getHome(context);
-
             });
     };
 
