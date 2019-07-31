@@ -1,9 +1,8 @@
 const homeController = function () {
     const getHome = async function (context) {
-        const loggedIn = storage.getData('userInfo') !== null;
-        context.loggedIn = loggedIn;
+        helper.addHeaderInfo(context);
 
-        if (loggedIn) {
+        if (context.loggedIn) {
             const username = JSON.parse(storage.getData('userInfo')).username;
             context.username = username;
 

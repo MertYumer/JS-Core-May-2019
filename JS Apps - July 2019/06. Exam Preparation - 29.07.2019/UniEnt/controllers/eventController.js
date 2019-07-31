@@ -1,12 +1,6 @@
 const eventController = function () {
     const getCreateEvent = function (context) {
-        const loggedIn = storage.getData('userInfo') !== null;
-
-        if (loggedIn) {
-            const username = JSON.parse(storage.getData('userInfo')).username;
-            context.loggedIn = loggedIn;
-            context.username = username;
-        }
+        helper.addHeaderInfo(context);
 
         context.loadPartials({
             header: './views/common/header.hbs',
@@ -27,13 +21,7 @@ const eventController = function () {
     };
 
     const getEventDetails = async function (context) {
-        const loggedIn = storage.getData('userInfo') !== null;
-
-        if (loggedIn) {
-            const username = JSON.parse(storage.getData('userInfo')).username;
-            context.loggedIn = loggedIn;
-            context.username = username;
-        }
+        helper.addHeaderInfo(context);
 
         await eventModel.getDetails(context.params.eventId)
             .then(response => response.json())
@@ -52,13 +40,7 @@ const eventController = function () {
     };
 
     const getEditEvent = async function (context) {
-        const loggedIn = storage.getData('userInfo') !== null;
-
-        if (loggedIn) {
-            const username = JSON.parse(storage.getData('userInfo')).username;
-            context.loggedIn = loggedIn;
-            context.username = username;
-        }
+        helper.addHeaderInfo(context);
 
         await eventModel.getDetails(context.params.eventId)
             .then(response => response.json())

@@ -14,19 +14,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/views/events/detailsEvent.hbs">
+        <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/controllers/homeController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/models/userModel.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+            <state relative-caret-position="68">
+              <caret line="2" column="38" lean-forward="true" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -34,7 +25,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/views/events/editEvent.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-772">
+            <state relative-caret-position="34">
               <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
             </state>
           </provider>
@@ -61,7 +52,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/models/eventModel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
+            <state relative-caret-position="1700">
               <caret line="66" column="21" lean-forward="true" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
               <folding>
                 <element signature="e#487#659#0" />
@@ -87,32 +78,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/controllers/eventController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="86" column="16" selection-start-line="86" selection-start-column="16" selection-end-line="86" selection-end-column="16" />
+            <state relative-caret-position="33">
+              <caret line="41" column="50" selection-start-line="41" selection-start-column="50" selection-end-line="41" selection-end-column="50" />
               <folding>
-                <element signature="e#84#579#0" />
-                <element signature="e#869#1527#0" />
-                <element signature="e#1567#1583#0" />
-                <element signature="e#2413#2429#0" />
+                <element signature="e#84#581#0" />
+                <element signature="e#631#813#0" />
+                <element signature="e#869#1665#0" />
+                <element signature="e#1718#2372#0" />
+                <element signature="e#2420#2600#0" />
+                <element signature="e#2650#2837#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/scripts/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
+            <state relative-caret-position="510">
               <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/helpers/helper.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-102" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-68">
-              <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+            <state relative-caret-position="306">
+              <caret line="24" column="46" lean-forward="true" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -177,18 +177,18 @@
         <option value="$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/views/events/eventView.hbs" />
         <option value="$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/controllers/userController.js" />
         <option value="$PROJECT_DIR$/04. Routing and Architecture/Team-Manager/controllers/homeController.js" />
-        <option value="$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/controllers/homeController.js" />
         <option value="$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/controllers/userController.js" />
         <option value="$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/index.html" />
         <option value="$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/views/events/detailsEvent.hbs" />
         <option value="$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/views/events/editEvent.hbs" />
-        <option value="$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/controllers/eventController.js" />
         <option value="$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/models/eventModel.js" />
         <option value="$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/scripts/app.js" />
+        <option value="$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/controllers/eventController.js" />
+        <option value="$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/controllers/homeController.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="650" />
     <option name="y" value="38" />
     <option name="width" value="927" />
@@ -230,6 +230,13 @@
               <item name="JS Apps - July 2019" type="462c0819:PsiDirectoryNode" />
               <item name="06. Exam Preparation - 29.07.2019" type="462c0819:PsiDirectoryNode" />
               <item name="UniEnt" type="462c0819:PsiDirectoryNode" />
+              <item name="helpers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JS Apps - July 2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JS Apps - July 2019" type="462c0819:PsiDirectoryNode" />
+              <item name="06. Exam Preparation - 29.07.2019" type="462c0819:PsiDirectoryNode" />
+              <item name="UniEnt" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -238,21 +245,6 @@
               <item name="06. Exam Preparation - 29.07.2019" type="462c0819:PsiDirectoryNode" />
               <item name="UniEnt" type="462c0819:PsiDirectoryNode" />
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JS Apps - July 2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JS Apps - July 2019" type="462c0819:PsiDirectoryNode" />
-              <item name="06. Exam Preparation - 29.07.2019" type="462c0819:PsiDirectoryNode" />
-              <item name="UniEnt" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JS Apps - July 2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JS Apps - July 2019" type="462c0819:PsiDirectoryNode" />
-              <item name="06. Exam Preparation - 29.07.2019" type="462c0819:PsiDirectoryNode" />
-              <item name="UniEnt" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="events" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -299,7 +291,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (2)">
+  <component name="RunManager" selected="JavaScript Debug.index.html (3)">
     <configuration name="cats.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS Apps - July 2019/05. Templating - Exercises/02. HTTP Status Cats/cats.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -317,8 +309,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.index.html (2)" />
         <item itemvalue="JavaScript Debug.index.html (3)" />
+        <item itemvalue="JavaScript Debug.index.html (2)" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.cats.html" />
         <item itemvalue="JavaScript Debug.index.html" />
@@ -360,11 +352,12 @@
       <workItem from="1564415136666" duration="1564000" />
       <workItem from="1564479853098" duration="13296000" />
       <workItem from="1564567581654" duration="8259000" />
+      <workItem from="1564577023583" duration="242000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93712000" />
+    <option name="totallyTimeSpent" value="93954000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -386,23 +379,13 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="3" visible="true" weight="0.18508998" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="3" visible="true" weight="0.18766066" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/05. Templating - Exercises/03. Popular Monkeys/monkey.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/05. Templating - Exercises/03. Popular Monkeys/monkeys.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1258">
@@ -635,17 +618,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/controllers/homeController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/views/events/createEvent.hbs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1156">
           <caret line="34" selection-start-line="34" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/views/events/detailsEvent.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/models/userModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/views/events/editEvent.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/views/events/noEvents.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -656,17 +660,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/index.html">
+    <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/models/eventModel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/views/events/noEvents.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        <state relative-caret-position="1700">
+          <caret line="66" column="21" lean-forward="true" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
+          <folding>
+            <element signature="e#487#659#0" />
+            <element signature="e#699#877#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -681,55 +682,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/models/userModel.js">
+    <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/scripts/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+        <state relative-caret-position="510">
+          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/views/events/editEvent.hbs">
+    <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/helpers/helper.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-772">
-          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/views/events/detailsEvent.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-        </state>
+        <state relative-caret-position="-102" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/controllers/eventController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="86" column="16" selection-start-line="86" selection-start-column="16" selection-end-line="86" selection-end-column="16" />
+        <state relative-caret-position="33">
+          <caret line="41" column="50" selection-start-line="41" selection-start-column="50" selection-end-line="41" selection-end-column="50" />
           <folding>
-            <element signature="e#84#579#0" />
-            <element signature="e#869#1527#0" />
-            <element signature="e#1567#1583#0" />
-            <element signature="e#2413#2429#0" />
+            <element signature="e#84#581#0" />
+            <element signature="e#631#813#0" />
+            <element signature="e#869#1665#0" />
+            <element signature="e#1718#2372#0" />
+            <element signature="e#2420#2600#0" />
+            <element signature="e#2650#2837#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/models/eventModel.js">
+    <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/controllers/homeController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="66" column="21" lean-forward="true" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
-          <folding>
-            <element signature="e#487#659#0" />
-            <element signature="e#699#877#0" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="2" column="38" lean-forward="true" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/scripts/app.js">
+    <entry file="file://$PROJECT_DIR$/06. Exam Preparation - 29.07.2019/UniEnt/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+          <caret line="24" column="46" lean-forward="true" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
         </state>
       </provider>
     </entry>
