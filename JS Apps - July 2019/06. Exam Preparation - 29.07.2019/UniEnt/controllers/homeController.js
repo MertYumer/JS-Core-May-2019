@@ -6,7 +6,10 @@ const homeController = function () {
             const username = JSON.parse(storage.getData('userInfo')).username;
             context.username = username;
 
-            await eventModel.getAllEvents()
+            const url = `/appdata/${storage.appKey}/events`;
+            const authorizationType = 'Kinvey';
+
+            await requester.get(url, authorizationType)
                 .then(response => response.json())
                 .then(events => {
                     context.events = events;

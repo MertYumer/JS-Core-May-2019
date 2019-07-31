@@ -9,6 +9,24 @@ const userController = function () {
         });
     };
 
+    const postRegister = function (context) {
+        const url = `/user/${storage.appKey}`;
+        const authorizationType = 'Basic';
+
+        const data = {
+            username: context.params.username,
+            password: context.params.password
+        };
+
+        requester
+            .post(url, authorizationType, data)
+            .then(helper.handler)
+            .then(data => {
+                storage.saveUser(data);
+                context.redirect('#/home');
+            });
+    };
+
     const getLogin = function (context) {
         context.loadPartials({
             header: "./views/common/header.hbs",
@@ -19,14 +37,35 @@ const userController = function () {
         });
     };
 
-    const getProfile= function (context) {
-        const loggedIn = storage.getData('userInfo') !== null;
-        context.loggedIn = loggedIn;
+    const postLogin = function (context) {
+        const url = `/user/${storage.appKey}/login`;
+        const authorizationType = 'Basic';
+        const data = {...context.params};
 
-        if (loggedIn) {
-            const username = JSON.parse(storage.getData('userInfo')).username;
-            context.username = username;
-        }
+        requester
+            .post(url, authorizationType, data)
+            .then(helper.handler)
+            .then(data => {
+                storage.saveUser(data);
+                context.redirect('#/home');
+            });
+    };
+
+    const postLogout = function (context) {
+        const url = `/user/${storage.appKey}/_logout`;
+        const authorizationType = 'Kinvey';
+
+        requester
+            .post(url, authorizationType)
+            .then(helper.handler)
+            .then(() => {
+                storage.deleteUser();
+                context.redirect('#/home');
+            });
+    };
+
+    const getProfile = function (context) {
+        helper.addHeaderInfo(context);
 
         context.loadPartials({
             header: './views/common/header.hbs',
@@ -37,42 +76,12 @@ const userController = function () {
         });
     };
 
-    const postRegister = function (context) {
-        userModel
-            .register(context.params)
-            .then(helper.handler)
-            .then(data => {
-                storage.saveUser(data);
-                context.redirect('#/home');
-            });
-    };
-
-    const postLogin = function (context) {
-        userModel
-            .login(context.params)
-            .then(helper.handler)
-            .then(data => {
-                storage.saveUser(data);
-                context.redirect('#/home');
-            });
-    };
-
-    const logout = function (context) {
-        userModel
-            .logout()
-            .then(helper.handler)
-            .then(() => {
-                storage.deleteUser();
-                context.redirect('#/home');
-            });
-    };
-
     return {
         getRegister,
         getLogin,
         getProfile,
         postRegister,
         postLogin,
-        logout
+        postLogout
     }
 }();

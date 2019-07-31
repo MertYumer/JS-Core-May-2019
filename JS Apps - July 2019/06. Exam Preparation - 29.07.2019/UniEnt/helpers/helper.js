@@ -13,9 +13,9 @@ const helper = function () {
 
     const addHeaderInfo = function (context) {
         const loggedIn = storage.getData('userInfo') !== null;
+        context.loggedIn = loggedIn;
 
         if (loggedIn) {
-            context.loggedIn = loggedIn;
             context.username = JSON.parse(storage.getData('userInfo')).username;
         }
     };

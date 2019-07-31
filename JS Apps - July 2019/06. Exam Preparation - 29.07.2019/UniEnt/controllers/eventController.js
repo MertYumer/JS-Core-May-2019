@@ -12,8 +12,17 @@ const eventController = function () {
     };
 
     const postCreateEvent = function (context) {
-        eventModel
-            .create(context.params)
+        const url = `/appdata/${storage.appKey}/events`;
+        const authorizationType = 'Kinvey';
+
+        const data = {
+            ...context.params,
+            organizer: JSON.parse(storage.getData('userInfo')).username,
+            peopleInterestedIn: 0
+        };
+
+        requester
+            .post(url, authorizationType, data)
             .then(helper.handler)
             .then(() => {
                 context.redirect('#/home');
@@ -23,7 +32,11 @@ const eventController = function () {
     const getEventDetails = async function (context) {
         helper.addHeaderInfo(context);
 
-        await eventModel.getDetails(context.params.eventId)
+        const id = context.params.eventId;
+        const url = `/appdata/${storage.appKey}/events/${id}`;
+        const authorizationType = 'Kinvey';
+
+        await requester.get(url, authorizationType)
             .then(response => response.json())
             .then(event => {
                 context.event = event;
@@ -42,7 +55,11 @@ const eventController = function () {
     const getEditEvent = async function (context) {
         helper.addHeaderInfo(context);
 
-        await eventModel.getDetails(context.params.eventId)
+        const id = context.params.eventId;
+        const url = `/appdata/${storage.appKey}/events/${id}`;
+        const authorizationType = 'Kinvey';
+
+        await requester.get(url, authorizationType)
             .then(response => response.json())
             .then(event => context.event = event);
 
@@ -56,8 +73,17 @@ const eventController = function () {
     };
 
     const postEditEvent = function (context) {
-        eventModel
-            .edit(context.params)
+        const id = context.params.eventId;
+        const url = `/appdata/${storage.appKey}/events/${id}`;
+        delete context.params.eventId;
+        const authorizationType = 'Kinvey';
+
+        const data = {
+            ...context.params
+        };
+
+        requester
+            .put(url, authorizationType, data)
             .then(helper.handler)
             .then(() => {
                 context.redirect('#/home');
@@ -65,8 +91,12 @@ const eventController = function () {
     };
 
     const postDeleteEvent = function (context) {
-        eventModel
-            .del(context.params.eventId)
+        const id = context.params.eventId;
+        const url = `/appdata/${storage.appKey}/events/${id}`;
+        const authorizationType = 'Kinvey';
+
+        requester
+            .del(url, authorizationType)
             .then(helper.handler)
             .then(() => {
                 context.redirect('#/home');
