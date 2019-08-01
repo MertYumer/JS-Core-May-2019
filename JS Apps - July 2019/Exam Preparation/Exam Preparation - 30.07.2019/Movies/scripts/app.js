@@ -6,11 +6,12 @@ const app = Sammy('#container', function () {
 
     //User
     this.get('#/register', userController.getRegister);
-    this.get('#/login', userController.getLogin);
-    this.get('#/logout', userController.postLogout);
-
     this.post('#/register', userController.postRegister);
+
+    this.get('#/login', userController.getLogin);
     this.post('#/login', userController.postLogin);
+
+    this.get('#/logout', userController.postLogout);
 
     //Movie
     this.get('#/cinema', movieController.getAllMovies);
