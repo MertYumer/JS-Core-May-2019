@@ -15,16 +15,16 @@ const app = Sammy('#container', function () {
     //Movie
     this.get('#/cinema', movieController.getAllMovies);
     this.get('#/myMovies', movieController.getMyMovies);
+    this.get('#/eventDetails/:movieId', movieController.getMovieDetails);
+
     this.get('#/create', movieController.getCreateMovie);
+    this.post('#/create', movieController.postCreateMovie);
 
-    /*//Movie
-    this.get('#/create', eventController.getCreateEvent);
-    this.get('#/eventDetails/:eventId', eventController.getEventDetails);
-    this.get('#/edit/:eventId', eventController.getEditEvent);
-    this.get('#/delete/:eventId', eventController.postDeleteEvent);
+    this.get('#/edit/:movieId', movieController.getEditMovie);
+    this.post('#/edit/:movieId', movieController.postEditMovie);
 
-    this.post('#/create', eventController.postCreateEvent);
-    this.post('#/edit/:eventId', eventController.postEditEvent);*/
+    this.get('#/delete/:movieId', movieController.getDeleteMovie);
+    this.post('#/delete/:movieId', movieController.postDeleteMovie);
 });
 
 (() => {

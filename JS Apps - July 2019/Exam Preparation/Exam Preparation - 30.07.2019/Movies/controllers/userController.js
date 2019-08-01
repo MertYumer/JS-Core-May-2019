@@ -38,7 +38,6 @@ const userController = function () {
     };
 
     const postLogin = function (context) {
-        console.log(context);
         const url = `/user/${storage.appKey}/login`;
         const authorizationType = 'Basic';
         const data = {...context.params};
