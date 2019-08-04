@@ -9,7 +9,7 @@ const offerController = function () {
             .then(response => response.json())
             .then(offers => {
                 for (let i = 0; i < offers.length; i++) {
-                    offers[i]['number'] = i;
+                    offers[i]['index'] = i;
                     const isCreator =
                         offers[i]._acl['creator'] === JSON.parse(storage.getData('userInfo'))._id;
 
