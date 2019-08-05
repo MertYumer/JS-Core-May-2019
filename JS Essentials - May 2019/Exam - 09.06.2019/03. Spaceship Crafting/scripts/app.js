@@ -1,74 +1,83 @@
 function spaceshipCrafting() {
-    let titaniumCores = +document.getElementById('titaniumCoreFound').value;
-    let aluminiumCores = +document.getElementById('aluminiumCoreFound').value;
-    let magnesiumCores = +document.getElementById('magnesiumCoreFound').value;
-    let carbonCores = +document.getElementById('carbonCoreFound').value;
-    const lossPercent = +document.getElementById('lossesPercent').value / 4;
+    const cores = {
+        titanium: document.getElementById('titaniumCoreFound').value,
+        aluminum: document.getElementById('aluminiumCoreFound').value,
+        magnesium: document.getElementById('magnesiumCoreFound').value,
+        carbon: document.getElementById('carbonCoreFound').value
+    };
 
-    titaniumCores -= titaniumCores * lossPercent / 100;
-    aluminiumCores -= aluminiumCores * lossPercent / 100;
-    magnesiumCores -= magnesiumCores * lossPercent / 100;
-    carbonCores -= carbonCores * lossPercent / 100;
+    let lossesPercent = document.getElementById('lossesPercent').value / 4;
+    lossesPercent = (100 - lossesPercent) / 100;
 
-    let titaniumBars = Math.round(titaniumCores / 25);
-    let aluminiumBars = Math.round(aluminiumCores / 50);
-    let magnesiumBars = Math.round(magnesiumCores / 75);
-    let carbonBars = Math.round(carbonCores / 100);
+    const bars = {
+        titanium: Math.round((cores.titanium * lossesPercent) / 25),
+        aluminum: Math.round((cores.aluminum * lossesPercent) / 50),
+        magnesium: Math.round((cores.magnesium * lossesPercent) / 75),
+        carbon: Math.round((cores.carbon * lossesPercent) / 100)
+    };
 
-    const availableBars = document.querySelector('#availableBars p');
-    const spaceshipsInfo = document.querySelector('#builtSpaceships p');
-    const spaceships = [
-        ['THE-UNDEFINED-SHIP', 0],
-        ['NULL-MASTER', 0],
-        ['JSON-CREW', 0],
-        ['FALSE-FLEET', 0]
-    ];
+    const ships = {
+        'The-Undefined-Ship': 0,
+        'Null-Master': 0,
+        'JSON-Crew': 0,
+        'False-Fleet': 0,
+    };
 
-    while (titaniumBars >= 2 && aluminiumBars >= 2 && magnesiumBars >= 3 && carbonBars >= 1) {
-        if (titaniumBars >= 7 && aluminiumBars >= 9 && magnesiumBars >= 7 && carbonBars >= 7) {
-            spaceships[0][1]++;
-            titaniumBars -= 7;
-            aluminiumBars -= 9;
-            magnesiumBars -= 7;
-            carbonBars -= 7;
+    while (bars.titanium >= 2 && bars.aluminum >= 2 && bars.magnesium >= 3 && bars.carbon >= 1) {
+        if (bars.titanium >= 7 && bars.aluminum >= 9 && bars.magnesium >= 7 && bars.carbon >= 7) {
+            bars.titanium -= 7;
+            bars.aluminum -= 9;
+            bars.magnesium -= 7;
+            bars.carbon -= 7;
+            ships['The-Undefined-Ship']++;
         }
 
-        if (titaniumBars >= 5 && aluminiumBars >= 7 && magnesiumBars >= 7 && carbonBars >= 5) {
-            spaceships[1][1]++;
-            titaniumBars -= 5;
-            aluminiumBars -= 7;
-            magnesiumBars -= 7;
-            carbonBars -= 5;
+        if (bars.titanium >= 5 && bars.aluminum >= 7 && bars.magnesium >= 7 && bars.carbon >= 5) {
+            bars.titanium -= 5;
+            bars.aluminum -= 7;
+            bars.magnesium -= 7;
+            bars.carbon -= 5;
+            ships['Null-Master']++;
         }
 
-        if (titaniumBars >= 3 && aluminiumBars >= 5 && magnesiumBars >= 5 && carbonBars >= 2) {
-            spaceships[2][1]++;
-            titaniumBars -= 3;
-            aluminiumBars -= 5;
-            magnesiumBars -= 5;
-            carbonBars -= 2;
+        if (bars.titanium >= 3 && bars.aluminum >= 5 && bars.magnesium >= 5 && bars.carbon >= 2) {
+            bars.titanium -= 3;
+            bars.aluminum -= 5;
+            bars.magnesium -= 5;
+            bars.carbon -= 2;
+            ships['JSON-Crew']++;
         }
 
-        if (titaniumBars >= 2 && aluminiumBars >= 2 && magnesiumBars >= 3 && carbonBars >= 1) {
-            spaceships[3][1]++;
-            titaniumBars -= 2;
-            aluminiumBars -= 2;
-            magnesiumBars -= 3;
-            carbonBars -= 1;
+        if (bars.titanium >= 2 && bars.aluminum >= 2 && bars.magnesium >= 3 && bars.carbon >= 1) {
+            bars.titanium -= 2;
+            bars.aluminum -= 2;
+            bars.magnesium -= 3;
+            bars.carbon -= 1;
+            ships['False-Fleet']++;
         }
     }
 
-    availableBars.textContent = `${titaniumBars} titanium bars, ` +
-        `${aluminiumBars} aluminum bars, ` +
-        `${magnesiumBars} magnesium bars, ` +
-        `${carbonBars} carbon bars`;
+    const availableBars = document
+        .getElementById('availableBars')
+        .getElementsByTagName('p')[0];
 
-    const builtSpaceships = spaceships.filter(s => s[1] > 0);
-    let result = [];
+    availableBars.textContent =
+        `${bars.titanium} titanium bars, `
+        + `${bars.aluminum} aluminum bars, `
+        + `${bars.magnesium} magnesium bars, `
+        + `${bars.carbon} carbon bars`;
 
-    for (let i = 0; i < builtSpaceships.length; i++) {
-        result.push(`${builtSpaceships[i][1]} ${builtSpaceships[i][0]}`);
+    const builtSpaceships = document
+        .getElementById('builtSpaceships')
+        .getElementsByTagName('p')[0];
+
+    const result = [];
+
+    for (const ship in ships) {
+        if (ships[ship]) {
+            result.push(`${ships[ship]} ${ship.toUpperCase()}`)
+        }
     }
 
-    spaceshipsInfo.textContent = result.join(', ');
+    builtSpaceships.textContent = result.join(', ');
 }

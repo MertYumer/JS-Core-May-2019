@@ -1,15 +1,13 @@
 function solve(wagonCapacity, passengers) {
-    let train = [];
-    let length = passengers.length;
+    const train = [];
     let leftPassengers = 0;
 
-    for (let i = 0; i < length; i++) {
-        leftPassengers += passengers.shift();
+    for (let i = 0; i < passengers.length; i++) {
+        leftPassengers += passengers[i];
 
         if (leftPassengers <= wagonCapacity) {
             train.push(leftPassengers);
             leftPassengers = 0;
-
         } else {
             train.push(wagonCapacity);
             leftPassengers -= wagonCapacity;
@@ -18,9 +16,9 @@ function solve(wagonCapacity, passengers) {
 
     console.log(train);
 
-    if (leftPassengers === 0) {
-        console.log('All passengers aboard');
-    } else {
+    if (leftPassengers) {
         console.log(`Could not fit ${leftPassengers} passengers`);
+    } else {
+        console.log('All passengers aboard');
     }
 }

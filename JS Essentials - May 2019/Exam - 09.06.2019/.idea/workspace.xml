@@ -16,8 +16,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/02. Train Station/solution.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
-              <caret line="26" selection-end-line="26" />
+            <state relative-caret-position="782">
+              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/03. Spaceship Crafting/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="282">
+              <caret line="33" column="22" lean-forward="true" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="32" />
+              <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -25,16 +37,23 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/03. Spaceship Crafting/scripts/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="-1296">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
               <folding>
-                <element signature="e#1005#1126#0" />
-                <element signature="e#926#942#0" />
-                <element signature="e#1223#1231#0" />
-                <element signature="e#1472#1531#0" />
-                <element signature="e#1626#1685#0" />
-                <element signature="e#1780#1839#0" />
+                <element signature="e#1082#1256#0" />
+                <element signature="e#1363#1537#0" />
+                <element signature="e#1636#1810#0" />
+                <element signature="e#1074#1082#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/01. Caffeine Study/solution.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="714">
+              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -57,6 +76,7 @@
         <option value="$PROJECT_DIR$/pr1/solution.js" />
         <option value="$PROJECT_DIR$/pr2/solution.js" />
         <option value="$PROJECT_DIR$/Train Station/solution.js" />
+        <option value="$PROJECT_DIR$/01. Caffeine Study/solution.js" />
         <option value="$PROJECT_DIR$/02. Train Station/solution.js" />
         <option value="$PROJECT_DIR$/03. Spaceship Crafting/scripts/app.js" />
       </list>
@@ -74,6 +94,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -96,7 +117,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -124,8 +144,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.solution.js (1)">
+  <component name="RunManager" selected="Node.js.solution.js (3)">
     <configuration name="solution.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="solution.js" working-dir="$PROJECT_DIR$/pr2">
+      <method v="2" />
+    </configuration>
+    <configuration name="solution.js (2)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="solution.js" working-dir="$PROJECT_DIR$/01. Caffeine Study">
+      <method v="2" />
+    </configuration>
+    <configuration name="solution.js (3)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="solution.js" working-dir="$PROJECT_DIR$/02. Train Station">
       <method v="2" />
     </configuration>
     <configuration name="solution.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="solution.js" working-dir="$PROJECT_DIR$/pr1">
@@ -133,6 +159,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.solution.js (3)" />
+        <item itemvalue="Node.js.solution.js (2)" />
         <item itemvalue="Node.js.solution.js (1)" />
         <item itemvalue="Node.js.solution.js" />
       </list>
@@ -154,11 +182,12 @@
       <workItem from="1560094701982" duration="65000" />
       <workItem from="1560892091172" duration="284000" />
       <workItem from="1562239819332" duration="2621000" />
+      <workItem from="1565006887096" duration="5482000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6514000" />
+    <option name="totallyTimeSpent" value="11996000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -169,8 +198,8 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32998884" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39910814" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32914925" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39888424" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -191,24 +220,39 @@
     <entry file="file://$PROJECT_DIR$/pr2/solution.js" />
     <entry file="file://$PROJECT_DIR$/pr3/scripts/app.js" />
     <entry file="file://$PROJECT_DIR$/Train Station/solution.js" />
+    <entry file="file://$PROJECT_DIR$/01. Caffeine Study/solution.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/02. Train Station/solution.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="26" selection-end-line="26" />
+        <state relative-caret-position="782">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03. Spaceship Crafting/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="33" column="22" lean-forward="true" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="32" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/03. Spaceship Crafting/scripts/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="-1296">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
-            <element signature="e#1005#1126#0" />
-            <element signature="e#926#942#0" />
-            <element signature="e#1223#1231#0" />
-            <element signature="e#1472#1531#0" />
-            <element signature="e#1626#1685#0" />
-            <element signature="e#1780#1839#0" />
+            <element signature="e#1082#1256#0" />
+            <element signature="e#1363#1537#0" />
+            <element signature="e#1636#1810#0" />
+            <element signature="e#1074#1082#0" />
           </folding>
         </state>
       </provider>

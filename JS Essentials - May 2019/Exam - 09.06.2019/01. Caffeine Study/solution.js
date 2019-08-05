@@ -1,32 +1,25 @@
 function solve(days) {
-    let mgCaffeine = 0;
+    const coffee = 0.4;
+    const cola = 0.08;
+    const tea = 0.2;
+    const energyDrink = 0.3;
 
-    let drinks = {
-        coffee: 0,
-        tea: 0,
-        cola: 0,
-        energy: 0
-    };
+    let consumedCaffeine = 0;
 
     for (let i = 1; i <= days; i++) {
-        drinks['coffee'] += (3 * 150);
-        drinks['cola'] += (2 * 250);
-        drinks['tea'] += (3 * 350);
+        consumedCaffeine += (coffee * 450);
+        consumedCaffeine += (tea * 1050);
+        consumedCaffeine += (cola * 500);
 
         if (i % 5 === 0) {
-            drinks['energy'] += (3 * 500);
+            consumedCaffeine += (energyDrink * 1500);
         }
 
         if (i % 9 === 0) {
-            drinks['cola'] += (4 * 250);
-            drinks['energy'] += (2 * 500);
+            consumedCaffeine += (cola * 1000);
+            consumedCaffeine += (energyDrink * 1000);
         }
     }
 
-    mgCaffeine += drinks['coffee'] / 100 * 40;
-    mgCaffeine += drinks['cola'] / 100 * 8;
-    mgCaffeine += drinks['tea'] / 100 * 20;
-    mgCaffeine += drinks['energy'] / 100 * 30;
-
-    console.log(`${mgCaffeine} milligrams of caffeine were consumed`);
+    console.log(`${consumedCaffeine} milligrams of caffeine were consumed`);
 }
