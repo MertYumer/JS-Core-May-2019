@@ -6,14 +6,13 @@ const offerController = function () {
         const authorizationType = 'Kinvey';
 
         await requester.get(url, authorizationType)
-            .then(response => response.json())
+            .then(helper.handler)
             .then(offers => {
-                for (let i = 0; i < offers.length; i++) {
-                    offers[i]['index'] = i;
+                for (const offer of offers) {
                     const isCreator =
-                        offers[i]._acl['creator'] === JSON.parse(storage.getData('userInfo'))._id;
+                        offer._acl.creator=== JSON.parse(storage.getData('userInfo'))._id;
 
-                    offers[i]['isCreator'] = isCreator;
+                    offer.isCreator = isCreator;
                 }
 
                 context.offers = offers;
@@ -63,7 +62,7 @@ const offerController = function () {
         const authorizationType = 'Kinvey';
 
         await requester.get(url, authorizationType)
-            .then(response => response.json())
+            .then(helper.handler)
             .then(offer => {
                 context.offer = offer;
             });
@@ -85,7 +84,7 @@ const offerController = function () {
         const authorizationType = 'Kinvey';
 
         await requester.get(url, authorizationType)
-            .then(response => response.json())
+            .then(helper.handler)
             .then(offer => context.offer = offer);
 
         context.loadPartials({
@@ -122,7 +121,7 @@ const offerController = function () {
         const authorizationType = 'Kinvey';
 
         await requester.get(url, authorizationType)
-            .then(response => response.json())
+            .then(helper.handler)
             .then(offer => context.offer = offer);
 
         context.loadPartials({
