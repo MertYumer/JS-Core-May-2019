@@ -25,8 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/03. Spaceship Crafting/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="33" column="22" lean-forward="true" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="32" />
+            <state relative-caret-position="544">
+              <caret line="33" column="22" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="32" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
@@ -37,14 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/03. Spaceship Crafting/scripts/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1296">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-              <folding>
-                <element signature="e#1082#1256#0" />
-                <element signature="e#1363#1537#0" />
-                <element signature="e#1636#1810#0" />
-                <element signature="e#1074#1082#0" />
-              </folding>
+            <state relative-caret-position="34">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -53,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/01. Caffeine Study/solution.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="714">
-              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -94,7 +88,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -117,6 +110,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -183,11 +177,12 @@
       <workItem from="1560892091172" duration="284000" />
       <workItem from="1562239819332" duration="2621000" />
       <workItem from="1565006887096" duration="5482000" />
+      <workItem from="1565012705738" duration="29000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11996000" />
+    <option name="totallyTimeSpent" value="12025000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -220,13 +215,6 @@
     <entry file="file://$PROJECT_DIR$/pr2/solution.js" />
     <entry file="file://$PROJECT_DIR$/pr3/scripts/app.js" />
     <entry file="file://$PROJECT_DIR$/Train Station/solution.js" />
-    <entry file="file://$PROJECT_DIR$/01. Caffeine Study/solution.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/02. Train Station/solution.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
@@ -236,24 +224,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/03. Spaceship Crafting/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="33" column="22" lean-forward="true" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="32" />
+        <state relative-caret-position="544">
+          <caret line="33" column="22" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="32" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/01. Caffeine Study/solution.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/03. Spaceship Crafting/scripts/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1296">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#1082#1256#0" />
-            <element signature="e#1363#1537#0" />
-            <element signature="e#1636#1810#0" />
-            <element signature="e#1074#1082#0" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
