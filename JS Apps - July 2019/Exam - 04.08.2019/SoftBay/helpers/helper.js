@@ -20,8 +20,18 @@ const helper = function () {
         }
     };
 
+    const validateRegistration = function (params) {
+        const isValid = params.username
+            && params.password
+            && params.rePassword
+            && params.password === params.rePassword;
+
+        return isValid;
+    };
+
     return {
         handler,
-        addHeaderInfo
+        addHeaderInfo,
+        validateRegistration
     };
 }();

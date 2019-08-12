@@ -10,21 +10,25 @@ const userController = function () {
     };
 
     const postRegister = function (context) {
-        const url = `/user/${storage.appKey}`;
-        const authorizationType = 'Basic';
+        const isValid = helper.validateRegistration(context.params);
 
-        const data = {
-            username: context.params.username,
-            password: context.params.password,
-        };
+        if (isValid) {
+            const url = `/user/${storage.appKey}`;
+            const authorizationType = 'Basic';
 
-        requester
-            .post(url, authorizationType, data)
-            .then(helper.handler)
-            .then(data => {
-                storage.saveUser(data);
-                context.redirect('#/home');
-            });
+            const data = {
+                username: context.params.username,
+                password: context.params.password,
+            };
+
+            requester
+                .post(url, authorizationType, data)
+                .then(helper.handler)
+                .then(data => {
+                    storage.saveUser(data);
+                    context.redirect('#/home');
+                });
+        }
     };
 
     const getLogin = function (context) {
