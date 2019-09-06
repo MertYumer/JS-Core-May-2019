@@ -13,6 +13,8 @@ const app = Sammy('#container', function () {
 
     this.get('#/logout', userController.postLogout);
 
+    this.get('#/profile', userController.getProfilePage);
+
     //Offer
     this.get('#/dashboard', offerController.getDashboard);
     this.get('#/offerDetails/:offerId', offerController.getOfferDetails);
@@ -25,6 +27,8 @@ const app = Sammy('#container', function () {
 
     this.get('#/delete/:offerId', offerController.getDeleteOffer);
     this.post('#/delete/:offerId', offerController.postDeleteOffer);
+
+    this.get('#/buy', offerController.postBuyOffer);
 });
 
 (() => {

@@ -146,6 +146,26 @@ const offerController = function () {
             });
     };
 
+    const postBuyOffer = function (context) {
+        const url = `/user/${storage.appKey}/${JSON.parse(storage.getData('userInfo'))._id}`;
+        const authorizationType = 'Kinvey';
+
+        const data = {
+            username: JSON.parse(storage.getData('userInfo')).username,
+            password: JSON.parse(storage.getData('userInfo')).password,
+            numberOfPurchases: JSON.parse(storage.getData('userInfo')).numberOfPurchases + 1
+        };
+
+        requester
+            .put(url, authorizationType, data)
+            .then(helper.handler)
+            .then(data => {
+                storage.deleteUser();
+                storage.saveUser(data);
+                context.redirect('#/profile');
+            });
+    };
+
     return {
         getDashboard,
         getCreateOffer,
@@ -154,6 +174,7 @@ const offerController = function () {
         getEditOffer,
         postEditOffer,
         getDeleteOffer,
-        postDeleteOffer
+        postDeleteOffer,
+        postBuyOffer
     }
 }();

@@ -44,9 +44,9 @@ function solve() {
             .getElementById('bestRestaurant')
             .getElementsByTagName('p')[0];
 
-        bestRestaurant.textContent += `Name: ${restaurants[0].name}`;
-        bestRestaurant.textContent += ` Average Salary: ${restaurants[0].averageSalary.toFixed(2)}`;
-        bestRestaurant.textContent += ` Best Salary: ${restaurants[0].bestSalary.toFixed(2)}`;
+        bestRestaurant.textContent = `Name: ${restaurants[0].name}`;
+        + ` Average Salary: ${restaurants[0].averageSalary.toFixed(2)}`;
+        + ` Best Salary: ${restaurants[0].bestSalary.toFixed(2)}`;
 
         const workers = document
             .getElementById('workers')
@@ -64,23 +64,12 @@ function solve() {
 
     function getAverageSalary(workers) {
         let averageSalary = 0;
-
-        for (const worker of workers) {
-            averageSalary += worker.salary;
-        }
-
+        workers.forEach(worker => averageSalary += worker.salary);
         return averageSalary / workers.length;
     }
 
     function getBestSalary(workers) {
-        let bestSalary = 0;
-
-        for (const worker of workers) {
-            if (bestSalary < worker.salary) {
-                bestSalary = worker.salary;
-            }
-        }
-
+        let bestSalary = workers.sort((a, b) => b.salary - a.salary)[0];
         return bestSalary;
     }
 }

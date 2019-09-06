@@ -1,18 +1,19 @@
 function solve(budget, neededConcrete, discount) {
-    const gravelPriceForKg = 0.5;
-    const sandPriceForKg = 0.2;
-    const cementPriceForKg = 1.1;
     let totalPrice = 0;
     let priceWithDiscount = 0;
     let usedDiscount = false;
 
-    const gravel = neededConcrete * 1200;
-    const sand = neededConcrete * 750;
-    const cement = neededConcrete * 300;
+    const gravelPriceForKg = 0.5;
+    const sandPriceForKg = 0.2;
+    const cementPriceForKg = 1.1;
 
-    const gravelPrice = gravel * gravelPriceForKg;
-    const sandPrice = sand * sandPriceForKg;
-    const cementPrice = cement * cementPriceForKg;
+    const neededGravel = neededConcrete * 1200;
+    const neededSand = neededConcrete * 750;
+    const neededCement = neededConcrete * 300;
+
+    const gravelPrice = neededGravel * gravelPriceForKg;
+    const sandPrice = neededSand * sandPriceForKg;
+    const cementPrice = neededCement * cementPriceForKg;
 
     totalPrice += gravelPrice;
     totalPrice += sandPrice;

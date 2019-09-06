@@ -19,6 +19,7 @@ const userController = function () {
             const data = {
                 username: context.params.username,
                 password: context.params.password,
+                numberOfPurchases: 0
             };
 
             requester
@@ -68,11 +69,24 @@ const userController = function () {
             });
     };
 
+    const getProfilePage = function (context) {
+        context.numberOfPurchases = JSON.parse(storage.getData('userInfo')).numberOfPurchases;
+        helper.addHeaderInfo(context);
+        context.loadPartials({
+            header: './views/common/header.hbs',
+            footer: './views/common/footer.hbs',
+
+        }).then(function () {
+            this.partial('./views/user/profilePage.hbs')
+        });
+    };
+
     return {
         getRegister,
         postRegister,
         getLogin,
         postLogin,
-        postLogout
+        postLogout,
+        getProfilePage
     };
 }();

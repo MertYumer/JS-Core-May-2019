@@ -18,7 +18,7 @@ function solve(array) {
         longestSequence = currentSequence;
     }
 
-    if (longestSequence.length <= 1) {
+    if (longestSequence.length === 1) {
         console.log(`In ${array.join(', ')} no special sequence is found`);
     } else {
         console.log(`The longest sequence is ${longestSequence.join(', ')}`);
