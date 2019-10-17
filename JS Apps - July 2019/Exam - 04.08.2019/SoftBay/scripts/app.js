@@ -1,6 +1,9 @@
 const app = Sammy('#container', function () {
     this.use('Handlebars', 'hbs');
 
+    Handlebars.registerHelper("inc", function(value, options) {
+        return parseInt(value) + 1;
+    });
     //Home
     this.get('#/home', homeController.getHome);
 
