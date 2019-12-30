@@ -14,42 +14,29 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SoftBay/index.html">
+        <entry file="file://$PROJECT_DIR$/SoftBay/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SoftBay/controllers/offerController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-              <folding>
-                <element signature="e#937#1218#0" />
-                <element signature="e#1268#1725#0" />
-                <element signature="e#1781#2385#0" />
-                <element signature="e#2438#3006#0" />
-                <element signature="e#3054#3598#0" />
-                <element signature="e#3653#4223#0" />
-                <element signature="e#4273#4615#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SoftBay/views/offers/dashboardView.hbs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+            <state relative-caret-position="272">
+              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SoftBay/node_modules/handlebars/package.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SoftBay/views/offers/dashboardView.hbs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SoftBay/helpers/helper.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="952">
@@ -125,6 +112,7 @@
         <option value="$PROJECT_DIR$/SoftBay/controllers/offerController.js" />
         <option value="$PROJECT_DIR$/SoftBay/scripts/app.js" />
         <option value="$PROJECT_DIR$/SoftBay/views/offers/dashboardView.hbs" />
+        <option value="$PROJECT_DIR$/SoftBay/package.json" />
       </list>
     </option>
   </component>
@@ -156,32 +144,14 @@
               <item name="Exam - 04.08.2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="Exam - 04.08.2019" type="462c0819:PsiDirectoryNode" />
               <item name="SoftBay" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Exam - 04.08.2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="Exam - 04.08.2019" type="462c0819:PsiDirectoryNode" />
               <item name="SoftBay" type="462c0819:PsiDirectoryNode" />
-              <item name="helpers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Exam - 04.08.2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Exam - 04.08.2019" type="462c0819:PsiDirectoryNode" />
-              <item name="SoftBay" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Exam - 04.08.2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Exam - 04.08.2019" type="462c0819:PsiDirectoryNode" />
-              <item name="SoftBay" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Exam - 04.08.2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Exam - 04.08.2019" type="462c0819:PsiDirectoryNode" />
-              <item name="SoftBay" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="offers" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="handlebars" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -202,6 +172,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -246,11 +217,13 @@
       <workItem from="1567691853223" duration="7000" />
       <workItem from="1567775436115" duration="1665000" />
       <workItem from="1571301651693" duration="734000" />
+      <workItem from="1571302545489" duration="53000" />
+      <workItem from="1577715078088" duration="41000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5421000" />
+    <option name="totallyTimeSpent" value="5515000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -260,7 +233,7 @@
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32914925" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -272,7 +245,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="3" side_tool="true" visible="true" weight="0.20501286" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="3" side_tool="true" visible="true" weight="0.21015424" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,6 +286,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/SoftBay/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="5" column="74" selection-start-line="5" selection-start-column="74" selection-end-line="5" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoftBay/controllers/offerController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#937#1218#0" />
+            <element signature="e#1268#1725#0" />
+            <element signature="e#1781#2385#0" />
+            <element signature="e#2438#3006#0" />
+            <element signature="e#3054#3598#0" />
+            <element signature="e#3653#4223#0" />
+            <element signature="e#4273#4615#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoftBay/views/offers/dashboardView.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoftBay/helpers/helper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SoftBay/controllers/userController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -320,6 +330,13 @@
           <folding>
             <element signature="e#80#316#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoftBay/scripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -343,49 +360,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SoftBay/controllers/offerController.js">
+    <entry file="file://$PROJECT_DIR$/SoftBay/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#937#1218#0" />
-            <element signature="e#1268#1725#0" />
-            <element signature="e#1781#2385#0" />
-            <element signature="e#2438#3006#0" />
-            <element signature="e#3054#3598#0" />
-            <element signature="e#3653#4223#0" />
-            <element signature="e#4273#4615#0" />
-          </folding>
+        <state relative-caret-position="272">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SoftBay/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SoftBay/views/offers/dashboardView.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SoftBay/scripts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SoftBay/helpers/helper.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/SoftBay/node_modules/handlebars/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
